@@ -1,4 +1,4 @@
-# Project D24 - Bergen-Kommune
+# Project D24 - Bergen Kommune
 Project developed by group D24 of HVL with the purpose of monitoring the enterprise environment of Bergen Kommune along the time.
 
 The goal of the bachelor project is to deliver a fully functional software in order to solve the needs of Bergen Municipality. The goal is to have a fully automated process to be able to phase out the existing method of solving the issue which is done manually.
