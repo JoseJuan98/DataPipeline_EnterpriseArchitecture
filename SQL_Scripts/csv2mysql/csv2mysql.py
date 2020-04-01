@@ -94,8 +94,11 @@ def get_col_types(input_file, max_rows=1000):
 def get_schema(table, header, col_types):
     """Generate the schema for this table from given types and columns
     """
-    schema_sql = """CREATE TABLE IF NOT EXISTS %s ( 
-        id int NOT NULL AUTO_INCREMENT,""" % table 
+    schema_sql = """CREATE TABLE IF NOT EXISTS `%s` (
+
+        """ % table
+
+#id int NOT NULL AUTO_INCREMENT,
 
     for col_name, col_type in zip(header, col_types):
         if col_name != 'id':
@@ -111,13 +114,14 @@ def get_insert(table, header):
     """
     field_names = ', '.join(header)
     field_markers = ', '.join('%s' for col in header)
-    return 'INSERT INTO %s (%s) VALUES (%s);' % \
+    return 'INSERT INTO `%s` (%s) VALUES (%s);' % \
         (table, field_names, field_markers)
 
 
 def format_header(row):
     """Format column names to remove illegal characters and duplicates
     """
+
     safe_col = lambda s: re.sub('\W+', '_', s.lower()).strip('_')
     header = []
     counts = collections.defaultdict(int)
@@ -126,6 +130,7 @@ def format_header(row):
         counts[col] += 1
         if counts[col] > 1:
             col = '{}{}'.format(col, counts[col])
+        col = '`' + col + '`'
         header.append(col)
     return header
 
@@ -135,7 +140,7 @@ def main(input_file, user, password, host, table, database, max_inserts=10000):
     db = MySQLdb.connect(host=host, user=user, passwd=password, charset='utf8')
     cursor = db.cursor()
     # create database and if doesn't exist
-    cursor.execute('CREATE DATABASE IF NOT EXISTS %s;' % database)
+    cursor.execute('CREATE DATABASE IF NOT EXISTS `%s`;' % database)
     db.select_db(database)
 
     # define table
@@ -157,15 +162,16 @@ def main(input_file, user, password, host, table, database, max_inserts=10000):
             schema_sql = get_schema(table, header, col_types)
             print( schema_sql)
             # create table
-            cursor.execute('DROP TABLE IF EXISTS %s;' % table)
+            cursor.execute('DROP TABLE IF EXISTS `%s`;' % table)
             cursor.execute(schema_sql)
             # create index for more efficient access
             try:
-                cursor.execute('CREATE INDEX ids ON %s (id);' % table)
+                cursor.execute('CREATE INDEX ids ON `%s` (id);' % table)
             except MySQLdb.OperationalError:
                 pass # index already exists
 
             print( 'Inserting rows ...')
+            print(header)
             # SQL string for inserting data
             insert_sql = get_insert(table, header)
 
