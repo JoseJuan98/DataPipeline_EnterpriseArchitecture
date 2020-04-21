@@ -1,5 +1,4 @@
 #!/bin/sh
 
-#python3 csv2mysql.py --user=root --database=FellesTjenester --table=elements Elements.csv
-
-python3 csv2mysql.py --user=root --database=test --table=test test.csv
+python3 csv2mysql.py --user=root --password=rideordie12 --database=test RawData.csv --pkey=systemtype,system_id
+#python3 csv2mysql.py --user=root  --password=rideordie12 --database=test Andre_Elements.csv
