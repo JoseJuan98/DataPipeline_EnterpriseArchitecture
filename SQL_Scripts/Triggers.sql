@@ -31,8 +31,15 @@ ON RawData FOR EACH ROW
 BEGIN
 set @newID = CONCAT( 'SYS_', SUBSTR(NEW.systemtype,1, 3),'_',  CONVERT(LPAD(NEW.system_id,5,0), CHAR) );
 
+CASE NEW.systemtype
+	WHEN 'Fagsystem' THEN SET @vtype = 'ApplicationComponent';
+	WHEN 'Infrastruktur' THEN SET @vtype = 'Artifact';
+	WHEN 'Program' THEN SET @vtype = 'SystemSoftware';
+	ELSE SET @vtype = 'UNKNOWN';
+END CASE;
+
 INSERT INTO Element (ID, TYPE, NAME, DOCUMENTATION)
-VALUES( @newID, 'ApplicationComponent', NEW.navn, NEW.beskrivelse);
+VALUES( @newID, @vtype, NEW.navn, NEW.beskrivelse);
  	END;//
 DELIMITER ;
 
@@ -47,24 +54,41 @@ select count(*) from RawData;
 drop trigger trig_andre_elem;
 
 CREATE TABLE Relation (
-	ID VARCHAR(255) PRIMARY KEY, --"Constr0001_SYS_Fag_00290" andre_elem.name_Element.ID
-	TYPE VARCHAR(255), --"AssociationRelationship"
+	ID VARCHAR(255) PRIMARY KEY, 
+	TYPE VARCHAR(255), 
 	NAME VARCHAR(255),
 	DOCUMENTATION TEXT,
-	SOURCE INT(11)
+	SOURCE VARCHAR(255),
 	TARGET VARCHAR(255),
-	FOREIGN KEY TARGET REFERENCES Element (ID)
-	ON UPDATE CASCADE ON DELETE CASCADE,
-	FOREIGN KEY SOURCE REFERENCES andre_element (ID)
-	ON UPDATE CASCADE ON DELETE CASCADE
-);
+	Foreign Key ( SOURCE ) References Element(ID),
+	Foreign Key ( TARGET ) References Andre_Elements(sid)
+)Engine="InnoDB";
+
+DELIMITER //
+CREATE TRIGGER trig_elem AFTER INSERT
+ON RawData FOR EACH ROW
+BEGIN
+set @newID = CONCAT( 'SYS_', SUBSTR(NEW.systemtype,1, 3),'_',  CONVERT(LPAD(NEW.system_id,5,0), CHAR) );
+
+INSERT INTO Element (ID, TYPE, NAME, DOCUMENTATION)
+VALUES( @newID, 'AssociationRelationship', NEW.navn, NEW.beskrivelse);
+ 	END;//
+DELIMITER ;
+
+
+select LOWER(REPLACE(name, ' ','_')) from Andre_Elements;
+
+select COLUMN_NAME from information_schema.columns  
+where table_schema = 'test'     
+and table_name = 'RawData';
+
 
 CREATE TABLE Property (
-	ID VARCHAR(255),
+	IDp VARCHAR(255),
 	KEY VARCHAR(255),
-	VALUE VARCHAR(255),
-	PRIMARY KEY (ID, KEY),
-	FOREIGN KEY ID REFERENCES Element (ID)
+	VALUEP VARCHAR(255),
+	PRIMARY KEY (IDp, KEY),
+	FOREIGN KEY (IDp) REFERENCES Element(ID)
 	ON UPDATE CASCADE ON DELETE CASCADE
 );
 

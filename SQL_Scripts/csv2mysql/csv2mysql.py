@@ -10,6 +10,7 @@ import argparse
 import collections
 import MySQLdb
 import warnings
+
 # suppress annoying mysql warnings
 warnings.filterwarnings(action='ignore', category=MySQLdb.Warning)
 
@@ -184,7 +185,6 @@ def main(input_file, user, password, host, table, database, pkey, max_inserts=10
     print('Committing rows to database ...')
     db.commit()
     print('Done!')
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
