@@ -1,0 +1,7 @@
+SID,Type,Name,Documentation
+ComNet0001,CommunicationNetwork,Adm sone,
+ComNet0002,CommunicationNetwork,Sikker sone,
+ComNet0003,CommunicationNetwork,Elevnett,
+ComNet0004,CommunicationNetwork,TU nett,
+Constr0001,Constraint,Persondata,
+Constr0002,Constraint,Sensitive persondata,

@@ -1,0 +1,1222 @@
+Systemtype,System ID,Navn,Beskrivelse,Systemeier,Systemkoordinator,Admsone,Sikker sone,Elevnett,TU-Nett,Internettviktighet,Personopplysninger,Sensitive personopplysninger
+Fagsystem,253,24 timers BT apparat,24 timers BT apparatBlodtrykksapparat,Rigmor Moe,Rigmor Moe,0,1,0,0,,,
+Fagsystem,414,ABAX,,Trond Knoop,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,290,Adgangskontrollsystem for Bergen kommune (Starwatch),"Adgangskontrollsystem (Starwatch) for Rådhuset og omliggende bygninger. Leveres og konfigureres av Westec AS, som har fjerntilgang til løsningen. August 2018 er løsningen utvidet med en SALTO-modul.",Bjørn Lid,Thor Borgersen,1,0,0,1,Fungerer uten,1,
+Fagsystem,376,Adobe Sign,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,1,Adra Match,"Adra Match er et system for automatiske kontoavstemminger og for automatisk oppdatering av innbetalinger. Systemet benyttes av Kemneren og forenkler avstemmingsarbeidet slik at der blir en effektivisert arbeidsflyt, med mindre manuelt arbeid for avstemming mot sosialsystemet til Bergen kommune. Programpakke Adra Match tilhører systemet",Mads Hagebø,Bjørn Eivind Berge,1,0,0,0,,,
+Fagsystem,260,"Agresso HR, kursmiljø","Kursmiljø til Agresso HR milestone 5
+Agresso HR er Bergen kommune sitt lønns- og HR-system. I tillegg til lønn inkluderer systemet en rekke andre HR-prosesser som rekruttering, oppstart og arbeidsavtaler, fravær og refusjon, samt medarbeideroppfølging og rapportering. ",Henning Hauso,Siss-Iren Kleppe,1,0,0,0,,,
+Fagsystem,254,"Agresso HR, testmiljø","Agresso HR i Testmiljø. Milestone 5
+Agresso HR er Bergen kommune sitt lønns- og HR-system. I tillegg til lønn inkluderer systemet en rekke andre HR-prosesser som rekruttering, oppstart og arbeidsavtaler, fravær og refusjon, samt medarbeideroppfølging og rapportering. ",Henning Hauso,Siss-Iren Kleppe,0,0,0,1,,,
+Fagsystem,328,"Agresso Økonomi, test","Agresso sitt testmiljø skal fortsatt være i drift pr. 1. august 2018 (gammel løsning). 
+Kursmiljø er opphørt for Agresso. Er blitt erstattet av UBW økonomi. Gammel testløsning skal fortsatt driftes av EDD.",Kristin Ulvang,Evy Ommedal,0,0,0,1,,,
+Fagsystem,374,Aksjonssamband (TETRA),,Leif Linde,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,389,ANPR,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,306,ArcGIS Portal Bergenskart,"Systemet brukes av Kart- og oppmålingsavdelingen på PBE. Systemet var kartportal for beredskapsavdelingen som ble benyttet av samvirkesenteret under sykkelVM 2017. Løsningen består av Arcgis Enterprise server og Portal i BK-nett, samt at systemet nås ved pålogging eksternt ifra. Midlertidig løsning som skal avvikles, men en ny mer permanent løsning er under etablering, og dette fagystemnavnet skal gjenbrukes. Kanskje avlevering i q3 2018,",Mette Svanes,Eivind Lund,0,0,0,0,,,
+Fagsystem,5,Asta Prod,"Informasjonssystem for systematisk registrering, lagring og fremfinning av informasjon om arkiver og arkivskapere",Jan Helle,Phat Duong,1,0,0,0,,,
+Fagsystem,344,Beboerundersøkelse,,Bjarte Høysæter,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,235,"Bergen Kulturskole, Mellomlagringsløsning ","Bergen Kulturskole benytter Speedadmin, et fagsystem som driftes av 3.part. IKT Drift har opprettet en mellomlagringsløsning for fagsystemet slik at filer vedr. fakturainformasjon kan overførestil Agresso via tjenesten.",Elin Olsen,Elin Olsen,1,0,0,0,,,
+Fagsystem,6,Bergenskart/Braplan,"Nettleserbasert innsynsapplikasjon for kartdata for Bergen kommune basert på ArcIMS fra ESRI, og produksjonssystem for dokumenttyper som leveres via infoland-portalen til Ambita. Brukere av systemet er hovedsaklig Plan og geodata. Løsningen er tilgjengelig for publikum via internett. Digitalt planarkiv braPLAN for Bergen kommune er levert av Geomatikk AS. Benyttes både for innsyn og FDV av planarkivet . Tilgjengelig for publikum via internett.",Mette Svanes,Eivind Lund,1,0,0,0,,,
+Fagsystem,144,Bergenskart/Braplan i test,"Test-miljø for Bergenkart.no og Braplan, digitalt planarkiv. ",Mette Svanes,Eivind Lund,1,0,0,1,,,
+Fagsystem,159,Bestillingsweb,"Bestillingsweb er IKT i Bergen kommune sin webshop, her kan autoriserte bestillere bestille IKT tjenester og produkter. Vi har ingen avtale med leverandøren Netpower. ",Jan Tenold,Wenche Follesø,1,0,0,0,,1,0
+Fagsystem,377,Bibliofil,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,416,BIBSYS,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,390,BILKRAFT,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,325,Bk Kvalitet med utvidet brukerstøtte ,"BK_Kvalitet er et skysystem levert og driftes av Extend i Trondheim.
+EDD leverer single sign-on via ADFS samt Utvidet brukerstøtte fra HD med inntil 10 henvendelser pr. mnd.
+Fagsystemet er integrert med Fellesdata - EDD leverer ikke integrasjonen med fellesdata. Extend henter data via en webnservice kalt feltservice. Denne er eksponert ut via WSM løysningen. Selve feltservicen snakker direkte med Fellesdata og leverer et fult uttrekk av ansatte samt organisasjonsenheter ved hver  forespørsel. 
+",Grete Holen,Marianne Engum,1,0,0,1,Helt nødvendig,1,1
+Fagsystem,262,"Bk360 sak- og arkivsystem, intern sone","Bk360 er løsning for saksbehandling, arkiv og dokumenthåndtering i Bergen kommune. Løsningen erstattet Doculive (kemsak, bksak, bkpers og bkdok). Utrulling av Bk360 strekker seg over perioden fra 31. mai 2017 til 1. juli 2018. Gjennom hele denne perioden vil både Doculive/bksak og Bk360 være i bruk for saksbehandling. Bkdok blir erstattet 2. halvår 2018.  Helpdesk har brukerstøtte for Bk360.",Steinar Carlsen,Åse Nodland,1,0,0,0,,,
+Fagsystem,264,"Bk360 sak- og arkivsystem, kurs","BK360 kursmiljø
+Bk360 er løsning for saksbehandling, arkiv og dokumenthåndtering i Bergen kommune.",Steinar Carlsen,Åse Nodland,1,0,0,0,,,
+Fagsystem,263,"Bk360 sak- og arkivsystem, test/utvikling","Test og utviklingsmiljø for BK360
+Bk360 er løsning for saksbehandling, arkiv og dokumenthåndtering i Bergen kommune",Steinar Carlsen,Åse Nodland,0,0,0,1,,,
+Fagsystem,404,Bkbilde,,Ragnhild Botheim,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,407,BKPERS,,Steinar Carlsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,315,BkProsjekt,"BkProsjekt er en sharepointløsning i skyen, levert av Microsoft og driftes av Microsoft. EDD har synkronisering mellom AD-ene for løsningene og singleSignOn mot Azure AD. Helpdesk leverer tjenesten Utvidet Brukerstøtte med inntil 30 henvendelser pr mnd. Denne oppføringen i systemoversikten er fordi SA ønsker et område å lagre sin dokumentasjon på ASK. ",Liv Bruland,Camilla Jonsson,1,0,0,0,Helt nødvendig,1,
+Fagsystem,119,BKsak,"Saksbehandlings og arkivsystem for Bergen kommune som erstattes av Bk360 og det meste av løsningen skal overføres til Byarkivet utover i 2018. 
+BKSAK skal benyttes videre av Plan og – bygningsetaten frem til sommer 2019.",Steinar Carlsen,Margun Solheim,1,0,0,0,,1,1
+Fagsystem,140,BKSAK i Sikker sone,"BKOppvekst i Sikker Sone. (Elevmapper, barnehagebarn)
+",Steinar Carlsen,Margun Solheim,0,1,0,0,,1,1
+Fagsystem,228,BOEI for EBF - Testmiljø,"Testmiljø for BOEI. BOEI er et system som ivaretar forvaltningen av utleieboliger og eiendommer for kommuner. Hovedfokus er boligadministrasjonsdelen, f. eks. leieobjektsinformasjon (over 5000 stk.), kontrakter, leieforhold, oppsigelser, fakturering, innbetaling, purring og leiejusteringer. BOEI er integrert med systemet for drift og vedlikehold av eiendomsmassen, Portico for EBF. ",Bjarte Høysæter,Frode Herland,0,0,0,1,,,
+Fagsystem,225,BOEI for Etat for boligforvaltning (EBF),"BOEI er et system som ivaretar forvaltningen av utleieboliger og eiendommer for kommuner. Hovedfokus er boligadministrasjonsdelen, f. eks. leieobjektsinformasjon (over 5000 stk.), kontrakter, leieforhold, oppsigelser, fakturering, innbetaling, purring og leiejusteringer. BOEI er integrert med systemet for drift og vedlikehold av eiendomsmassen, Portico for EBF. Systemet består av en pc-programpakke og en database. ",Bjarte Høysæter,Frode Herland,1,0,0,0,,1,0
+Fagsystem,12,BoInfo Test,"Testløsning for BoInfo, system for behandling og oppfølging av søknader, også informasjonssystem for all saksbehandling vedrørende håndtering av søknader om bolig, kommunal bostøtte, trekkhåndtering statlig bostøtte og finansiering samt utbetaling og oppfølging av lån.",Siv Tønjum,Geir Langeland,1,0,0,0,,1,1
+Fagsystem,11,BoInfo_prod,"System for behandling og oppfølging av søknader, også informasjonssystem for all saksbehandling vedrørende håndtering av søknader om bolig, kommunal bostøtte, trekkhåndtering statlig bostøtte og finansiering samt utbetaling og oppfølging av lån.
+
+Boligetaten er en bydekkende tjeneste som omfatter tildeling av kommunale utleieboliger, boligfinansiering, kommunal bostøtte og statlig bostøtte. Tjenesten retter seg mot husstander som er vanskeligstilte på boligmarkedet, og som vil motta varierte tjenester.",Siv Tønjum,Geir Langeland,1,0,0,0,,1,1
+Fagsystem,388,Bookit.no,,Line Amundsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,13,braArkiv,BraArkiv er en åpen og integrasjonsvennlig løsning for lagring og gjenfinning av data.,Jan Helle,Bjarne Medby,1,0,0,0,,,
+Fagsystem,14,braArkiv testmiljø,braArkiv sitt dedikerte testmiljø,Jan Helle,Bjarne Medby,1,0,0,0,,,
+Fagsystem,15,Brannvegg BIBSYS,Brannvegg BIBSYS er den dedikerte brannveggen i BK-nettverket for at skolene skal kunne nå biblioteksystemet som ligger i Bergen bibliotek sitt eget nettverk. ,Odd Harald Hundvin,Øystein Berentsen,0,0,0,0,,,
+Fagsystem,417,Brettboka,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,17,Brief-P SP,Scoringsprogram for bruk i PP-tjenesten,Odd Harald Hundvin,Ragnhild Inderhaug,0,1,0,0,,,
+Fagsystem,313,Brukerstøtte Adgangskontrollsystem (Starwatch),"Helpdesk skal utføre dedikerte tjenester i systemet på bestilling. Helpdesk mottar bestillingen fra autorisert bestiller via Bestillingsweb. Ansvar for utførelse fordeles mellom autorisert bestiller, EDD og sikkerhetsenheten. ",Bjørn Lid,Thor Borgersen,1,0,0,0,,,
+Fagsystem,133,Brukerstøtte Agresso HR,"Agresso HR er Bergen kommune sitt lønns- og HR-system. I tillegg til lønn inkluderer systemet en rekke andre HR-prosesser som rekruttering, oppstart og arbeidsavtaler, fravær og refusjon, samt medarbeideroppfølging og rapportering. 
+IKT Drift ved Helpdesk har 1. linje brukerstøtte på HR-systemene. ",Bjørg Lædre,Medhane Abebe,1,0,0,0,,,
+Fagsystem,312,Brukerstøtte BkProsjekt,"Helpdesk skal gi tilganger til BkProsjekt, veilede brukere innenfor FAQ og henvise brukere til opplæringsmateriell og brukerveiledninger. BkProsjekt er en sharepointløsning i skyen, levert av Microsoft og driftes av Microsoft. EDD har synkronisering mellom AD-ene for løsningene og singleSignOn mot Azure AD. Helpdesk leverer tjenesten Utvidet Brukerstøtte med inntil 30 henvendelser pr mnd. ",Camilla Jonsson,Hedda Hove,1,0,0,0,,,
+Fagsystem,243,Brukerstøtte Byfjell (brukeradm),"""Kjøretillatelser i byfjellene"" (Byfjell-applikasjonen) er en applikasjon for administrasjon av kjøretillatelser i byfjellene i Bergen, som til dels fungerer som en slags front-end for saks-arkivsystemet, BkSak. Søknader om midlertidig kjøretillatelse kan godkjennes eller avslås. Det lages et svar-dokument som arkiveres i BkSak og som sendes til søker via SvarUt – fortrinnsvis på epost (hvis epost-adressen er kjent). Byfjell er en applikasjon i SOA. 
+",Steinar Carlsen,Per Ellingsen,1,0,0,0,,,
+Fagsystem,239,Brukerstøtte FastSend (brukeradm),"Overføring av store filer. Helpdesk skal være SPOC for alle typer henvendelser vedr. FastSend, herunder administrere brukere i FileFlow sitt web-konsoll",Steinar Carlsen,Knut Kvamme,1,0,0,0,,,
+Fagsystem,180,Brukerstøtte Kemneren,"Kemneren i Bergen har utvidet brukerstøtte fra EDD for sine løsninger.
+Egne rutiner er utarbeidet for Procasso og BOEI, de finnes på ASK under fagsystem.
+I tillegg er det etablert overvåking av kommunikasjon mot Procasso (ASP-løsning);
+gjelder feil ved VPN – forbindelse mot Procasso og om Procasso svarer på nettkall.
+EDD har administrasjon av mal-brukere for Kemner.
+Pris er basert på 5 henvendelser pr. mnd.",Grethe Sophie Losnegaard,Grethe Sophie Losnegaard,1,0,0,0,,,
+Fagsystem,266,Brukerstøtte KS Læring 1.linje,"Løsning for administrasjon av, og påmelding til kurs og arrangementer i kommunal regi. BK Læring er en del av KS Læring (ASP-løsning), som tilbyr kurs for ansatte i kommunene. Helpdesk har brukerstøtte for BK Læring.",Bjørg Lædre,Siss-Iren Kleppe,1,0,0,0,,,
+Fagsystem,249,Brukerstøtte Lovdata Pro (brukeradm),"Lovdata Pro gir tilgang til rettskilder, registre og rettsområder på internett via nettleser. Alle ansatte i Bergen kommune kan bli registrert  som personlig bruker av tjenesten.
+IKT Drift har ikke brukerstøtte på systemet. IKT Drift håndterer tilganger og årlig fakturering. 
+Hjelp og informasjon om systemet finner du her:  https://lovdata.no/pro/#article&url=/info/hjelpeside_for_lovdata_pro (krever innlogging).",May Lindtner,May Lindtner,0,0,0,0,,,
+Fagsystem,265,Brukerstøtte Performit,"""Brukerstøttetjenester fra Helpdesk på Performit""",Steinar Carlsen,Benedicte Jensen,1,0,0,0,,1,
+Fagsystem,250,Brukerstøtte Rettsdata Total (Brukeradm),"Rettsdata Total gir samlet tilgang til oppdaterte rettskilder, lovkommentarer fra Norsk Lovkommentar, praktiske dokumenter, fagbøker og tidsskrifter.  internett via nettleser. Alle ansatte i Bergen kommune kan bli registrert  som personlig bruker av tjenesten.
+IKT Drift har ikke brukerstøtte på systemet. IKT Drift håndterer tilganger og årlig fakturering. 
+",May Lindtner,May Lindtner,0,0,0,0,,,
+Fagsystem,161,Brukerstøtte Tjenestekatalogen (NTK),Tjenestekatalogen er en løsning for definering av kommunale tjenester ut mot innbyggerne i Bergen kommmune. Drift av løsningen inngår i SLA for Innbyggerportalen.,Steinar Carlsen,Vidar Aspunvik,1,0,0,0,,1,0
+Fagsystem,261,Brukerstøtte VISGI ,"Brukerstøttetjenester fra Helpdesk på fagsystemet VISGI (VIS Geografisk Informasjon). Helpdesk skal utføre 1. og 2. linje brukerstøtte for fagsystemet.  
+1. linje Helpdesk bistår innmelder og dersom saken ikke løses ved første henvendelse, overføres saken til 2. linje på Helpdesk. Ny behov, feil og ønsker i løsningen sendes til 3. linje hos Plan og Geodata, fra Helpdesk. ",Mette Svanes,Eivind Lund,1,0,0,0,,,
+Fagsystem,179,Brukerstøtte_Værstasjoner,"IKT Drift registrere og videreformidle henvendelser vedr de 50 værstasjonenen som er utplassert  til bruk i grunnskolene i BK.  Værstasjonene er utplassert hovedsakelig på skoler, og værdata brukes i undervisningen i grunnskolen",Jarle Kandal,Øystein Berentsen,0,0,1,0,,,
+Fagsystem,353,Byggforsk,,Henriette Olderøy,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,354,Byggtjenester,,Henriette Olderøy,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,309,Cactus-data til T/U-nettet ,"Løsning for å sende data fra Cactus(SCADA)-nettet inn til T/U-nettet. Det er etablert OPC servere i henholdsvis Cactus-nettet og i T/U-nettet. OPC serverne håndterer datautvekslingen.  Brannmur er satt opp foran Cactus-nettet til Bergen Vann og sørger for integrasjonen mellom Cactus-nettet og T/U-nettet. Bergen Vann ivaretar selv driften av denne brannmuren.   
+Data skal kun kunne sendes fra Cactus-nettet og inn til T/U-nettet. Det skal ikke sendes data fra T/U-nettet til Cactus-nettet. Under avlevering har PL opplyst at det ikke skulle være SLA-avtale på dette systemet.
+",Ali Mekki,Astrid Birkeland,0,0,0,1,,,
+Fagsystem,391,Cale Web Office,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,418,Campus Inkrement ,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,419,Cappelen Damm Undervisning,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,19,CBCL,Kartleggingssystem som benytte av PPT-kontorene,Odd Harald Hundvin,Ingunn Sebjørnsen,0,1,0,0,,,
+Fagsystem,408,Chatroboten Kari,,Steinar Carlsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,364,Complete Control,,Jarl Svanberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,356,Conexus Engage,,Inge Strømmen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,21,Corporater Prod,"Corporater er Bergen kommunes verktøy for mål- og virksomhetsstyring. Det omfatter webbasert sluttbrukergrensesnitt, administratormodul ""Corporater EPM-suite"". Corporator er tett integrert med Surveyor, som benyttes ifm distribusjon av brukerundersøkelser internt og eksternt",Grete Holen,Willy Torgrimsen,1,0,0,0,,1,
+Fagsystem,22,Corporater Test,Testløsning felles for Corporater og Surveyor,Grete Holen,Willy Torgrimsen,1,0,0,0,,1,
+Fagsystem,275,Deltager.no,Brukerstøtte Deltager.noHelpdesk brukerstøtteCa. 10 henvendelser med gjennomsnittlig forbrukt tid pr. sak på 6 minutter,Steinar Carlsen,Jorunn Tengren Hansen,1,0,0,0,,1,1
+Fagsystem,420,Den Virtuelle matematikkskolen,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,268,Digital medarbeider i intern sone,"Digital medarbeider i intern sone er det miljøet som tilsammen lar en digital medarbeider utføre operasjoner i programvare på en arbeidsstasjon av en robotbruker. Løsningen er basert på software fra Blue Prism, levert og programmert av Bouvet/AVO Consulting. SDI ved Kjersti Steindal er prosessadmininstrator og avgjør hvilke prosesser som skal automatiseres. 
+",Kjetil Århus,Vidar Aspunvik,1,0,0,0,Fungerer uten,,
+Fagsystem,288,Digital medarbeider i sikker sone ,"Digital medarbeider i sikker sone er applikasjonen som kjører Digitale medarbeidere i produksjonsmiljøet til Sikker sone. Monotone operasjoner i programvare blir utført på en arbeidsstasjon av en robotbruker. Løsningen er basert på software fra Blue Prism, levert og programmert av Bouvet/AVO Consulting. SDI ved Kjersti Steindal er prosessadmininstrator og avgjør hvilke prosesser som skal automatiseres. Digital medarbeider i Sikker sone er produksjonsmiljø for ""Digifrid"" i sikker sone.
+",Kjetil Århus,Vidar Aspunvik,0,1,0,0,,,
+Fagsystem,285,Digital medarbeider i T/U for Intern sone testing,"Digital medarbeider i T/U for intern sone er testmiljø for Digitale medarbeidere som skal produksjonssettes i ADM-nettet i Bergen kommune. Monotone operasjoner i programvare blir utført på en arbeidsstasjon, av en robotbruker. Løsningen er basert på software fra Blue Prism, levert og programmert av Bouvet/AVO Consulting. SDI ved Kjersti Steindal er prosessadmininstrator og avgjør hvilke prosesser som skal automatiseres. 
+",Kjetil Århus,Vidar Aspunvik,0,0,0,1,Fungerer uten,,
+Fagsystem,295,Digital medarbeider i T/U for Sikker sone testing,"Digital medarbeider i T/U for sikker sone er dedikert testmiljø for Digitale medarbeidere som skal produksjonssettes i Sikker sone. Monotone operasjoner i programvare blir utført på en arbeidsstasjon av en robotbruker. Løsningen er basert på software fra Blue Prism, levert og programmert av Bouvet/AVO Consulting. SDI ved Kjersti Steindal er prosessadmininstrator og avgjør hvilke prosesser som skal automatiseres.",Kjetil Århus,Vidar Aspunvik,0,1,0,1,,,
+Fagsystem,269,Digitalt sikringsmagasin (DSM) byarkivet,"Bergen byarkiv - digitalt sikringsmagasin. Løsningen er plassert Spelhaugen, med en server i Hansahallen, der offline lagring og operativ bruk legges til Hansahallen.  Vil håndtere systemer fra både sikker og intern sone, samt fra eksterne kunder.",Jan Helle,Bjarne Medby,1,0,0,0,,,
+Fagsystem,345,Dossier,,Bjørg Lædre,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,238,Driftsavtale Bergen Parkering as,"Avtalen baserer seg på Driftsavtale for kjøp av IKT-tjenester i Bergen kommune ut i fra at Kunde er en del av konsernet. Kunde vil som en følge av dette også være underlagt de generelle sikkerhetskrav og retningslinjer gitt av Bergen kommune i dag. 
+
+Priser og leveringsbetingelser oppgitt i denne avtale følger av utarbeidede retningslinjer for kommunale aksjeselskap og justeres årlig uavhengig av denne avtale. Årlige prisendringer varsles våre kunder direkte samt i våre prislister på intranett.  ",Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Fagsystem,378,Dropbox,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,245,DSB-CIM SingelSignOn + Helpdesktjenester,"DSB-CIM for beredskapsarbeid i Bergen kommune er en tjeneste lervert av OneVoice, lokalisert i Trondheim. EDD leverer en Singel Sign On-løsning til dette systemet. Tjenesten består av fast overføring av brukere til 3. parts leverandør, som drifter løsningen.  Roller i systemet blir etablert av dem, basert på definerte AD-grupper i Bergen kommune.  Bestillingsskjema for tilganger er etablert på Bestillingsweb. 
+",Ivar Lunde,Thor Borgersen,1,0,0,0,,,
+Fagsystem,25,eBC - Business case,"Elektronisk databaseløsning for kartlegging, registrering og kontroll av Business Case. Businesscase beskriver behov for et IKT-prosjekt i Bergen kommune, og danner grunnlaget for IKT Handlingsplan. Formålet med systemet er å holde oversikt over planlagte og pågående IKT-prosjekter i Bergen kommune.",Steinar Carlsen,Maj-Britt Brobakke,1,0,0,0,,1,0
+Fagsystem,299,eDialog,Verktøy for nettprat/chat mellom Bergen kommune og innbyggere i Bergen kommune,Steinar Carlsen,Vidar Aspunvik,1,0,0,0,,1,0
+Fagsystem,26,eDoc løsning,Løsning for utvikling av skjema til bruk i innbyggerportalen,Steinar Carlsen,Vidar Aspunvik,1,0,0,0,,0,0
+Fagsystem,27,eDoc løsning TEST,Testløsning for eDoc- Løsning for utvikling av skjema til bruk i Portalen,Steinar Carlsen,Vidar Aspunvik,1,0,0,0,,,
+Fagsystem,365,Educatia,,Jarl Svanberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,317,"eFeide Sync, inklusiv utvidet brukerstøtte","eFeide-løsning for Bergen kommune. Etablering og dokumentasjon av løsning og tjeneste. Etter endring desember 2017 driftes systemet av leverandør Identum. Løsningen skal fortsatt opprettholde at autentisering av elevnettet i Bergen kommune går via eFeide sin autentiseringsløsning. Kunde ønsker at EDD overtar support,  oppfølging og koordinering av feil som oppstår i skjeringen mellom Identum/EDD ",Jarle Kandal,Inge Strømmen,0,0,1,0,Helt nødvendig,1,
+Fagsystem,28,Eiendomsøk,Løsningen inneholder oversikt over kommunale avgifter på eiendommer i BK,Lasse Hunsrød,Trond Larsen,1,0,0,0,,,
+Fagsystem,192,EKG apparater - BHO,"System for å samle data fra EKG - apparater av merket Spirare. ""EKG-apparater - BHO"" gjelder Bergen Legevakt, Legevaktstasjonen i Åsane, Fana, Loddefjord og Bergen Fengsel. Systemet er integrert med Profdoc Vision.  ",Bjørn Eivind Berge,Bjørn Eivind Berge,0,1,0,0,,,
+Fagsystem,255,EKG for ØHD,"EKG-løsning og spirometri-løsning for ØHD-posten. Apparatene er av merket Spirare  og systemet er satt opp med en felles database for data fra 2 ulike spirare-apparater tilrettelagt for ØHD-posten, knyttet mot Profdoc Vision for ØHD/Smittevern. ",Bjørn Eivind Berge,Grethe Almenning,0,1,0,0,,,
+Fagsystem,30,Elektra Kofax ,"Systemet innholder av Bergen kommunes rørleggerarkiv og bildearkiv med oppslagsfunksjoner og linking direkte fra Gemini VA. 
+Dokumenter scannes til digitale bilder eller lastes opp fra digitale filer.
+FotoWeb er innsynsløsning for bildefiler og er tilgjengelig fra intern sone. 
+Rørleggerdokumenter blir skannet og data blir lagt inn i en SQL database(ELEKTRA). Programmet ColorFactory fra Fotoware er installert på dedikert server. Dette programmet henter skannede dokumenter og metadata fra ELEKTRA database og ""syr"" disse sammen til ferdige bildefiler. Ferdige bildefiler blir lagt på en server i DMZ sone, hvor også Fotoware produktene IndexManager og FotoWeb er installert. IndexManager er indexseringsmotoren for bildefiler. FotoWeb er innsynsløsning for bildefiler og skal være tilgjengelig fra intern sone.
+
+Det er åpnet opp tilgang for systemkoordinator til å administrere deler av programmet og brukere.
+",Ali Mekki,Karen Skibenes,1,0,0,0,,,
+Fagsystem,298,Elektronisk skjema,Brukerstøttetjeneste - Elektronisk skjema,Steinar Carlsen,Vidar Aspunvik,1,0,0,0,,,
+Fagsystem,409,Elektronisk tinglysning (eiendom),,Tore-Andre Gram-Knutsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,301,eLås-administrasjonssystem PROD,"eLås er en applikasjon/tjeneste for bruk av elektroniske nøkler i dører hos personer som har et hjelpebehov fra kommunal tjeneste. Systemet består av sentral infrastrutur med data og administrasjonssystem hos EDD og app-er på mobile enheter, distribuert via mobiladministrasjonssystemet. Appene på mobilene kommuniserer via Bluetooth med dørlåsen. Leverandør er Atea, med Heikki Bruvik og BeKey i Danmark som underleverandør. BeKey har utviklet og leverer systemet. Tid for support og tilrettelegging i app-ene timeføres, da de ikke har en fast driftstpris slik som Fagsystemet eLås-administrasjonssystem.  ",Benedicte Løseth,Morten Øritsland,0,1,0,0,,,
+Fagsystem,302,eLås-administrasjonssystem TESTmiljø,"Dedikert testmiljø for eLås Administrasjonssystem. eLås er en applikasjon/tjeneste for bruk av elektroniske nøkler i dører hos personer som har et hjelpebehov fra kommunal tjeneste. Systemet består av sentral infrastrutur med data og administrasjonssystem hos EDD og app-er på mobile enheter, distribuert via mobiladministrasjonssystemet. Appene på mobilene kommuniserer via Bluetooth med dørlåsen. Leverandør er Atea, med Heikki Bruvik og BeKey i Danmark som underleverandør.",Benedicte Løseth,Morten Øritsland,0,1,0,0,,,
+Fagsystem,366,Excelark med kompetanseoversikt,,Jarl Svanberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,34,Extens,"Administrasjonssystem for barnehager og skoler, her registreres bl.a betalingsinfo, karakterer, ulike tilbud ( barnhage/ SFO), personalopplysninger, fag ",Odd Harald Hundvin,Ann-Kristin Skorge,1,0,0,0,,,
+Fagsystem,401,Facebook (i skolene),,Maybel Heimvik,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,421,Fagbokforlagets e-portal ,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,35,Familia,"Saksbehandler- og administrativt system for barnevernstjenesten.
+Unique Familia er et saksbehandler- og administrativt system for barnevernstjenesten i Bergen Kommune. Løsningen ivaretar alle deler av saksbehandlingsprosessen med tilhørende maler, i tillegg til å støtte offentlig rapportering og statistikk.  
+Unique Familia er satt opp med integrasjon mot Agresso, NLP, Statistisk Sentralbyrå og Telebank. I tillegg har Unique Familia et rapporterings-/analysemiljø basert på Microsoft 2005 SQL med Analyse Service som henter styringstall og rapporter fra Familia ut i fra behov, uavhengig av standardrapporte
+",Nina Mevold,Kjetil Eknes,0,1,0,0,Fungerer uten,1,1
+Fagsystem,322,Familia barnevernsvakten,"Familia barnevernsvakten. Fagsystem med driftsnivå 2, erstatter Vaktdata",Nina Mevold,Kjetil Eknes,0,1,0,0,Fungerer uten,1,1
+Fagsystem,244,Familia EMFO (Enslige Mindreårige Flyktningers Omsorgsbase),Barneverns-system flyktninger,Nina Mevold,Kjetil Eknes,0,1,0,0,,,
+Fagsystem,36,Familia test,Testløsning for Familia. Saksbehandler- og administrativt system for barnevernstjenesten.,Nina Mevold,Kjetil Eknes,0,1,0,0,,,
+Fagsystem,37,Fastmerkeregisteret,"System for registrering av varig merkede punkt med koordinater bestemt i et geodetisk system, benyttes ved kartlegging og måling.Fastmerkeregisteret er et skjema i oracledatabasen gmiprod for Gemini. ",Arne Håvardstun,Ilan Amsalem,1,0,0,0,,,
+Fagsystem,38,Fellesdata prod,"Fellesdata er en løsning for å samle, strukturere, kvalitetssikre og tilgjengelig-gjøre ansatt- og virksomhetsinformasjon. Fellesdata er knyttet mot flere offentlige registre.",Steinar Carlsen,Anders Nordeide,1,0,0,0,,,
+Fagsystem,39,Fellesdata test,"Fellesdata er en løsning for å samle, strukturere, kvalitetssikre og tilgjengeliggjøre ansatt- og virksomhetsinformasjon. Fellesdata er knyttet mot flere offenlige registre.",Steinar Carlsen,Anders Nordeide,0,0,0,1,,,
+Fagsystem,126,Forskrivningsmodulen (eResept)  for BLV,"Program utviklet av Helsedirektoratet, knyttet opp mot Profdoc for utskriving av resepter og elektronisk overføring av resepter i Norsk Helsenett Produksjonsmiljø er felles for BLV, Fengselshelsetjenesten og Smittevern og består av 2 applikasjonsservere dedikert eResept-løsningen, samt andel DB-servere. Inkludert i SLA-vedlegg for Profdoc for legevaktene. ",Nina Mevold,Marit Voltersvik,0,1,0,0,,,
+Fagsystem,127,Forskrivningsmodulen (eResept) for BLV og legevaktstasjonene TESTmiljø,"Testmiljø for E-resept mot Profdoc. BLV, Legevaktstasjonene, Smittevern og Fengselshelsetjenesten deler testmiljø, med hver sine dedikerte baser. Andel servere fordeles med 1,5 for BLV og legevaktstasjonene, samt 0,25 DB-server. De andre får 0,5 testserver og hver sin andel DB-server (2 stk).",Nina Mevold,Marit Voltersvik,0,1,0,0,,,
+Fagsystem,194,Forskrivningsmodulen (eResept) for Fengselshelsetjenesten og ØHD/Smittevern,"Program utviklet av Helsedirektoratet, knyttet opp mot Profdoc for utskriving av resepter og elektronisk overføring av resepter i Norsk Helsenett Produksjonsmiljø er felles med BLV, Fengselshelsetjenesten og ØHD/Smittevern og består av 2 applikasjonsservere dedikert eResept-løsningen, samt andel DB-servere. Fengselshelstjenesten belastes 0,25 applikasjonsserver og 0,25 DB-server, det samme gjelder ØHD/Smittevern. ",Nina Mevold,Grethe Almenning,0,1,0,0,,,
+Fagsystem,129,Forvaltning av avtale for kopi- og utskriftstjenester,"Avtale for spesifisering av operativ forvaltning av avtale om leveranse av kopi og utskriftstjenester i Bergen kommune
+Systemkoordinator for print/kopi/scan er Lisbeth Skodvin.",Steinar Carlsen,May Lindtner,1,1,1,0,,,
+Fagsystem,272,Forvaltning av DT - avtalen ,"Forvaltning av DT – avtalen- EQS 042-2014. Datakommunikasjon og Telefonitjenester.
+Avtalen gjelder Transportnett, Internettaksess, Fasttelefon og Mobiltelefoni
+EDD skal forvalte avtalen med 3. part,TDC
+
+Varighet 1.7. 2016 til 31.6. 2022 med opsjon i ytterligere 3 år. Totalt max 9 år.
+",Per-Arne Hoff,Knut Kvamme,1,0,0,0,,,
+Fagsystem,146,Forvaltning av rammeavtale -  Mobil og nettbrett," Dette avtalevedlegget inngås for å spesifisere operativ forvaltning for avtale med 3. part, fastsatt til «EQS 046-2016 Rammavtale mobil og nettbrett» inngått mellom Bergen Kommune og Nordialog, se BKsak 201726701. Gjelder kjøp av IKT –utstyr under kr. 1 500 000,-. Beløp over kr. 1 500 000,- skal ut på DPS.
+ 
+
+
+
+      
+Dette avtalevedlegget inngås for å spesifisere operativ forvaltning for avtale med 3. part, fastsatt til «EQS 046-2016 Rammavtale mobil og nettbrett» inngått mellom Bergen Kommune og Nordialog, se BKsak 201726701. Gjelder kjøp av IKT –utstyr under kr. 1 500 000,-. Beløp over kr. 1 500 000,- skal ut på DPS.
+ 
+
+",Per-Arne Hoff,May Lindtner,1,1,1,0,,,
+Fagsystem,156,Forvaltning av rammeavtale for AV-utstyr,"Operativ forvaltning av rammeavtalen for kjøp av audio-visuelt utstyr. 
+EØS 032-2008   «Rammeavtale for AV-utstyr» med 3. part
+",Kjetil Århus,May Lindtner,1,1,1,0,,,
+Fagsystem,155,Forvaltning av rammeavtale PC,"Dette avtalevedlegget inngås for å spesifisere operativ forvaltning for avtale med 3.part, fastsatt til «Rammeavtale for kjøp av IKT-utstyr (under 1 500 000)» med ATEA AS. Kjøp som foretas utenfor gjeldende «Rammeavtale for kjøp av IKT-utstyr (under 1 500 000)» dekkes ikke av dette SLA-vedlegget. 
+
+Avtalen som skal forvaltes er en rammeavtale Bergen kommune ved IKT Konsern har inngått med 3. part for anskaffelser av IKT-utstyr og definerte tjenester i tilknytning til dette for sluttbrukere.",Per-Arne Hoff,Armindokht Nasiri,1,1,1,0,,,
+Fagsystem,153,Forvaltning av TEK avtalen ,"Operativ forvaltning av ""Drift av Telefonsentraler,ekspidientstøtte og kontaktsenter"" med 3.part",Per-Arne Hoff,Knut Kvamme,1,1,1,0,,,
+Fagsystem,40,FotoWeb/ BK Bilde,System for lagring og arkivering av multimedia filer,Jan Helle,Bjarne Medby,1,0,0,0,,,
+Fagsystem,372,FRAMSIKT,,Kristin Ulvang,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,162,Fürst Forum,"Fürst Forum er et nettbasert verktøy som sikrer samspillet mellom legekontor og laboratoriet, ved elektronisk rekvirering og svarrapportering.",Nina Mevold,Bjørn Eivind Berge,0,1,0,0,,1,1
+Fagsystem,164,GATturnus,"System for registrering, rapportering, oppfølging av turnusinformasjon, kompetanse og ansettelsesforhold",Frode Bødtker,Dag Fjeldberg,1,0,0,0,,,
+Fagsystem,41,GBD (Geriatrisk Basis Datasett) PROD,Journal- og kvalitetssikringssystem for kommunale sykehjem. Utveksler også meldinger via DIPS og Norsk Helsenett.,Nina Mevold,Benedicte Løseth,0,1,0,0,,,
+Fagsystem,257,GBD (Geriatrisk Basis Datasett) TEST,Journal- og kvalitetssikringssystem for kommunale sykehjem. Testmiljø,Nina Mevold,Benedicte Løseth,0,0,0,1,,,
+Fagsystem,42,Gemini,"Gemini er et verktøy som samler mange kommunaltekniske oppgaver i egne moduler, bl.a. Melding, Varsling, Forvaltning, VA og Kunde. Gemini består av flere programmoduler, som igjen inneholder ulike programmer.
+Gemini Melding - består av Gemini Melding og Gemini Varsling 
+Gemini Forvaltning -  består av Gemini Slam, Gemini Vannmåler, Gemini Sanitær og Gemini Indsys
+Gemini Kunde - brukes av Vako for avvikshåndtering av data
+Gemini VA - eget system
+Geminisystemene er ikke fagsystemer som er installert sentralt. Programvare for de ulike programmene er installerte på Arbeidsstasjoner eller terminalservere. Det er Oracle-databasene som ligger installert på sentrale servere. 
+
+Gemini VA er et system for forvaltning og dokumentasjon av VA nett, og inkluderer GIS-funksjoner for synliggjøring og analyse. ",Ali Mekki,Ilan Amsalem,1,0,0,0,,,
+Fagsystem,252,Gemini feltarbeid,"Gemini feltarbeid for bestilling og rapportering av tømming av slamavskillere, samspill med Gemini Slam",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Fagsystem,122,Gemini melding på Web,"System for at kommunens innbyggere kan melde feil via internett direkte inn i Gemini Melding. Løsningen nås via kommunens portalløsning og har i tillegg egne internett-adresser: http://www.feilmelding.bergen.kommune.no/
+http://feilmelding.bergen.kommune.no/
+",Pål Fagerheim,Ilan Amsalem,1,0,0,0,,,
+Fagsystem,123,Gemini Melding på Web testmiljø,Testmiljø for Gemini Melding på Web. ,Pål Fagerheim,Ilan Amsalem,1,0,0,0,,,
+Fagsystem,251,Gemini portal med AD pålogging,"Gemini portal med AD pålogging.
+Bruker AD- pålogging som sikring. Gir elektroniske arbeidsbøker på web for Bergen Vann.
+Leverandøren Powell har via agent adgang til å pushe ut ny versjon 24/7, men skal kun gjøre dette etter avtale med systemeier og EDD.",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Fagsystem,307,Gemini skjemamottak VA,"Løsning med skjema for innmelding av saker og dokumentasjon av disse.
+VA tenker bruke samme server som Powel ellers bruker for kommunikasjon mot internett.",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Fagsystem,43,Gemini Vannmåler,Benyttes av BBKM for å registrere standen på vannmåler via en web-løsning. ,Ali Mekki,Ilan Amsalem,1,0,0,0,,,
+Fagsystem,59,GisLine Matrikkel,"System levert av Norkart AS som inneholder kart- og eiendomsdata i Bergen kommune. Omfatter nettleserbasert innsynsløsning (Gisline WebMatrikkel) og FDV-løsning for matrikkelen. Er en lokal versjon av sentral matrikkel som forvaltes av Kartverket.
+",Mette Svanes,Sveinung Kjellevoll,1,0,0,0,,,
+Fagsystem,44,GisLine med QMS,"System for forvaltning av digital geografisk informasjon (vektordata) levert av Norkart AS. Benyttes i hovedsak til forvaltning av FKB-data og plandata. Synkroniseres mot eksterne off.etater. 
+",Mette Svanes,Sveinung Kjellevoll,1,0,0,0,,,
+Fagsystem,379,Google Analytics (BOB),,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,45,G-Prog Beskrivelse,"Verktøykasse ved prosjekteringsoppgaver i kommunen. Følger Norsk Standard for kommunikasjon, dokumentasjon og beregningsregler. Dette fagsystemet er kun til for programpakken G-Prog Beskrivelse (Grønn Etat). Det dekker altså ikke den andre programpakken G-Prog Link.",Sissel Lerum,Kjetil Møklebust,1,0,0,0,,,
+Fagsystem,357,Gsuite,,Inge Strømmen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,300,Gurosoft,Rapporteringsløsning for VA,Jarl Svanberg,Astrid Birkeland,1,0,0,0,,1,0
+Fagsystem,422,Gyldendal.no,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,392,Halo,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,143,Handyman (prod),"ePocket Handyman er software for håndholdte enheter. Utfører registrerer tidsforbruk, materiell og utførte tjenester ute hos kunden. Handyman er en ”offline”-løsning som betyr at programmet også fungerer i områder uten mobil dekning. Handyman lagrer data og sender det automatisk når nettverket blir tilgjengelig igjen. Løsningen gir mulighet for økt produktivitet og mindre administrasjon. Dette SLA – vedlegget gjelder av ePocket Handyman i produksjon.  Løsningen brukes av Etat for bygg og eiendom. De håndholdte enhetene om benyttes mot fagsystemet for Handyman ivaretas av kunde.",Bjørn Lid,Bjørn Østrem,1,0,0,0,,,
+Fagsystem,284,Helge tester,test,Helge Underhaug,Helge Underhaug,1,0,0,0,,0,0
+Fagsystem,47,Historisk arkiv og Innsynsløsning,"Historisk arkiv og innsynsløsning er en elektronisk løsning for sikring, bevaring og tilgjengeliggjøring av historiske elektroniske arkiv i Bergen kommune. ",Jan Helle,Stig Brunstad,1,0,0,0,,,
+Fagsystem,139,Historisk arkiv og Innsynsløsning i Sikker sone,"Historisk arkiv og innsynsløsning for systemer som har vært på sikker sone og som inneholder sensitive data. Sikring, bevaring og tilgjengeliggjøring av data.",Jan Helle,Stig Brunstad,0,1,0,0,,,
+Fagsystem,81,HK Oppvekst ,"Saksbehandlersystem for PP-tjenesten, inneholder klientkartotek og journaler",Odd Harald Hundvin,Ingunn Sebjørnsen,0,1,0,0,,,
+Fagsystem,355,Holte,,Henriette Olderøy,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,48,HsPro,"Pasientjournalsystem for helsestasjoner og skolehelsetjenesten inkludert VismaLink for Hspro.
+HsPro benyttes på helsestasjoner/legekontor og skolehelsetjenesten, også på private skoler, samt Integrasjonssenter for flyktninger og IFK, helsetjenester for barn og unge. Systemet inneholder pasientjournal og har meldingsutveksling mot Sysvak - vaksineoverføringer til nasjonalt system, via Vismalink. Chrome er pakket spesifikt for løsningen pga avhengigheter.
+",Nina Mevold,Grethe Almenning,0,1,0,0,,1,1
+Fagsystem,49,HsPro Test,Testløsning for HsPro,Nina Mevold,Grethe Almenning,0,1,0,0,,1,1
+Fagsystem,423,iMal,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,223,Infoskjerm - Quickinfo PortalX,"Tjenesten gir enheter i BK mulighet for å sette opp og administrere innholdet på infoskjermer, som er rettet mot egne ansatte eller publikum. Løsningen består av endeutstyr med en lokal komponent som er selve skjermen og en Mini-PC (for montering bak på skjermen), i tillegg til servere og sentrale komponenter for innholdsadministrasjon Sentralisert programvare, Quickinfo PortalX og PowerPoint WebPro plugin, er installert hos og driftes av IKT Drift. ",Steinar Carlsen,Vidar Aspunvik,1,0,0,0,,1,0
+Fagsystem,352,Infront,,Geir Ove Misje,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,231,Innbyggerportal_Escenic og Allmenningen_prod,"Innbyggerportalen (www.bergen.kommune.no) og intranettportalen (Allmenningen) for ansatte i Bergen kommune (allmenningen.bergen.kommune.no) er hovedverktøyet for informasjonsformidling, tjenesteformidling og samhandling med kommunens målgrupper (innbyggere, organisasjoner, næringsliv og ansatte). Også kalt ""PORTALEN"".
+Allmenningen har driftsnivå 2- se SLA - vedlegg
+",Steinar Carlsen,Jorunn Tengren Hansen,1,0,0,0,,,
+Fagsystem,232,Innbyggerportal_Escenic og Allmenningen_TEST,"Innbyggerportalen (www.bergen.kommune.no) og intranettportalen (allmenningen) for ansatte i Bergen kommune (allmenningen.bergen.kommune.no) er hovedverktøyet for informasjonsformidling, tjenesteformidling og samhandling med kommunens målgrupper (innbyggere, organisasjoner, næringsliv og ansatte).",Steinar Carlsen,Jorunn Tengren Hansen,0,0,0,1,,,
+Fagsystem,297,Invoice Online,"Invoice Online er et system, levert av TDC, hvor Bergen kommune administrerer mobil- og fasttelefonabonnement.",Per-Arne Hoff,Knut Kvamme,1,0,0,0,,1,1
+Fagsystem,314,IST Barnehage,Administrasjonssystem for barnehagene i Bergen kommune,Jan Eide,Gunn-Ingvill Bryn,1,0,0,0,Helt nødvendig,1,1
+Fagsystem,393,ISY Park,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,267,ISY Prosjektøkonomi,ISY Prosjektøkonomi er et system for styring av prosjekter og økonomien i disse. Systemet brukes av VA-etaten og Etat for Utbygging for styring av deres prosjektportefølje. Systemet mottar bokførte transaksjoner på fil hver natt fra Agresso økonomi. ,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Fagsystem,340,ISY Prosjektøkonomi skyløsning,"ISY Prosjektøkonomi er et system for styring av prosjekter og økonomien i disse. Systemet brukes av VA-etaten og Etat for Utbygging for styring av deres prosjektportefølje. I Agresso er det laget en spørring som lager tre filer med bokførte transaksjoner (bilagsdata) hver natt – en pr avdeling (VA, EFU og BME). Filene flyttes til et FTP-område pr avdeling.",Ali Mekki,Ali Mekki,0,0,0,0,,,
+Fagsystem,412,ItsLearning,,Trine Samuelsberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,279,Jenkins inkl app.server for SDI_utviklere,"Utviklingsløsning for SDI. Egen Jenkins-server med fulle rettigheter for utviklerne, og virtuell server med GIT, RPM-Repo, Artifactory. Virtuell server (driftsnivå 2), Jenkins er type serverhosting, der all bistand skal faktureres.",Steinar Carlsen,Jorunn Tengren Hansen,0,0,0,1,,,
+Fagsystem,52,Jira og Confluence,Oppgave- og prosjektoppfølgingssystem for IKT Konsern,Steinar Carlsen,Trine Roness,1,0,0,0,,1,0
+Fagsystem,170,Jira til  BHO,"Brukerstøttemiljøet hos BHO  skal benytte JIRA for oppfølging av henvendelser fra brukere av fagsystemene Familia, Socio og HsPro",Nina Mevold,Trine Roness,1,0,0,0,,1,
+Fagsystem,292,Junglemap,"System for nanolearning, i form av kortere kurs fra Junglemaps, eller egenlagde kurs. Integrasjon via Mellomlagringsløsning til Azure for SingleSignOn for alle ansatte i Bergen kommune. ",Gøran Breivik,Magnus Kroken,1,0,0,0,,1,0
+Fagsystem,375,Kameraovervåkning,,Leif Linde,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,424,Klassetrivsel.no,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,167,KomTek - Bergen Brannvesen,"Fagsystem for brannforebyggende avdeling, hvor en registrerer, rapporterer og generer gebyr for kommunens husstander (Feiing & Tilsyn). ",Janicke Larsen,Lars Hernebãck,1,0,0,0,,,
+Fagsystem,54,KomTek Forvaltning_PROD Kemner,Takseringssystem for eiendomsskatt,Lasse Hunsrød,Sondre Michelsen,1,0,0,0,,,
+Fagsystem,142,KomTek Forvaltning_test Kemner,Testbase for KomTek Forvaltning (eiendomsskatt),Kristian Reitan,Kristian Reitan,1,0,0,0,,,
+Fagsystem,242,KomTek Miljørettet helsevern,"KomTek Miljørettet helsevern er et fagsystem og saksbehandlingssystem for komunens ansatte som jobber med miljørettet helsevern. Løsningen er integrert med Bergen kommunes arkiv, matrikkel, kart og Outlook/Office. Sentralt i løsningen er arbeidsprosesser som forenkler arbeidet med :
+Registrering av tilsynsobjekter
+Planlegging av tilsyn
+Oppfølging av tilsyn
+Dokumentasjon,rapportering, arkivering.
+",Arild Jensen,Arild Jensen,1,0,0,0,,,
+Fagsystem,320,KS Autorisasjonsdata DB for FIKS plattform,"SQL DB for KS FIKS plattform, for lagring av autorisasjonsdata. Løsningen består av en DB i HA Databasehotell og en testdatabase.  ",Astrid Øksenvåg,Idar Borlaug,1,0,0,0,Fungerer uten,,1
+Fagsystem,316,KS Deploy server for KS MinSide,KS Deployserver inneholder config for Caas-løsningen og tilgang til å deploye ny programvare på caas-løsningen. Den er etablert for å avlaste KS Jenkins-server og forbedre sikkerheten i MinSide-løsningen. ,Astrid Øksenvåg,Astrid Øksenvåg,1,0,0,0,,,
+Fagsystem,319,KS Elasticsearch for KS MinSide,"Elasticsearch for KS MinSide, er en kraftig søkemotor som benyttes for søk i Minside-løsningen.  Installasjon med 3 servernoder i cluster, installert på SLES. 
+Searchguard er installert på Elasticsearch og driftes av KS. Searchguard skiller ulike kunders data i søkene.",Astrid Øksenvåg,Idar Borlaug,1,0,0,0,,,
+Fagsystem,333,KS Elasticsearch Testmiljø,"Testmiljø for KS Elasticsearch. Installasjon med 3 servernoder i cluster, installert på SLES. Searchguard er installert på Elasticsearch, denne er satt opp og driftes selv av KS. ",Astrid Øksenvåg,Idar Borlaug,0,0,0,1,,,
+Fagsystem,318,KS Eventstore,Eventstore er en log database som lagrer data for minside og andre tjenester på Fiks platformen. Etablert som 3 servernoder i et cluster.,Astrid Øksenvåg,Idar Borlaug,1,0,0,0,Helt nødvendig,,
+Fagsystem,332,KS Eventstore Testmiljø,"Testmiljø for KS Eventstore, som er en del av KS Minside. Eventstore er en log database som lagrer data for minside og andre tjenester på Fiks platformen. Etablert som 3 servernoder i et cluster.",Astrid Øksenvåg,Idar Borlaug,0,0,0,1,Fungerer uten,,
+Fagsystem,305,KS Læring,"Kursplattform som Bergen kommune kjøper hos KS, sammen med mange andre kommuner. Egne kurs legges under Bergne kommune og løsningen håndterer påmelding og oppstart av nettkurs. Helpdesk har brukerstøtte 1. linje på løsningen i en egen brukerstøtte-avtale.",Bjørg Lædre,Kristin Helland,1,0,0,0,,1,0
+Fagsystem,329,KS MinSide,"KS MinSide er en Container as a Service plattform (CaaS) for KS, som kjører på SUSE CaaS. KS Minside brukes av kommuner og andre til å kommunisere med innbyggere fra sine systemer. Benytter ID-porten til autentisering. Min Side bruker Eventstore og Elasticsearch i løsningen. ",Astrid Øksenvåg,Idar Borlaug,1,0,0,0,,1,
+Fagsystem,286,KS SvarUt Jenkins-server,"Filserver KS Svar_UT
+(Skal ha Nivå 2) + Forutsetninger.",Astrid Øksenvåg,Astrid Øksenvåg,0,0,0,1,,,
+Fagsystem,303,KS SvarUT Loggserver,"Loggserver for KSSvarUT og MinSide (MinSide er ikke prodsatt i skrivende stund 20180430.) Graylogg-server. 
+Kontaktperson er Idar Borlaug",Astrid Øksenvåg,Idar Borlaug,1,0,0,0,,,
+Fagsystem,136,KS_SvarUT Test,"Sentralisert løsning i for digitalisering av offentlige tjenester. Kommuner og fylkeskommuner kan benytte KS SvarUT for å sende brev til innbyggere, organisasjoner eller næringsliv elektronisk eller som papirbrev gjennom en sentral utskriftsløsning. Løsningen driftes av IKT Drift.",Astrid Øksenvåg,Astrid Øksenvåg,0,0,0,1,,,
+Fagsystem,131,KS_SvarUT_prod,"Sentralisert løsning i for digitalisering av offentlige tjenester. Kommuner og fylkeskommuner kan benytte KS SvarUT for å sende brev til innbyggere, organisasjoner eller næringsliv elektronisk eller som papirbrev gjennom en sentral utskriftsløsning. Løsningen driftes av IKT Drift. ",Astrid Øksenvåg,Astrid Øksenvåg,1,0,0,0,Helt nødvendig,1,1
+Fagsystem,246,KS-system for EFU (Spiterstulen),"KSefu, kvalitetssystem og prosjektportal for bygg og anlegg. Sharepointløsning.",Jarle Kvalvik,Terje Reinan,1,0,0,0,,,
+Fagsystem,425,Kunnskap.no,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,321,Kyrkjekrinsen skole - skolekonsulent,"Lokaldrift leverer 2 dager pr mnd til Kyrkekrinsen skole med konsulenttjenester, der Lokaldrift utfører oppgaver på stedet etter behov og ønsker fra skolen relatert til IKT. SKolen melder saker på vanlig måte i Remedy.  ",Maybel Heimvik,Glenn Andersen,1,0,1,0,,,
+Fagsystem,380,Last Pass,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,426,Lesemeister,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,369,Lokus - Aschehoug undervisning,,Jarle Kandal,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,57,Lydlogg for BLV,"Løsning som logger innkommende telefonsamtaler på noen didikerte nummer. Server driftes av Tele-com, EDD tar backup av den og har serverdrift sammen med Tele-com Bergen.",Marit Voltersvik,Marit Voltersvik,0,0,0,0,,,
+Fagsystem,224,Lync 2013,"Lync er en samhandlingsmodul i Office-pakken som blant annet gir deg følgende kommunikasjonsmuligheter; taleanrop, direktemeldinger, videosamtale og deling/samarbeid 
+Lync kan også benyttes på mobile enheter, pt kan dette kun benyttes av dem som har personlig kommunal PC. ",Jan Tenold,Tord Kolsrud,1,0,0,0,,1,0
+Fagsystem,381,Mailchimp,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,427,Mattemesteren,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,60,Meddommerregisteret,"System som gir oversikt over meddommere til tingretten og lagretten, samt skjønnsmenn og jordskiftemenn",Roar Kristiansen,Aasta Thorsheim,1,0,0,0,,,
+Fagsystem,341,Melin medical betalingsautomat,"Melin betalingsautomat, Bergen legevakt. Terminalen krever to reserverte IP-adresser, hvor begge må ha tilgang til NHN. Den ene IPen brukes til selve MMT-computeren i terminalen, som behøver tilgang til vår fjernpålogging via NetOp. Den må også ha tilgang til journalsystem-databasen Profdoc.
+Den andre IPen brukes til NETS-kortmodulen for kortbetalinger. Denne krever kun tilgang til Nets’ betalingsserver.
+Terminalen krever kun et fysisk nettverkspunkt. Både strøm- og nettverkspunkt må være maks 1 meter fra terminalen. Dette er fordi kablene som følger med er satt på forhånd. Om det ønskes lengre kabler ønsker vi at dere står for dette, og at kabler er klare på installasjonsdato.
+Bergen Legevakt kan kontakte Helpdesk for å bestille fjerntilgang for Leverandør til løsningen, rutiner for dette finnes på Helpdesk ved EDD. Timeforbruk vedr. fjernstyring registreres rett inn på fagsystemet Melin medical.
+
+
+",Bjørn Eivind Berge,Bjørn Eivind Berge,0,1,0,0,,,
+Fagsystem,185,Metasys - SD-system ,"System for oppfølging av automasjonsprosesser (husdrift) Kjøling, lys etc",Morten Bjordal,Morten Bjordal,1,0,0,0,,,
+Fagsystem,190,MIC Mobil,Mobilplattformen skal integreres mot telefonsentralene (Ny standard tjeneste),Lisbeth Skodvin,Knut Kvamme,1,0,0,0,,,
+Fagsystem,428,Moava,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,222,MobiCall Alarmløsning - med nettverksvakt for Tele-Com,"Løsning for ulike alarmer - kommunikasjon over GSM- eller IP-nett. Sentralisert, redundant løsning, med systemet MobiCall som kjerne. Benyttes pr i dag til heisalarmer, sykesignalering  og varsling på skole. 
+Tele-Com har fullt driftsansvar for løsningen inkl servere og databaser, med remote tilgang til redundante servere som står i sentral datahall hos IKT Drift.
+Egne rutiner/instruks er utarbeidet mellom Tele-Com og IKT Drift, og Kunde er informert om disse iht Forvaltning av TEK-avtalen. Utgifter ifm løsningen bekostes av Kunde.",Steinar Carlsen,Knut Kvamme,1,0,0,0,,,
+Fagsystem,240,MobiCall for Trygghetsalarmer inkl nettverksvakt og helpdesktjenester,"Mottakssystem for trygghetsalarmer for innbyggere i Bergen kommune. Tjenesten mot brukerne leveres og håndteres av BHO. Brukere av Trygghetsalarm har alarmsender i boligen. Når alarm utløses vil det gå signal til MobiCall, med informasjon om hvem som har utløst alarmen. Alarmer håndteres av BHO ved  blant andre hjemmesykepleie. 
+Tele-Com har fullt driftsansvar for løsningen inklusiv servere og databaser, med remote tilgang til redundante servere plassert i sentral datahall hos EDD. Egne rutiner/instruks er utarbeidet mellom Tele-Com og EDD, og Kunde er informert om disse iht Forvaltning av TEK-avtalen. Alle utgifter ifm løsningen bekostes av Kunde. 
+Tillegg:
+Nettverksvakt: Tele-Com har tilgang til å ringe utenom ordinær arbeidstid og skal slippes inn og følges i serverrom ved behov. Helpdesk-tjenester: brukeradministrasjon; motta bestilling, opprette systemtilgang og sende sak videre til IKT Helse/Profil postmottak. Estimert 10 henv./måned",Nina Mevold,Benedicte Løseth,0,1,0,0,,,
+Fagsystem,276,Mobil Omsorg,"Mobil omsorg er et system tilhørende Profil, der mobile enheter kommuniserer via en Sandbox i Mobiladministrasjonssystemet mot Profil i Sikker sone. Mobil Profil er en del av SLA-vedlegget til Profil, men med et lavere driftsnivå (nivå 2). Inkludert testmiljø.",Nina Mevold,Øyvind Hope,0,1,0,0,,1,1
+Fagsystem,293,Mobilflex Connect,Administrasjon og konfigurering av SIM-kort,Per-Arne Hoff,Knut Kvamme,1,0,0,0,,1,0
+Fagsystem,405,Mobilise,,Roar Kristiansen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,61,NAV tilgang,"Teknisk løsning som gir tilgang til BK-nett fra NAV-desktop (statlig)
+
+",Mads Hagebø,Magne Ervik,1,1,0,0,,,
+Fagsystem,361,NICE Lydlogg,,Jan Henning  Fossedal,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,63,Nimes,Kvalitetssikringsverktøy for Bergen legevakt  for bruk ved medisinsk koding og analyse. ,Marit Voltersvik,Marit Voltersvik,0,1,0,0,,,
+Fagsystem,64,NygSys,"Data- og logistikksystem/ kursadminstrativt system som benyttes av Nygård skole.
+",Anne Sofie Vik,Dag Bjørnestad,1,0,0,0,,,
+Fagsystem,304,Nøkkelbank,Forvaltning av fysiske nøkler,Jarl Svanberg,Astrid Birkeland,1,0,0,0,,1,0
+Fagsystem,234,"Nøkkelkortsystem, Bergen Vann",Driftsavtale Nøkkelkortsystem i Spelhaugen 22 . Bergen Vann benytter IKT Drift sitt nøkkelkortsystem.,Jarl Svanberg,Astrid Birkeland,1,0,0,0,,,
+Fagsystem,349,Offisielle kanaler på sosiale medier,,Eva Hille,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,66,Omnivista,Kommunikasjons-/bakcupløsning for telefonsentralene i BK (5556 XXXX). I bruk av Tele-Com for administrasjon av fasttelefoner i BK.,Steinar Carlsen,Gina Gunnestad,1,0,0,0,,1,0
+Fagsystem,67,OnGuard Vann- og avløpsetaten,"Onguard er adgangskontrollsystemet til VANN, vaktsentralen i Grønneviken og alle vannstasjoner som Vaktsentralen bruker til overvåkning, primært på kveldstid.  
+
+Onguard er et integrert adgangskontrollsystem med et stort bruksområde, gir oversikt, er enkelt å operere. Det kan tilpasses organisasjonen. Systemet er basert på åpen arkitektur og er svært fleksibelt. Det kan integreres med forskjellige multimedialøsninger og andre sikkerhetssystemer. Systemet støtter ulike kortleserteknologier: magnetstripe, berøringsfri, MYFARE og biometri.",Ali Mekki,Åge Mjåtvedt,1,0,0,0,,,
+Fagsystem,433,Onsite konsulenttjeneste Legevakten,EDD skal ha lokaldriftkonsulent på Begen Legevakt 08:00 til 11:00 2 dager pr uke fra januar 2019 til juni 2019. ,Marit Voltersvik,Myrna Hatleli,1,1,0,0,,,
+Fagsystem,174,OnVisit,"Besøksystem som håndterer besøkende til lokasjoner i Bergen kommune. Systemet registrerer gjester, printer ut gjesteskilt til gjesten og varsler mottaker av besøket pr SMS. ",Jan Tenold,Christian Sirevåg,1,0,0,0,,1,0
+Fagsystem,429,Ordnett.no,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,358,PAS/PGS,,Inge Strømmen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,184,Pegasys Låsesystem,"Adgangskontrollsystem til hovedbrannstasjonen. Styrer adgang til bygget basert på RFID-låsebrikker. Oppsett av logiske adgangssoner, konfigurasjon av underterminaler osv ",Morten Bjordal,Morten Bjordal,1,0,0,0,,,
+Fagsystem,294,PixEdit Sikker sone,"Løsning for bunkeskanning til sikker sone, BSBI. Håndtering av skanning av mange dokumenter som en elektronisk fil, for så å dele dokumentene opp i ettertid.",Mette Kvarme,Ronny Olsen,0,1,0,0,,,
+Fagsystem,382,Planday,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,73,Plania prod,"FDV-system for Bergen Vann KF, som benyttes til oppfølging og lagring av informasjon om bygninger og oppgaver.
+Plania 8 Desktop og Plania Web. Kjøres på PC og Terminalserver.",Jarl Svanberg,Astrid Birkeland,1,0,0,0,,,
+Fagsystem,74,Plania test,Testløsning for Plania; FDV-system til oppfølging og lagring av informasjon om bygninger og oppgaver,Jarl Svanberg,Astrid Birkeland,0,0,0,1,,,
+Fagsystem,403,PlanKon,,Mette Svanes,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,383,Plone CMS - Bergenbibliotek.no,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,394,PocketControl Mellomvare,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,395,"PocketControl, betjent app",,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,78,Portico Estate Prod EBE,"System for forvaltning av bygningsmasse og ressurser. (FDV for EBE og AktivBy). Portico Estate er et verktøy for forvaltning av bygningsmasse og ressurser som defineres inn i systemet.  Systemet har et grensesnitt mot internett for at ansvarlige pr. lag kan registrere treningstider/leietider. Det er også mulig for publikum å gjøre oppslag på bygg og idrettslag for å finne treningstider og steder. Autentisering i systemet over internett styres gjennom Altinn og Bergen kommunes portalløsning.  
+
+Løsningen er en PHP- løsning som i dette tilfellet betyr at både applikasjonslogikk og presentasjonslogikk ligger på samme server, i samme applikasjon. 
+
+Internett- delen av system er kjent som AktivBy. Den interne delen av systemet er navngitt BKBygg.
+",Bjørn Lid,Olav Haugå,1,0,0,0,,,
+Fagsystem,79,Portico Estate Test EBE,"Testløsning for Portico Estate. Løsning i testmiljøet er todelt, med en installasjon for utvikling og en installasjon for akseptansetesting på samme server. ",Bjørn Lid,Olav Haugå,1,0,0,0,,,
+Fagsystem,226,Portico for Etat for Boligforvaltning (EBF),"Portico for EBF er et system for Forvaltning, Drift og Vedlikehold av leieobjekter som forvaltes av Etat for Boligforvaltning. Det innholder informasjon om bygninger, utstyr, prosjekter og vedlikeholdsplaner. Systemet har oversikt over avtaler og arbeidsordrer. Løsningen applikasjonslogikk og presentasjonslogikk på samme server i samme applikasjon.
+",Bjarte Høysæter,Sigurd Nes,1,0,0,0,,,
+Fagsystem,124,PortWin Prod,"Havne-administrasjonssystem som benyttes for å styre utnyttelsen av kaier, ha kontroll med forventede og faktiske liggetider, losset og lastet gods, samt fakturering og rapportering til SSB.",Ulrik Jørgensen,Stein Hauge,1,0,0,0,,,
+Fagsystem,125,PortWin Test,Testmiljø for BOH sitt system for styring og kontroll over kaiområder,Ulrik Jørgensen,Stein Hauge,1,0,0,0,,,
+Fagsystem,80,PPI ( Syns og audiopedagogisk senter),Saksbehandlingssystem,Christine Grevstad,Anne Karin Bergfjord,0,1,0,0,,1,1
+Fagsystem,396,Primo System,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,384,Princh,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,84,Profdoc for Bedriftshelsetjenesten,"Profdoc er et Elektronisk Pasient Journal-system (EPJ) som brukes av ulike avdelinger i Bergen kommune. Profdoc finnes i 2 ulike versjoner, med hver sin dedikerte installasjon. Bedriftshelsetjenesten har en versjon av fagsystemet som ligger på dedikerte servere med egen database. Bedriftshelse har i tillegg en installasjon av programvaren Spirare og pusteapparat tilknyttet Profdoc-systemet. ",Bjørg Lædre,Mariann Andersen,0,1,0,0,,1,1
+Fagsystem,82,Profdoc for Bergen Legevakt og legevaktstasjonene,"Pasient journal-system (EPJ) for Bergen legevakt med tynne klienter og virtuelle maskiner. Profdoc Vision er et Elektronisk Pasient Journal-system (EPJ) som brukes av flere avdelinger i Bergen kommune. Installasjonen med en felles database brukes av Bergen Legevakt, Legevaktstasjonene i Loddefjord, Åsane og Fana. Denne løsningen er satt opp med automatisk fail-over og har vaktordning med automatiserte alarmer til vakt 24/7. Meldingsutveksling går via EDI-løsningen DIPS til Norsk Helsenett og har driftsnivå 2. 
+Forskrivningsmodulen (eResept) er utviklet av Helsedirektoratet, knyttet opp mot Profdoc for utskriving av resepter og elektronisk overføring av resepter i Norsk Helsenett og inkludert i avtalen for Profdoc. ",Nina Mevold,Marit Voltersvik,0,1,0,0,,,
+Fagsystem,138,Profdoc for Frisklivsentralen,Profdoc EPJ-system for bruk hos Frisklivsentralen,Nina Mevold,Grethe Almenning,0,1,0,0,,,
+Fagsystem,83,Profdoc og EDI for Fengelshelsetjenesten,"Pasient journal-system (EPJ) for Fengelshelestjenesten. Deler infrastuktur med BLV og har andeler av infrastukturen. Inkluderer EDI-løsning (DIPS) for elektronisk meldingsutveksling via Norsk Helsenett. Forskrivningsmodulen (eResept) inngår i SLA-vedlegg, men har egen oppføring i systemoversikten. ",Nina Mevold,Grethe Almenning,0,1,0,0,,,
+Fagsystem,209,Profdoc og eResept Test for ØHD/Smittevern,"Testmiljø for test av profdoc med 1 oralcebase, kun øhd/smitte har testmiljø. Testmiljø for Forskrivningsmodulen (eResept) med 1 SQL-baser og andel servere for begge testmiljøene",Nina Mevold,Grethe Almenning,0,1,0,0,,,
+Fagsystem,256,Profdoc og Meldingsutveksling (EDI) for ØHD/Smittevern,"Pasient journal-system (EPJ) for ØHD-posten og Smittevern. Deler infrastuktur med BLV, Fengsel og har andeler av infrastukturen. Inkluderer EDI-løsning (DIPS) for elektronisk meldingsutveksling via Norsk Helsenett. Denne løsningen er satt opp med automatisk fail-over og har vaktordning med automatiserte ala|rmer til vakt 24/7.",Nina Mevold,Grethe Almenning,0,1,0,0,,,
+Fagsystem,137,Profdoc testmiljø for Bedriftshelsetjenesten,Dedikert testdatabase for Bedriftshelsetjenesten og andel av felles testmiljø for Profdoc,Bjørg Lædre,Mariann Andersen,0,1,0,0,,,
+Fagsystem,85,Profdoc testmiljø for Bergen legevakt og legevaktsatasjonene,Testløsning for Profdoc for Bergen legevakt og legevaktsstasjonene,Nina Mevold,Marit Voltersvik,0,1,0,0,,,
+Fagsystem,86,Profil,"Unique Profil er journalsystem for pleie-, rehabiliterings- og omsorgstjenesten i Bergen kommune og er realisert på sikker sone. 
+Systemet har meldingsutveksling med Norsk Helsenett og rapportering til Helsedirektoratet sitt nasjonale helseregister, IPLOS.
+Visma Samhandling Link er inkludert i SLA for Profil, samt et dedikert kurs- og test-miljø med driftsnivå 1 som etablert i sikker sone.",Nina Mevold,Benedicte Løseth,0,1,0,0,,1,1
+Fagsystem,311,"Profil Forskrivningsmodul (eResept), test",Visma Omsorg Profil implementert mot FM 3.77.3 i testmiljø versjon,Nina Mevold,Vibeke Eriksen (Profil),0,1,0,0,Delvis nødvendig,1,1
+Fagsystem,87,Profil test,"Test- og kursløsning for Profil inkludert Adresseregister og Iplos. Testmiljøet er i sikker sone produksjonsmiljø, grunnet gammel historie.  ",Nina Mevold,Benedicte Løseth,1,1,0,0,,1,1
+Fagsystem,296,Profil Testmiljø i T/U ,"Profil Testmiljø i T/U for digital medarbeider er et dedikert miljø etablert for å teste robotprogramvare fra BluePrism inn mot fagapplikasjnen Profil og Visma Link. Når roboten utfører ønskede aktiviteter i testmijøet, blir den overført til Sikker sone produksjonsmiljø for å stå der og utføre gjentagende repeterende oppgaver. Testmiljøet i T/U for Profil inneholder også en dedikert server for MS SQL-verktøy.  Testmiljøet brukes også av eLås-løsningen til BHO, men har egen SLA. ",Bjørn Eivind Berge,Benedicte Løseth,0,1,0,1,Fungerer uten,1,0
+Fagsystem,88,Prosjektallmenningen,"Prosjektstyringsverktøy - for planlegging, oppfølging og rapportering på prosjekter i BK. Løsningen er konsernovergripende og alle som har behov for prosjektstyringsverktøy i BK kan benytte løsningen. 
+Brukerne aksesserer dokumentene i Prosjektalmenningen via Internet Explorer og PWA eller Microsoft Project. Prosjektallmenningen er tilrettelagt for bruk for eksterne. Helpdesk ved IKT Drift utfører 1. linjer brukerstøtte basert på ""ofte stilte spørsmål"" levert av systemkoordinator. Helpdesk vil registrere sak og ved behov for 2. linje kompetanse, overføre sak til dedikert gruppe hos systemeier.  Lisenser for bruk av saksbehandlingsverktøy betales i tillegg.
+",Liv Bruland,Benedicte Jensen,1,0,0,0,,1,
+Fagsystem,158,Remedy,"Remedy er IKT Drift sitt saksbehandlingverktøy hvor alle feil, bestillinger og henvendelser blir registrert og fulgt opp.",Jan Tenold,Wenche Follesø,1,0,0,0,,1,0
+Fagsystem,331,Reserveportal for Bergen kommune,"Reserveportalen til Bergen kommune er et system som ligger i Microsoft Azure og benytter tjenesten webhotell, med Wordpress. Tjenesten er tilrettelagt av EDD, innholdsproduksjon og tofaktorautentisering i Wordpress eies av Systemkoordinator. ",Steinar Carlsen,Jorunn Tengren Hansen,0,0,0,0,Helt nødvendig,1,
+Fagsystem,90,Ressursstyringssystem,"Systemet brukes til planlegging av ressurser og turnuser. I tillegg kan ansatte melde interesse for ledige vakter via internett og motta forespørsler om vakter/oppdrag via SMS.Produksjon og kurs har driftsnivå 2. Avtalen inkluderer 1. linje brukerstøtte, samt testløsningen med driftsnivå 1. ",Bjørg Lædre,Marianne Heier,1,0,0,0,,1,0
+Fagsystem,91,Ressursstyringssystem Test,"Testløsning for Ressursstyringssystemet. Systemet brukes til planlegging av ressurser og turnuser. I tillegg kan ansatte melde interesse for ledige vakter via internett og motta forespørsler om vakter/oppdrag via SMS.
+",Bjørg Lædre,Marianne Heier,1,0,0,0,,,
+Fagsystem,367,SCADA,,Jarl Svanberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,270,SiPort (Byggalarm),Byggalarm hos Enhet for Digitale driftstjenester. ,Jan Tenold,Tron Ingebrigtsen,0,0,0,0,,1,0
+Fagsystem,308,Siteimprove,Analyseverktøy for utvikling av nettsted.,Steinar Carlsen,Benedicte Jensen,1,0,0,0,,1,0
+Fagsystem,385,Sjølvbetjeningsløysinger og videoovervåking,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,430,Skolekassa.no,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,431,Smart Skole,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,350,Småpudden overvåking,,Frode Rasvik,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,336,Snow,"SAM-verktøy. Snow License Manager er navet for Snows avanserte Software Asset Management (SAM)-plattform – og gir en helhetlig visning av alle programvare- og maskinvareaktiva, lisensrettigheter og applikasjonsbruk.",Jan Tenold,Nina Hetlevik,1,1,1,0,,1,
+Fagsystem,93,SOA løsning,"Løsning for tjenesteorientert arkitektur som er knyttet mot tjenester og informasjonsvisning i Portalen og i eDoc-løsningen. Byfjell er en applikasjon i SOA uten egen SLA. 
+Har apache som web service proxy og webserver. 
+Netaxept er en applikasjon/mikrotjeneste i SOA uten egen SLA. Dette er en betalingsløsning fot nett for Kemneren. ",Steinar Carlsen,Jorunn Tengren Hansen,1,1,0,0,,,
+Fagsystem,94,SOA løsning TEST,Testløsning for SOA m APIgwi (owsm),Steinar Carlsen,Jorunn Tengren Hansen,0,1,0,1,,,
+Fagsystem,97,Socio Flyktning,"System for  fag- og merkantiltpersonell hos Introduksjonssenteret for flyktninger, benyttes til adminsitrasjon, saksbehandling, journalføring, rapportering og vedtaksbehandling. Versjon oppgradert med SMS-tjenester fra systemet 2014. ",Mads Hagebø,Runar Namtvedt,0,1,0,0,,1,1
+Fagsystem,193,Socio for Krisesenteret,"Tilpasset versjon av Socio for bruk på Bergen og Omland Krisesenter. System for  fag- og merkantilt personell. Benyttes til adminsitrasjon, saksbehandling, journalføring, rapportering og vedtaksbehandling.",Nina Mevold,Kjetil Eknes,0,1,0,0,,,
+Fagsystem,273,Socio for Sosiale botjenester,"System for  fag- og merkantilt personell. Benyttes til adminsitrasjon, saksbehandling, journalføring, rapportering og vedtaksbehandling.",Magne Ervik,Ronny Olsen,0,1,0,0,,,
+Fagsystem,98,Socio sosialtjenestene Prod,Systemet Socio levert av TietoEnator er i bruk for sosialtjenestene i Bergen kommune. Socio skal være en komplett løsning for den kommunale sosialtjenesten og skal være en fleksibel standard som kan benyttes med varierende utforming av organisasjon og tiltak. Socio for Web er satt opp til bruk for NAV-kontorene i kommunen for rapportering til NAV via Web-servere i løsningen. Løsning utvidet med SMS-utsendelse via PSWincom i 2014.,Mads Hagebø,Kjetil Eknes,0,1,0,0,,,
+Fagsystem,99,Socio sosialtjenestene Test,Testløsning for Socio sosialtjenester,Mads Hagebø,Kjetil Eknes,0,1,0,0,,,
+Fagsystem,100,Socio Utekontakten,"Systemet for  fag- og merkantiltpersonell hos Utekontakten, benyttes til adminsitrasjons, saksbehandling, journalføring, rapportering og vedtaksbehandling.",Mads Hagebø,Joachim Bjerkvik,0,1,0,0,,1,1
+Fagsystem,373,SOFIE,,Lasse Hunsrød,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,386,Sommerles,,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,400,Speedadmin,,Mardon Åvitsland,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,411,"Spørreundersøkelse (avsluttet, data destruert)",,Trine Samuelsberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,347,Standard Online,,Bjørn Lid,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,410,StartSak/StartSkudd/StartRapp,,Tor-Jørgen Tofte,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,406,Streaming av bystyremøter,,Roar Kristiansen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,370,Streamingløsning for droner etc.,,Kjell Christophersen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,371,SuperOffice,,Kjell Christophersen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,130,"Surveyor, integrert med Corporator ","Surveyor benyttes ifm distribusjon av brukerundersøkelser internt og eksternt. I bruk som en del av Corporater (verktøy for mål- og virksomhetsstyring).
+Surveyor DRS er en frittstående spørreundersøkelsesmodul. Løsningen skal brukes av enhetsledere samt støttepersonell og sentrale funksjoner i kommunen, opp til 500 brukere. Surveyor er satt opp med satellitt for eksterne undersøkelser, samt offentlig SSL sertifikat (2 års varighet) etter ønske fra kunde.
+",Grete Holen,Willy Torgrimsen,1,0,0,0,,1,
+Fagsystem,282,TestTM,TMs test,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Fagsystem,415,Ticket.co,,_* Ikke tildelt,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,236,Tilgang til tu-miljøet for mobile enheter,Tilgang til tu-miljø for mobile enheter.,Steinar Carlsen,Jorunn Tengren Hansen,0,0,0,1,,,
+Fagsystem,51,Tilskuddsordning (Insights),"System for behandling av søknader om kommunale tilskudd, 1. linje brukerstøtte er inkludert i avtalen. Kristin Akselberg er Systemkoordinator sammen med Jorunn Tengren Hansen.",Steinar Carlsen,Jorunn Tengren Hansen,1,0,0,0,,1,0
+Fagsystem,50,Tilskuddsordning testmiljø  (Insights test ),"Testløsning for Insight, alias Tilskuddsordning. System for behandling av søknader om kommunale tilskudd",Steinar Carlsen,Jorunn Tengren Hansen,1,0,0,1,,,
+Fagsystem,102,Tolkesystemet IntTranWin,"Administrasjonssystem for tildeling av tolkeoppdrag, oversikt over oppdrag og kunder av tolketjenesten. Systemet har en Web-portal, som benyttes for tildeling av oppdrag, samt kvittering for oppdrag. Meldinger går via epost og på SMS. IntranWin",Mads Hagebø,Runar Namtvedt,1,1,0,0,,,
+Fagsystem,348,TQM,,Bjørn Lid,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,368,TQM Enterprise,,Jarl Svanberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,310,Transfire,"Mottak for analog og digitale automatalarmer. Får blant annet alarmer fra Addsecure som er en ekstern leverandør. 
+
+",Arne Pettersen,Robin Åsheim,1,0,0,0,Helt nødvendig,1,
+Fagsystem,387,Trello (skytjeneste),,Leikny Indergaard,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,360,Triona Veivarsling,,Jarl Svanberg,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,359,UBAS,,Inge Strømmen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,337,UBW HR,"UBW HR (agresso) er Bergen kommune sitt lønns- og personalsystem. I tillegg til lønn inkluderer systemet HR-prosesser som rekruttering, oppstart og arbeidsavtaler, fravær og refusjon, samt medarbeideroppfølging og rapportering. ",Henning Hauso,Siss-Iren Kleppe,1,0,0,1,Delvis nødvendig,1,1
+Fagsystem,338,"UBW HR, kursmiljø","Kursmiljø til UBW HR
+UBW HR (agresso) er Bergen kommune sitt lønns- og personalsystem. I tillegg til lønn inkluderer systemet HR-prosesser som rekruttering, oppstart og arbeidsavtaler, fravær og refusjon, samt medarbeideroppfølging og rapportering. ",Henning Hauso,Siss-Iren Kleppe,1,0,0,0,Delvis nødvendig,,
+Fagsystem,339,"UBW HR, testmiljø","Testmiljø til UBW HR
+UBW HR (agresso) er Bergen kommune sitt lønns- og personalsystem. I tillegg til lønn inkluderer systemet HR-prosesser som rekruttering, oppstart og arbeidsavtaler, fravær og refusjon, samt medarbeideroppfølging og rapportering. ",Henning Hauso,Siss-Iren Kleppe,0,0,0,1,Fungerer uten,,
+Fagsystem,2,UBW økonomi,"Økonomisystem for Bergen kommune, 
+(tidligere kalt Agresso)
+Det har moduler som ivaretar:
+ • Økonomi og regnskap  
+• Innkjøp og logistikk  
+• Prosjektstyring  ",Kristin Ulvang,Evy Ommedal,1,0,0,1,,1,0
+Fagsystem,335,"UBW økonomi, kursmiljø","Kursmiljø for Økonomisystemet for Bergen kommune, (tidligere kalt Agresso). 
+ Det har moduler som ivaretar:
+• Økonomi og regnskap • Innkjøp og logistikk • Prosjektstyring 
+",Kristin Ulvang,Evy Ommedal,1,0,0,0,,,
+Fagsystem,3,"UBW økonomi, testmiljø","Testmiljø for UBW økonomisystemet (tidligere kalt Agresso)
+UBW Økonomi er Bergen kommune sitt økonomisystem. Det har moduler som ivaretar:
+• Økonomi og regnskap 
+• Innkjøp og logistikk 
+• Prosjektstyring 
+
+",Kristin Ulvang,Evy Ommedal,1,0,0,0,,,
+Fagsystem,291,Ultralyddata til Profdoc,"Ultralydapparat (TE7) er anskaffet av ØHD-posten og tilhørende program (Ultraassist) er installert på EKG-serveren til ØHD-posten. Det er laget et skript som overfører data fra EKG-serveren til avtalt område for ØHD, der de kan hente ultralydbilder og importere dem inn i Profdoc i rett journal. ",Grethe Fosse,Merete Kvarme,0,1,0,0,,,
+Fagsystem,363,UMS,,Jan Henning  Fossedal,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,397,Utkallingstjenesten,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,399,Utstyrsregister,,Magne Krydsby,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,237,Utviklingsmiljø i TU-nett,Utviklingsmiljø i TU-nett for konsernovergripende systemer/løsninger. Gir mulighet for tilgang til interne- og eksterne utviklere.,Steinar Carlsen,Jorunn Tengren Hansen,0,0,0,1,,,
+Fagsystem,105,VAKO,"Systemet VAKO er kundeoppfølgingssystemet til Vann- og avløpsetaten. Dette systemet har med innkreving av kommunale vann avgifter/gebyrer for Bergen Kommune. VAKO tar også vare på all historikk av gebyrer som er innkrevd, fra systemet ble satt i produksjon. Systemet opererer fritt på en selvstendig server, men har i tillegg test og utviklingsmiljø som er tilnærmet identisk med driftsmiljøet.",Ali Mekki,Ali Mekki,1,0,0,0,,1,
+Fagsystem,106,VAKO test,"Testløsning for VAKO, tilnærmet identisk med produksjonsløsningen for VAKO, som er kundeoppfølgingssystemet til Vann- og avløpsetaten. ",Ali Mekki,Ali Mekki,1,0,0,0,,1,
+Fagsystem,107,Vaktdata,"System for adminstrasjon/ saksbehandling for Barnevernsvakten, benyttes bl.a til registrering av alle henvendelser samt klientlogg",Nina Mevold,Nina Bolstad,0,1,0,0,,,
+Fagsystem,109,Vaprod01 Epanet og Mike Urban,"Dette er 2 ulike system som går på samme server for planlegging og beregning av vann og avløpsystem. 
+• EPANET er et program for modellering av vannkvalitet og vanndistribusjon i rørsystemet til Bergen kommune.
+• Mike Urban er et program som samhandler med EPANET og gir mulighet for modellering av vann og avløpssystem. 
+",Ali Mekki,Marit Aase,1,0,0,0,,,
+Fagsystem,324,Varmesøkende kamera løsning Bergen Brannvesen,"Varmesøkende kamera installasjoner på verneverdige lokasjoner for Bergen Brannvesen, installert på Bryggen. Ekstern leverandør Elotec leverer system/sentral/lagring samt alle kameraprodukter. EDD leverer housing av Server/sentral/lagring utstyr i datasenter på Spelhaugen 22, samt tilrettelegger for nettverk som vil benytte byggteknisk nett fra alle lokasjoner og inn til EDD. LokalDrift ivaretar terminering/tilkopling frem til kamerautstyr ute på lokasjoner.  ",Stig Haarberg,Stig Haarberg,1,0,0,0,,,
+Fagsystem,413,Varsling 24,,Trond Grindheim,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,343,Varsling24,,Ali Mekki,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,398,Veivokteren,,Lise Reinertsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,247,VISGI produksjonsmiljø,"VISGI er et fagsystem som skal være GIS-plattform for hele Bergen kommune. Det er et produksjonsmiljø for nettleserbasert kartløsning for ansatte i Bergen kommune (intranett) levert av Geodata AS. Tjenestebaserte applikasjoner bygget på ArcGIS Server og ArcSDE geodatabase (MsSQL) fra ESRI,  samt datakonvertering basert på FME fra Safe Software.",Mette Svanes,Eivind Lund,1,0,0,0,Helt nødvendig,,
+Fagsystem,248,VisGI Test,Test- og utviklingsmiljø for nettleserbasert kartløsning for ansatte i Bergen kommune (intranett).,Mette Svanes,Eivind Lund,1,0,0,1,,,
+Fagsystem,175,Visma Link Testmiljø,"Testmiljø for Visma Link, knyttet mot Norsk Helsenett er etablert som følge av at Osean. Osean er en en kommunikasjonsmetode mot NHN, utviklet av Visma. Brukes ifm Profil.",Bjørn Eivind Berge,Benedicte Løseth,0,1,0,0,,1,
+Fagsystem,111,Visma Samhandling Arkiv,"Saksarkiv beregnet for Profil, Familia og HsPro basert på Noark 5. Visma Arkiv er  koblet mot HsPro Prod og Familia. HsPro sender ut brev fra Arkiv via KsSvarUT. De ulike avgivende systemene lagrer arkivdata i en felles arkivkjerne for BHO. Hvert tilkoblet system med overføring av arkivdata regnes som 1 integrasjon mot Visma Samhandling Arkiv. ",Nina Mevold,Benedicte Løseth,0,1,0,0,,1,1
+Fagsystem,283,Visma Samhandling Arkiv Testmiljø,Testmiljø for Visma samhandling arkiv. Testmiljøet er satt opp med arkiv-integrsjon mot Profil Test og HsPro Test. Det er planlagt at Familia skal teste med samme arkiv. ,Nina Mevold,Benedicte Løseth,0,1,0,0,,1,
+Fagsystem,157,Visma Samhandling Link (VS Link),"System som benyttes av Profil for elektronisk meldingsutveksling med NHN. Driftsnivå 3 er avtalt med kunde, men satt til nivå 1 her, da det ellers slår feil inn i driftspris, da dette systemet er en integrert del av fagsystemet Profil. Drifsnivå 3 er med forbehold, da systemet ikke er clustret. ",Nina Mevold,Benedicte Løseth,0,1,0,0,,1,1
+Fagsystem,432,Viten.no,,Øystein Berentsen,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,330,Wave callsenterløsning med utvidet brukerstøtte,"Wave er Bergen kommunes system for callsenter. Helpdesk har brukerstøtte i systemet for de ulike brukergruppene, samt opprettelse av brukere på eksisterende lokasjoner. Ny lokasjoner som skal ta løsningen i bruk etableres som et prosjekt, med systemkoordinator. Løsningen driftes av leverandør som en skytjeneste for Bergen kommune og er avhengig av Chrome som nettleser. ",Lillian  Røthe,Gina Gunnestad,1,0,0,0,Helt nødvendig,1,
+Fagsystem,346,Webcruiter,,Bjørg Lædre,_* Ikke tildelt,0,0,0,0,,,
+Fagsystem,112,Wilab/Lims_prod,"System for registrering, lagring, rapportering og fakturering av laboratoriedata hos Bergen Vann KF",Jarl Svanberg,Astrid Birkeland,1,0,0,0,,1,
+Fagsystem,113,Wilab/Lims_test,"Testløsning for Wilab/Lims; system for registrering, lagring, rapportering og fakturering av laboratoriedata hos Bergen Vann KF",Jarl Svanberg,Astrid Birkeland,1,0,0,0,,,
+Fagsystem,114,WinTid,Felles løsning for tidsregistrering iht avtale om fleksibel arbeidstid i Bergen kommune. Systemet brukes av alle enheter som benytter maskinell løsning for tidsregistrering.Avtalen inkluderer Helpdesk 1. linje brukerstøtte på WinTid.,Bjørg Lædre,Siss-Iren Kleppe,1,0,0,0,,1,0
+Fagsystem,163,WinVed,"System for oppfølging av periodisk vedlikehold av biler og teknisk utstyr for Bergen Brannvesen.
+",Frode Bødtker,Alexander Bernes,1,0,0,0,,,
+Fagsystem,287,Workplace by Facebook,"Bergen Vann benytter Facebook at work  som samhandlingsverktøy til ansatte. Leverandør er Evry og det er integrasjoner satt opp mellom Bergen kommunes AD, Azure AD for Bergen kommune og Facebook. 
+",Astrid Birkeland,Astrid Birkeland,1,0,0,0,,,
+Infrastruktur,1,Active Directory,"Microsofts katalogtjeneste for håndtering av brukere, brukerrettigheter, og ressurskontrol.
+Forkortelser: AD, AD DS (Active Directory Domain Services)",Tord Kolsrud,Tord Kolsrud,1,1,1,1,,1,0
+Infrastruktur,128,AD Innsyn,En webside lar en gjøre oppslag på AD-brukere og AD-grupper. En frontend for AD.  En internetside for bestillere av tilganger.,Tord Kolsrud,Tord Kolsrud,1,0,0,0,Fungerer uten,1,0
+Infrastruktur,82,ADFS,"Active Directory Federation Services.  Autentiseringstjeneste.
+Benyttes av allmenningen for SSO i intern sone. Benyttes av Feide og Office 365 for elevpålogging.",Tord Kolsrud,Tord Kolsrud,1,0,1,0,,1,0
+Infrastruktur,132,Akseptansenett,"Akseptansenett er et privat labnett for EDD, slik at en kan eksperimentere uten å ødelegge for kundens test eller prodsystemer. Er helt adskilt fra TU-nett, hvor kunde og deres konsulenter kan ha tilgang. Aksept inneholder kun EDD sine systemer, og brukes hovedsaklig av SA. ",Tord Kolsrud,Tord Kolsrud,0,0,0,0,,,
+Infrastruktur,90,Ansattinformasjon,"Database og integrasjoner mellom Fellesdata, AD, Remedy, Bestillingsweb....",Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,120,Ansible,Automatiseringsverktøy for Linux og Windows. ,Tord Kolsrud,Tord Kolsrud,0,0,0,0,,0,0
+Infrastruktur,89,Appsense,"Brukes til å styre diverse klientinnstillinger på de virtuelle pc’ene. Bl.a. printerstyring og registerinnstillinger ut fra klientens ip adresse, aktiviteter som skal skje ved oppstart av prosesser.",Tord Kolsrud,Tord Kolsrud,0,1,0,0,Fungerer uten,,0
+Infrastruktur,27,ASK,Sharepoint for IKT Drift er også kalt ASK. SA står for drift. Petter og  Jarle har kompetanse på deler av innholdssiden.,Helge Underhaug,Helge Underhaug,1,0,0,0,,1,0
+Infrastruktur,119,Azure,Microsoft sin skytjeneste. ,Jan Tenold,Jan Tenold,0,0,0,0,,1,0
+Infrastruktur,131,Azure Active Directory,"Azure AD er MS sin multi-tenant skybaserte katalog og identitetshåndteringstjeneste, og brukes også til å håndtere applikasjonstilganger.  Til dels lisenser. ",Tord Kolsrud,Tord Kolsrud,1,0,1,0,Helt nødvendig,1,
+Infrastruktur,72,Backup-routere,Egentlig driftet av Atea,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,39,Barracuda,Lastbalanserer for Exchange. Spam Filter for Exchange,Christian Sirevåg,Christian Sirevåg,1,0,0,0,,1,0
+Infrastruktur,64,Blade-switcher,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,65,Brannmurer,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,78,Brukeradmin,"Applikasjon for administrasjon av brukere og tilganger i Active Directory og tilhørende systemer som fks. Exchange, adresselister, ressurser osv..",Tord Kolsrud,Tord Kolsrud,1,1,0,0,Delvis nødvendig,1,0
+Infrastruktur,49,Cisco TelePresence Management Suite,"TMS. Program som brukes til overvåkning av Cisco videokonferanse utstyr, samt legger ut adressebøker.",Tord Kolsrud,Tord Kolsrud,1,0,0,0,Delvis nødvendig,1,
+Infrastruktur,6,Citrix,WTS (Terminalserver-farm),Tord Kolsrud,Tord Kolsrud,1,1,0,0,Delvis nødvendig,1,0
+Infrastruktur,20,Datacenter,"Database, web-grensesnitt og diverse script som gir oversikt over servere mm...",Tord Kolsrud,Tord Kolsrud,1,1,1,1,,1,0
+Infrastruktur,31,DataProtector og D2D,Backup av Produksjon. ,Christian Sirevåg,Christian Sirevåg,1,1,1,0,,1,0
+Infrastruktur,9,Datarom,"Strøm, UPS, Diesel, Kjøling, rutiner",Christian Sirevåg,Christian Sirevåg,1,1,1,1,,1,0
+Infrastruktur,62,Datasenter ToR-switcher ,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,84,DBcenter,Gir oversikt over Oracle og MSSQL-databasene og deres bruk. ,Tord Kolsrud,Tord Kolsrud,1,1,0,1,,0,0
+Infrastruktur,10,DHCP,Dynamic Host Configuration Protocol,Tord Kolsrud,Tord Kolsrud,1,1,1,1,Fungerer uten,,0
+Infrastruktur,41,DirectAccess,System for å automatisk koble en PC til adm-nettet. Avansert løsning for fjerntilgang (VPN).,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,11,DNS,Domain Name System,Tord Kolsrud,Tord Kolsrud,1,1,1,1,Delvis nødvendig,,0
+Infrastruktur,91,Driftsmeldinger,Database og web-grensesnitt for å legge ut driftsmeldinger,Wenche Follesø,Wenche Follesø,1,0,0,0,,0,0
+Infrastruktur,12,Elevnett,"Nettverk for skole. Ikke et system i seg selv, men er oppført for å ha en oversikt på hvem som har kompetanse rundt elevnettet. ",Tord Kolsrud,Tord Kolsrud,0,0,1,0,,,
+Infrastruktur,13,Exchange,Eposttjenesten,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,103,Filservere,,Christian Sirevåg,Christian Sirevåg,1,1,1,0,,1,0
+Infrastruktur,80,Fjerndriftsverktøy,,Glenn Andersen,Glenn Andersen,1,1,1,0,,1,
+Infrastruktur,75,Fjernstyring,De ansvarlige skal sørge for at IKT Drift til enhver tid har de verktøyene og driftsopplegg som best kan ivareta våre samlede behov. Dette innebærer bl.a. å sørge for at de valgte verktøyene er tilrettelagt på best mulig måte slik at der ikke er terskler for å ta dem i bruk. Det må hele tiden søkes å forbedre de oppleggene vi har samt holde seg orientert i markedet slik at vi vet at vi har gode nok verktøy i drift. Arbeidsprosessene skal dokumenteres med rutiner og annen nødvendig dokumentasjon. ,Glenn Andersen,Glenn Andersen,0,0,0,0,,,
+Infrastruktur,14,FTP SFTP,File Transfer Protoco og SSH File Transfer Protocol,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,1
+Infrastruktur,16,GPO,Group policy,Tord Kolsrud,Tord Kolsrud,1,1,1,1,,0,0
+Infrastruktur,38,Hardware,"Servere, Bladkasser osv..",Christian Sirevåg,Christian Sirevåg,1,1,1,1,,1,0
+Infrastruktur,117,Helse-CERT,"Helse-CERT er et samarbeid mellom forskjellige aktører innen helse. For BK leverer de blant annet en scannetjenester hvor de scanner alle våre servere fra innsiden, og sender oss rapporter annenhver måned.",Jan Tenold,Jan Tenold,1,1,1,1,,1,0
+Infrastruktur,71,HPE Network Node Manager (NNM),Overnåkning av nettverksutstyr.,Christian Sirevåg,Christian Sirevåg,0,0,0,0,Fungerer uten,1,
+Infrastruktur,125,HUB-nett,HUB-nettet er beregnet for plassering av systemer og tjenester som skal betjene flere av de andre sonene,Tord Kolsrud,Tord Kolsrud,0,0,0,0,,,0
+Infrastruktur,95,IBM Systems Director,Management-verktøy for IBM servere,Christian Sirevåg,Christian Sirevåg,1,0,0,0,,1,0
+Infrastruktur,127,"IPA. (Identity, Policy and Audit.)",Autentiseringsystem for Linux (LDAP/Kerberos),Tord Kolsrud,Tord Kolsrud,1,1,0,1,Fungerer uten,1,
+Infrastruktur,83,IPAM,IP-Address Management,Tord Kolsrud,Tord Kolsrud,1,0,1,0,Fungerer uten,1,
+Infrastruktur,81,KMS,"Key Management Service.  Utsteder lisensnøkler til Windows-maskiner, både klienter og servere.",Tord Kolsrud,Tord Kolsrud,1,0,1,0,Delvis nødvendig,,0
+Infrastruktur,61,L3-switcher (Core),,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,105,Lagringsløsning,SAN og annen lagring i stor skala. P9500 og P6500.,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,106,Lagringsnettverk,Switcher for SAN og andre lagringsløsninger.,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,74,LAN drift,"Lan drift gruppen skal jobbe med LAN/WLAN, sørge for at IKT D leverer gode løsninger for sine kunder. I tillegg til fokus på teknologi, nyvinninger og forbedringer, skal gruppen også aktivt sørge for at intern kompetanse løftes for resten av avdelingen og andre relevante på IKT Drift. Gruppen er ansvarlig for at området dokumenteres. Gruppen er ansvarlig for  rådgivning overfor kunder ihht vedtatte standarder. Gruppen må også generelt sørge for at området driftes ihht god praksis.",Glenn Andersen,Glenn Andersen,0,0,0,0,,,
+Infrastruktur,68,LBR,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,112,LINK SMS Gateway,"SMS Gateway. Leveres av Link Mobility - tidligere Pswin.com. Benytes av RSA (Fjerntilgang med SMS), OnVisit (Besøkssystem), Gjestenett, GATturnus, Starwatch (Alarmer på overvåkning av server go terminalserver sendes på SMS til Westec), Brukeradmin og Passordhjelpen. IKT Drift drifter ikke denne, men når det er problemer med den får de andre systemene problemer. Vi må ha dokumentasjon slik at vi raskt kan kontakte leverandør når det er problemer.  Brukes også til masseutsendelse av SMS for kunder som bestiller dette via Bestillingswe. Det er TDC som utfører utsendelsene, HD bare videresender bestilling til TDC. ",Tord Kolsrud,Tord Kolsrud,0,0,0,0,,1,0
+Infrastruktur,18,Logonscript,Påloggingsscript,Tord Kolsrud,Tord Kolsrud,1,1,1,0,Fungerer uten,1,0
+Infrastruktur,19,Lokasjonsdatabase,"Før en gjør endringer i lokasjonsbasen skal avdelingsledere for SA, Nettverk, Lokaldrift, Helpdesk, Direktør IKT Drift og en representant for SM, konsulteres. ",Tord Kolsrud,Tord Kolsrud,1,1,1,1,,1,0
+Infrastruktur,63,Lokasjonsswitcher ,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,110,MAS,"Mobilt Administrasjons System. Citrix sin løsning, XenMobile, for administrasjon av mobile enheter.  Brukes også til å gi appen Mobil Omsorg tilgang til Profil via Micro VPN på Netscaler. ",Tord Kolsrud,Tord Kolsrud,0,0,0,0,,1,0
+Infrastruktur,85,MBAM,"Microsoft Bitlocker Administration and Monitoring  - Verktøy for administrasjon av Bitlocker (diskkryptering i Windows).  SA drifter server og database.
+",Tord Kolsrud,Tord Kolsrud,1,0,0,0,Fungerer uten,1,0
+Infrastruktur,116,Mobile enheter,"Roadmap, dokumentasjon og retningslinjer for drift av mobile enheter",Tord Kolsrud,Tord Kolsrud,1,1,1,1,,0,0
+Infrastruktur,7,MS SQL,Microsoft SQL Database,Tord Kolsrud,Tord Kolsrud,1,1,1,1,,1,1
+Infrastruktur,88,MS SQL Reporting Services,"System for å lage og kjøre rapporter.
+Forkortelse: SSRS (SQL Server Reporting Serivices)",Tord Kolsrud,Tord Kolsrud,1,0,0,0,Fungerer uten,1,0
+Infrastruktur,96,Nessus,Sikkerhet,Jan Tenold,Jan Tenold,1,0,0,0,,1,0
+Infrastruktur,69,NetDisco,Lasse som backup?,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,48,Netscaler,Citrix Netscaler,Tord Kolsrud,Tord Kolsrud,1,1,0,0,,1,0
+Infrastruktur,108,Nettfart,,Christian Sirevåg,Christian Sirevåg,1,0,1,0,,1,0
+Infrastruktur,43,Nettverk,,Christian Sirevåg,Christian Sirevåg,1,1,1,1,,1,0
+Infrastruktur,15,NPS,"Network Policy and Access Services.  RADIUS-tjeneste for trådløst nettverk. 
+Betjener WLAN for adm og elev. bk_mas_adm for mobile enheter.",Tord Kolsrud,Tord Kolsrud,1,0,1,0,,1,0
+Infrastruktur,2,Offentlige Sertifikater,Kompetanseperson for bestilling av Offentlige sertifikater.,Tord Kolsrud,Tord Kolsrud,1,1,1,1,,0,0
+Infrastruktur,123,Office Online Server,"Gir web-basert lese- og redigeringsmulighet for Office-dokumenter i SharePoint, Exchange og Skype",Tord Kolsrud,Tord Kolsrud,1,0,0,0,,0,0
+Infrastruktur,111,Office365,MS-Office på MS sine webservere. Tilhørere tjenesten drift av arbeidsstasjon,Tord Kolsrud,Tord Kolsrud,0,0,1,0,Helt nødvendig,1,
+Infrastruktur,97,Omnicast,Kameraovervåkning IKT Drift,Jan Tenold,Jan Tenold,0,0,0,0,,1,0
+Infrastruktur,8,Oracle,Database,Tord Kolsrud,Tord Kolsrud,1,1,0,0,,1,1
+Infrastruktur,21,Overvåkning,"Microfocus Open Bridge Sute, BAC - Business Availability Center, NNMi - Network Node Manager, SiteScope, BAC datacollectors",Tord Kolsrud,Tord Kolsrud,1,1,1,0,Delvis nødvendig,1,
+Infrastruktur,22,OWA,Outlook Web Access,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,94,Passwordstate,Passordadministrasjonsverktøy for IKT Drift. Lagrer kryptert.,Tord Kolsrud,Tord Kolsrud,1,0,0,1,Fungerer uten,1,
+Infrastruktur,23,PC telling,"Samling av script, databaser og web-sider.  Blant annet siden for PC lokalisering.",Tord Kolsrud,Tord Kolsrud,1,1,1,0,,1,0
+Infrastruktur,40,PKI,"PKI-infrastruktur for utstedelse og behandling av Interne sertifikater.
+PKI=Public Key Infrastructure.  Bygget på Microsoft AD CS (Active Directory Certificate Services)",Tord Kolsrud,Tord Kolsrud,1,1,1,1,,0,0
+Infrastruktur,24,Print,"Inneholdt før også XDM, som pga. overvåkning ble skilt ut som et eget system under infrastruktur. Inneholder RightFax.",Tord Kolsrud,Tord Kolsrud,1,1,1,0,,1,0
+Infrastruktur,73,ProCurve Manager,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,107,RioRey,RioRey er DDoS beskyttelsen til Bergen kommune. All internettrafikk passerer gjennom denne enheten og meget avanserte algoritmer overvåker trafikken og beskytter ved angrep,Christian Sirevåg,Christian Sirevåg,1,1,1,1,,1,0
+Infrastruktur,5,RSA,RSA Authentication Manager - system for 2-faktor autentisering med brikke eller SMS-melding. Består av 2 Linux-baserte virtuelle appliancer som kjører på VMware.,Tord Kolsrud,Tord Kolsrud,1,0,0,0,Helt nødvendig,1,0
+Infrastruktur,29,SCCM,Microsoft System Center Configuration Manager,Tord Kolsrud,Tord Kolsrud,1,1,1,0,Delvis nødvendig,1,0
+Infrastruktur,135,SCOM,System Center Operation Manager,Tord Kolsrud,Tord Kolsrud,0,0,0,1,,,
+Infrastruktur,87,SCORCH,System Center Orchestrator,Tord Kolsrud,Tord Kolsrud,0,0,0,0,Fungerer uten,,0
+Infrastruktur,102,Shibboleth,"Single-sign in / federation-løsning.  ""Utveksling"" av identitet mellom forskjellige systemer. Se også ADFS. Viktighet her avhenger av hvert fagsystem det er satt opp på. ",Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,129,SMS Driftsmelding,Brukes av EDD til å sende ut SMS til grupper eller enkeltpersoner. Det inneholder en del predefinerte varslingsgrupper.,Wenche Follesø,Wenche Follesø,1,0,0,0,Helt nødvendig,1,0
+Infrastruktur,70,Solan,"Driftsverktøyene, ikke serverdriften",Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,28,Suse SLES,Linux,Tord Kolsrud,Tord Kolsrud,1,0,0,1,,1,0
+Infrastruktur,118,Sysman,"Sysman SMS server. Sender SMS fra overvåkningen til vaktlagene, via et modem i kjelleren i Spelhaugen 22. Modemet bruker et TDC-abonnement.",Tord Kolsrud,Tord Kolsrud,1,0,0,0,,0,0
+Infrastruktur,45,Systemoversikt,"Oversikt over programpakker, fagsystemer, basissystemer mm.",Helge Underhaug,Helge Underhaug,1,0,0,0,,1,0
+Infrastruktur,46,Team Foundation Server,Kildekodekontroll for Visual Studio (og evt. andre utviklerverktøy),Tord Kolsrud,Tord Kolsrud,1,0,0,0,,0,0
+Infrastruktur,79,Telefoni,Bergen kommune har i dag flere rammeavtaler som kan knyttes til telefoniområdet. IKT Drift sin rolle er å understøtte eksterne leverandører og vi har en rekke prosessorienterte tjenester og delleveranser innenfor ulike deler av telefoniområdene. IKT Drift har ansvaret for operativ håndtering av de ulike rammeavtalene. ,Wenche Follesø,Wenche Follesø,0,0,0,0,,0,0
+Infrastruktur,99,TMG,Microsoft Threat Management Gateway,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,113,Trend Deep Security,,Jan Tenold,Jan Tenold,0,0,0,0,,1,0
+Infrastruktur,3,Trend Micro,Antivirus,Jan Tenold,Jan Tenold,1,1,1,1,,1,0
+Infrastruktur,44,Trådløst Nettverk,,Christian Sirevåg,Christian Sirevåg,1,0,1,0,,1,0
+Infrastruktur,124,TU-nett,Testmiljø der en har testsystemer som i mest mulig grad skal være lik prodmiljøet for fagsystemene EDD drifter. ,Tord Kolsrud,Tord Kolsrud,0,0,0,0,,,0
+Infrastruktur,122,Vaktlag Infrastruktur,,Christian Sirevåg,Christian Sirevåg,1,1,1,1,,1,0
+Infrastruktur,32,Vaktlag SA,Vaktlag på 6-8 personer. Dekker de systemer med nivå 3 som SA har ansvar for drift av. ,Tord Kolsrud,Tord Kolsrud,1,1,1,0,,1,0
+Infrastruktur,37,VMWare,,Christian Sirevåg,Christian Sirevåg,1,1,1,1,Fungerer uten,1,
+Infrastruktur,126,Windows Event Log Server ,"Tar i mot logger fra AD-kontrollere i adm-domenet. Det er meningen at loggene senere skal sendes videre til Greylog, men pr. 23/1-2018 er videresending ikke implementert. ",Tord Kolsrud,Tord Kolsrud,1,1,0,0,Fungerer uten,1,0
+Infrastruktur,115,Windows klient,"Roadmap, dokumentasjon og retningslinjer for drift av windowsklienter, basert på SA sitt ansvarsområde. Windows 7 og Windows 10",Tord Kolsrud,Tord Kolsrud,1,1,1,1,Fungerer uten,1,0
+Infrastruktur,114,Windows Server,"Roadmap, dokumentasjon og retningslinjer for drift av windowsservere.",Tord Kolsrud,Tord Kolsrud,1,1,1,1,,1,0
+Infrastruktur,93,Wise,Server for pakketeringsprogram,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,0,0
+Infrastruktur,66,WLAN-kontrollere,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,67,WLAN-routere,,Christian Sirevåg,Christian Sirevåg,0,0,0,0,,1,0
+Infrastruktur,36,WSUS,Windows Server Update Services - Microsoft-oppdateringer. For klienter i stor grad overtatt av SCCM som igjen bruker WSUS. Med tiden (2016 ) bør Stig ut fra WSUS og de tre andre overta.,Tord Kolsrud,Tord Kolsrud,1,1,1,1,,0,0
+Infrastruktur,33,Wyse tynnklienter,VDI for Bergen Legevakt,Tord Kolsrud,Tord Kolsrud,1,1,0,0,,1,0
+Infrastruktur,109,XDM,XDM er et system Xerox bruker for å overvåke skriverne sine og sende inn rapporter til Xerox.,Tord Kolsrud,Tord Kolsrud,1,0,0,0,,1,0
+Infrastruktur,34,XenDesktop,Virtuell Løsning brukt av Bergen Legevakt,Tord Kolsrud,Tord Kolsrud,1,1,0,0,,0,0
+Program,204,3D studio Max 2011,"Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Autodesk-verktøy som brukes til 3d-modellering, animasjon og presentasjon. ",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,205,7-Zip,Komprimering og arkivering av filer,_* Ikke tildelt,_* Ikke tildelt,1,0,1,0,,,
+Program,649,AccuWin Pro v 3,Leser av data (24 timers blodtrykk av våre pasienter). Programmet lager statistikk over BT gjennom hele døgnet. ,_* Ikke tildelt,_* Ikke tildelt,0,1,0,0,,,
+Program,657,AccuWin Pro v3,Leser av data (24 timers blodtrykk av våre pasienter). Programmet lager statistikk over BT gjennom hele døgnet. ,Yvette Segura,Yvette Segura,0,1,0,0,,,
+Program,206,ActiveX-komponenter,Løses etter hvert som det oppstår behov. ,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,738,"Actor, ver 8",Administrativt system for drift av AdO Arena,Harm-Christian Tolden,Harm-Christian Tolden,1,0,0,0,,,
+Program,771,Adobe Acrobat DC Pro (65234083BC01A12),Konverterer pdf-format til word,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,207,Adobe Acrobat Pro 9 (54026336AF01A00),"Adobe Acrobat Professional er et verktøy for PDF-redigering. Det må kjøpes lisens for hver PC det skal installeres på.
+",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,208,Adobe Acrobat Pro X (65083781AC01A00),"Opprette og vedlikeholde PDF-dokumenter. Lage utfyllbare PDF-skjemaer.  Det må kjøpes lisens for hver PC det skal installeres på.
+",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,209,Adobe Acrobat Reader,Program for å lese PDF-dokumenter,Lisbeth Skodvin,Lisbeth Skodvin,1,1,0,0,,,
+Program,557,Adobe Acrobat XI Pro (65195458AC01A00),"Opprette og vedlikeholde PDF-dokumenter. Lage utfyllbare PDF-skjemaer, etc.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,210,Adobe Air,Installasjons-støtte,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,211,Adobe Audition,Lydredigeringsprogram,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,718,"Adobe Captivate, v8","Lage opplæringsmateriell, enten det er å beskrive hvordan programvare fungerer eller rene presentasjoner til bruk i undervisning/foredrag",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,788,Adobe Connect add-in,"Tillegg til Adobe Connect
+
+Min anbefaling er at man i forkant av nettmøtet går til adressen:
+
+https://admin.acrobat.com/common/help/en/support/meeting_test.htm
+
+Hvis man får melding om problem med nettstedets sikkerhetssertifikat, trykk Fortsett til dette nettstedet.
+
+Nettstedet vil foreta 4 tester; flash player, nettilgang til Adobe Connect, hastighetstest og plugintest. Hvis man mangler tillegget, trykk Install Add-in og bekreft at man ønsker å installere tillegget.
+
+Tillegget skal nå bli installert. Dette fungerer også når man ikke har utvidete rettigheter på maskinen.
+
+Det skal nå være mulig å fortsette til møterommet man skal delta i.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,695,Adobe Creative Cloud (65206809BC01A12),"Adobe CC er et avansert verktøysett for design, utvikling og produksjon av alt innen media, trykksaker, etc.
+
+Programpakken består av følgende Adobe CC-moduler: Photoshop, Lightroom, Illustrator, InDesign, Premiere Pro*, Adobe Muse, Acrobat XI Pro og After Effects*. 
+
+* Disse er kun tilgjengelig for brukere med 64-bits operativsystem.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,212,Adobe Creative Suite 5 Design Std (65057902AF01A00),Adobe Creative Suite 5 Design Standard er et  verktøysett for design og produksjon av trykksaker. Det må kjøpes lisens for hver PC det skal installeres på.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,213,Adobe Creative Suite 5.5 Design Std (65122304AC01A00),Adobe Creative Suite 5.5 Design Standard er et  verktøysett for design og produksjon av trykksaker. Det må kjøpes lisens for hver PC det skal installeres på.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,169,Adobe Creative Suite 5.5 Dreamweaver,Ikke oppgitt,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,533,Adobe Creative Suite 6 Design Std (65163314AC01A00),"Adobe Creative Suite ver. 6 Design Standard er et verktøysett for design og produksjon av trykksaker, etc. Den inneholder følgende produkter: Photoshop, Illustrator, InDesign, Acrobat X Pro, Bridge og Media Encoder.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,641,"Adobe Creative Suite 6 Design Std, oppgradering fra Adobe CS 5 (65163374AC01A00)","NB! Bare tilgjengelig for de som allerede har kjøpt en CS 5-lisens.    
+Adobe Creative Suite ver. 6 Design Standard er et verktøysett for design og produksjon av trykksaker, etc. Den inneholder følgende produkter: Photoshop, Illustrator, InDesign, Acrobat X Pro, Bridge og Media Encoder.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,643,"Adobe Creative Suite 6 Design Std, oppgradering fra Adobe CS 5.5 (65162908AC01A00)","NB! Bare tilgjengelig for de som allerede har kjøpt en CS 5.5-lisens.    
+Adobe Creative Suite ver. 6 Design Standard er et verktøysett for design og produksjon av trykksaker, etc. Den inneholder følgende produkter: Photoshop, Illustrator, InDesign, Acrobat X Pro, Bridge og Media Encoder.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,527,Adobe Creative Suite 6 Dreamweaver (65168461AC01A00),"Programvare for design av html-baserte internettsider, også apps.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,610,Adobe Creative Suite 6 Master Collection,"Pakken inneholder de nødvendige programmene for å gjennomføre kreativt arbeid – enten det er fotografi, video, lydbehandling, design, web-løsninger, brukt bl.a. på.avansert produksjons- og profileringsløsninger",Jon Bakken,Jon Bakken,1,0,0,0,,,
+Program,170,Adobe Flash player,Nettleser-tillegg for å vise Flash-innhold på nettsider. Pakken inneholder både IE- og Non-IE-versjon av tillegget.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,723,Adobe Lightroom 6,Avansert fotoprosessering og bildeorganisering. Kun tilgjengelig for 64-bits operativsystem.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,777,Adobe Photoshop CC (65270793BC02A12),Bilderedigeringsprogram,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,172,Adobe Photoshop Elements 10 (65137894AC01A00),Program for produksjon og redigering av bilder. Til lettere bruk.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,558,Adobe Photoshop Elements 11 (65193589AC01A00),Program for produksjon og redigering av bilder. Til lettere bruk.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,560,Adobe Photoshop Elements og Premiere Elements 11 (65192996AC01A00),Program for produksjon og redigering av bilder og av film/video. Til lettere bruk.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,683,Adobe Photoshop Elements v. 12,Leveres av Atea. Produseres av Adobe- Program for produksjon og redigering av bilder. Til lettere bruk.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,579,Adobe Photoshop Lightroom 4 (65164760AC01A00),"Lage fotobok. GPS-tagge bilder i kart. Arkivsystem. Opplasting (Facebook, f.eks.). Eksport. Web album. Utskriftsmaler. Organisere EXIF data. Videosupport, ++",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,559,Adobe Premiere Elements 11 (65194233AC01A00),Program for produksjon og redigering av film/video. Til lettere bruk.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,719,"Adobe Premiere Elements 13, 65234274AC01A00","Program for produksjon og redigering av video. Til lettere bruksbehov.
+Varenr. 65234274AC01A00. Pris kr. 598 ekskl. mva. Premiere Elements 13.  Multiple Platforms International English AOO License. Lisensnøkkel (serienr.) pakkes inn i programmet. Kopi av tilgangsmelding sendes til Atea as.
+Programmet gjøres tilgjengelig av Adobe gjennom CLP-avtalen via Atea. Konf. med Thoralf Dahle eller Atle Hansen.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,174,Adobe Shockwave Player,Plugin for avspilling av shockwave-innhold på nettsider,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,175,Adra Match Accounts,Kontoavstemmingsprogram (for Socio),Magne Ervik,Magne Ervik,1,0,0,0,,,
+Program,176,Agresso BIF,Agresso batch input formater,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,216,Agresso Web,Økonomisystem. Agresso web benyttes i utgangspunktet av desentrale enheter.,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,588,AIS Shiplog,Skipstrafikk overvåking for sikkerhet og beredskap.,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,727,Alcatel-Lucent_4980,Brukes for Legevakt sentralen,Nina Mevold,Nina Mevold,1,0,0,0,,,
+Program,759,AlphaNet,Utendørs info skilt ,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,218,Altova XMLspy 2008,Ikke oppgitt,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,219,AMIS 3.1,Avspillingsprogram for lydbøker,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,739,Analytics Edge Basic Add-in,Trekker ut data fra Google analytics inn i Excel. Overtar etter Excellent Analytics.,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,807,ArcGIS Maps for Office,"“ArcGIS Maps for Office gives you the power to ask location-related questions of your data, get new insights, and make smarter decisions.» Dette er en gratis add-on til MS Office som muliggjør publisering av kartgrensesnitt via ArcGIS Online og ArcGIS Enterprise",Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,840,ArcGIS Pro,Avansert GIS produksjoner og analyser,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,828,Archi,Modellering av virksomhetsarkitektur i Archimate notasjon,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,658,ArchiCAD,BIM-prosjekteringsverktøy for arkitekter. (BSBO/Grønn etat).,Hege Hellebø,Hege Hellebø,1,0,0,0,,,
+Program,221,ArcPAD,Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Mobil kart- og datafangstapplikasjon. Berstår av ArvPAD og innebygget Application Builder,Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,222,ArcView 3.2a VISSIT,Desktop GIS fra ESRI med diverse utvidelser.,Geir Møster,Geir Møster,1,0,0,0,,,
+Program,786,Arduino 1.6.12,Programmeringsspråk. Forutsetter at man har Arduino/Genuino-bord som kan programmeres.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,223,Artcut,Program til utstyr til å lage bokstaver/figurer i på skilt mm,Ole Dan Lundekvam,Ole Dan Lundekvam,1,0,0,0,,,
+Program,225,ArtWeaver Free,Bildeprogram beregnet på kunst- og håndverksfaget,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,830,Assessment of Motor and Process Skills (AMPS),"Funksjonstest ved standardisert aktivitetsobservasjon. AMPS tester kvaliteten på aktivitetsutførelsen. Pasienten observeres i to aktiviteter. Pasienten velger blant 120 standardiserte aktiviteter. Terapeuten skårer pasientens prosessferdigheter og motoriske ferdigheter i forhold til grad av anstrengelse, effektivitet, sikkerhet og selvstendighet /grad av hjelp. Skåringene bearbeides av et dataprogram. Utstyr og rom avhenger av aktivitet som velges (f.eks. brette tøy, plante om en plante, støvsuge, lage et måltid)..",Nina Mevold,Nina Mevold,1,0,0,0,,,
+Program,230,Asta 5.1,"Informasjonssystem for systematisk registrering, lagring og fremfinning av informasjon om arkiver og arkivskapere",Arne Skivenes,Arne Skivenes,1,0,0,0,,,
+Program,846,Atom,"Programmering (statistikk, øvrig programmering)",Andreas Roaldsnes,Andreas Roaldsnes,1,0,0,0,,,
+Program,231,Audacity,Lydredigering - og innspilling,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,234,AutoCAD 2012,Programvare til konstruksjon i 2D og 3D,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,236,AutoCAD 2013 - 32 bits,Teknisk tegneprogram,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,235,AutoCAD 2013 - 64 bits,Programvare til konstruksjon i 2D og 3D,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,601,AutoCAD 2014 ,Arkitekttegningsverktøy,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,689,AutoCAD 2014 LT,Teknisk tegneprogram,Bjarte Høysæter,Bjarte Høysæter,1,0,0,0,,,
+Program,741,AutoCAD 2016,Arkitekttegningsverktøy,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,802,AutoCAD LT 2018 – 64 bits,Teknisk tegneprogram,Bjarte Høysæter,Bjarte Høysæter,1,0,0,0,,,
+Program,651,Autodesk Building Design Premium Suite 2014 for BOH,"Arkitekt tegnings verktøy. Inneholder Revit 2014, AutoCad 2014, Sketchbook Designer 2014, Navisworks Simulate 2014, Workflows 2014 og Autodesk 360. ",Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,652,Autodesk Building Design Standard Suite 2014 for BOH,Mangler,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,582,Autodesk Building Design Suite Premium 2013 ,Arkitekt tegnings verktøy,Kjell Aga,Kjell Aga,1,0,0,0,,,
+Program,602,Autodesk Building Design Suite Premium 2014,"Arkitekt tegnings verktøy. Inneholder Revit 2014, AutoCad 2014, Sketchbook Designer 2014, Navisworks Simulate 2014, Workflows 2014 og Autodesk 360. ",Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,534,Autodesk Design Review,Leser/printer DWG filer,Stein Garmannslund,Stein Garmannslund,1,0,0,0,,,
+Program,628,Autodesk Infrastructure Design Suite Standard 2016,Arkitekt-programvare. ,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,754,Autodesk Infraworks 2016,"From transportation to site planning and water analysis and design, InfraWorks 360 offers benefits in planning, preliminary engineering, design, and the management of your infrastructure projects.",_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,122,Autodesk Navisworks Freedom Viewer 2015,Programvareverktøy for å lese 3D-modeller i bygg- og anlegg-prosjekter,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,123,Avogadro,Molecule editor and visualizer ,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,124,Bamboo CTH-460 ,Software til elektronisk musematte,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,639,Bergen Parkering as (BP as)_ftp-overføring,"Integrasjon - schedulert overføringsjobb mot Skidata-nettet, som går to ganger i døgnet",Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,126,Bergenskart,Kart-innsynsløsning for Inter- og intranett,Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,127,Bewator adgangskontroll,"Adgangskontrollsystem, skal være i byggteknisk nett.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,128,Bibliofil,Biblioteksprogram med utlån,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,131,Bkdok,Produksjon- og revisjonshåndterting av styrende dokumenter,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,132,Bkdok Administrator,Systemadministrasjon Bkdok,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,133,Bksak Administrator                  ,Systemadministrasjon bksak,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,134,Bksak Barcode generator          ,Generere strekkode-ark for bunkeimport i bksak ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,135,Bksak Batch Import                  ,Masseimport bksak etter skanning ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,136,Bksak Eksport til Onenote         ,Eksportere data fra bksak til papirløs behandling ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,137,Bksak E-post import arkiv      ,Program for å importere e-poster fra postmottak til arkivdatabasene ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,138,Bksak fotoweb vaa          ,Bksak for vann og avløp ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,139,Bksak Import fra Extens            ,Program for å importere fra extens til bksak ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,140,Bksak Import skjenkebevilling    ,Program for å importere fra skjema skjenke/serveringbevillinger ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,141,Bksak Offentlig journal admin    ,Administrere offentlig journal (hvilke enheter som skal presenteres m.m.),Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,142,Bksak Offentlig journal eksport  ,Eksportere fra bksak til xml-filer som skal importeres til innsynsdatabasen,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,143,Bksak Offentlig journal import    ,Importere til publiseringsbasen på nett,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,144,Bksak Pdf mappe konvertering  ,Program for å pdf-konvertere alle filer på en mappe ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,49,Bksak pdf-konvertering    ,Pdf-konvertering av dokumenter i bksak ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,50,Bksak Plan- og byggesak         ,Saksbehandlerverktøy for Etat for Byggesak og private planer / Etat for Plan og geodata (I kommentarfeltet skrives det inn evt tilgangsgrupper brukeren skal være med i),Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,51,Bksak Saksarkiv                      ,Produksjonssystem for arkivpersonale ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,52,"Bksak Styrer, råd og utvalg       ",Produskjonssystem for å oppdatere utvalg og medlemmer m.m. ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,53,Bksak wwwbkpers,Saksbehandlerverktøy for bkpers (I kommentarfeltet skrives det inn evt tilgangsgrupper brukeren skal være med i),Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,54,Bksak wwwbkurs                      ,Saksbehandlerverktøy mot kursbase,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,55,Bksak wwwbystyr                    ,Saksbehandlerverktøy for bystyredatabasen,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,56,Bksak wwwkemsak                  ,Saksbehandlerverktøy  for kemneren (I kommentarfeltet skrives det inn evt tilgangsgrupper brukeren skal være med i),Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,57,Bksak wwwsak,Saksbehandlerverktøy for all administrativ saksbehandling (I kommentarfeltet skrives det inn evt tilgangsgrupper brukeren skal være med i),Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,576,Blom Desktop Viewer,"Program for visning og måling i skråbilder, skal erstatte EFS Pictometry",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,59,Boardmaker,"Programvare for å lage kommunikasjonstavler med symboler og tekst, med tale.
+
+Boardmaker® with Speaking Dynamically Pro builds on the power of Boardmaker® Plus! with features like natural sounding voices, word prediction and more! Designed for individuals challenged by significant speech or language disabilities, Boardmaker ® with Speaking Dynamically Pro transforms any computer into a speech output device and powerful student learning tool.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,703,BOEI,Forvaltning av kommunale boliger,Bjarte Høysæter,Bjarte Høysæter,1,0,0,0,,,
+Program,61,BoInfo,"Fagsystem for søknad og tildeling av bostøtte, utleiebolig og boligfinansiering.",Tor-Jørgen Tofte,Tor-Jørgen Tofte,1,0,0,0,,,
+Program,64,braBar og braArkivSplitt,Del av løsning for digitalisering og tilgjengeliggjøring av historisk arkivmateriale i BK,Olav Mjelde,Olav Mjelde,1,0,0,0,,,
+Program,65,BravaClientX,Tillegg til Internet Explorer som brukes fra web-hotell Byggnett,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,273,Bridge Designer,"Tools to model, test, and optimize a steel highway bridge",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,682,Brief_P,Scoringsprogram for bruk i PP-tjenesten - småbarn,Odd Harald Hundvin,Odd Harald Hundvin,0,1,0,0,,,
+Program,681,BRIEF_SP,Skåringsprogram for større barn. I bruk i Fyllingsdalen PPT,Parvin Shaafi,Parvin Shaafi,0,1,0,0,,,
+Program,66,Brother P-touch 9500PC,Etikettskriverdriver,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,733,Buypass Javafri løsning,Javafri pålogging til Altinn og andre systemer som bruker javafri pålogging fra Buypass. ,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,67,Buypass LRA,Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Sertifikatutstederapplikasjon.,Frank van Betten2,Frank van Betten2,1,0,0,0,,,
+Program,630,Byggnet ActiveX,Tillegg til Internet Explorer som brukes mot byggnet.no/.se./com.,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,597,Camstudio,Program for å gjøre opptak av skjerm.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,69,Camtasia Studio 7.0,Gjør opptak av skjerm. Videoredigering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,532,Canon P-150,Driver og programvare for skanner Canon P-150,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,70,Canon Zoom Browser 6.6,Fotosoftware,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,781,Cardpresso 1.4.121,Design og print av ID-kort/Driver og utility for skriver,Trine Sivertsen Sommerlade,Trine Sivertsen Sommerlade,1,0,0,0,,,
+Program,71,CBCL,Skåringsprogram for PPT,Odd Harald Hundvin,Odd Harald Hundvin,0,1,0,0,,,
+Program,72,CCleaner,Driftsrutiner skal sørge for at det ikke er behov for program som Ccleaner,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,804,cc-Vision,Kalibrering og oppdatering av gassmålerne,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,2,CD-ORD,"Lese- og skrivestøtteprogram - ligger som en del av image på nye Elev-PCer
+Elevene kan gratis  laste ned fra nettet fra leverandørens nettside på private maskiner  med FEIDE-pålogging.
+Gå inn på Leverandørens  downloadside: https://download.mikrov.no/
+Dette ligger ute på Personalrommet:
+https://www.bergen.kommune.no/aktuelt/personalrommet/9417/article-138475",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,680,CELF 4,"CELF-4 er en amerikansk språktest. Den norske versjonen av CELF-4 kom i mai 2013 som et resultat av et skandinavisk samarbeidsprosjekt. CELF-4 er enkel å administrere og gir norske logopeder, psykologer og spesialpedagoger et nytt og viktig redskap i utredning av barn og unge med språkvansker.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,577,Chrome for HsPro,Web browser,Finn Strand,Finn Strand,0,1,0,0,,,
+Program,740,Cisco AnyConnect Secure Mobility Client,VPN-klient,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,811,Cisco Jabber Video,Tegnspråk – avspilling og opptak,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,609,Cisco WebEx Active X komponent i nettlesere,"Online meeting, web conferencing. Det finnes ingen pakke for dette. I stedet har det vært mer hensiktsmessig å legge inn regel i Applocker for å tillate denne programvaren å kjøre.",Bjørn Eivind Berge,Bjørn Eivind Berge,1,0,0,0,,,
+Program,3,Citrix OnlinePlug-in 12.1 Web,Ikke oppgitt,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,742,Clarify,"Arvtaker etter Textpilot, er ferdig testet. Krever FEIDE-pålogging. 15000 bruker-lisenser er kjøpt, teller kun en bruker pr Feide-pålogging. Kan lastes ned på alle mobile flater",_* Ikke tildelt,_* Ikke tildelt,1,0,1,0,,,
+Program,797,ClickShare Extension Pack,"ClickShare wireless presentation system. The ClickShare Extension Pack is a collection of productivity tools that will enable you to get the most out of ClickShare. It contains the ClickShare launcher, a tool that will start the application for you when inserting the Button, and an extended desktop driver for Windows, which allows you to use the Presentation mode in PowerPoint. ",Bjørn Eivind Berge,Bjørn Eivind Berge,1,0,1,0,,,
+Program,4,Clue 8.4,Bruk Google translate i stedet. Ikke lenger behov for dette. Oversettelsesprogram engelsk/norsk og norsk/engelsk,Siren Omdahl,Siren Omdahl,1,0,0,0,,,
+Program,583,Communicate: In Print 2,Program for produksjon av all slags trykt materiale og skjermbaserte aktiviteter med både symbol- og bildestøtte.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,7,Core FTP Light,Bruk Filezilla,Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,8,Corporater,"Corporater Balanced Scorecard Suite er et verktøy for balansert målstyring. 
+
+Moduler for strategiutvikling, bygging av strategikart, manuell og automatisert datafangst, presentasjon, rapportering og oppfølging av resultater med handlingsplaner. 
+",Grete Holen,Grete Holen,1,0,0,0,,,
+Program,824,COWI CodeSigning 2020,"Sertifikat
+Link til Parka https://parka.cowisys.no:8080/parka.aspx?organisasjon=bergen",Frode Rasvik,Frode Rasvik,1,0,0,0,,,
+Program,751,Crash Recovery - RDW edition,"Informasjon om kjøretøy
+
+Daglig Ansvar: Robin Åsheim(YX847)",Jan Henning  Fossedal,Jan Henning  Fossedal,1,0,0,0,,,
+Program,655,Crestron AirMedia Presentation,Trådløs overføring av lyd og bilde fra PC laptop til storskjerm,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,545,Crystal Reports 2011,Rapporteringsverktøy,Tor-Jørgen Tofte,Tor-Jørgen Tofte,1,0,0,0,,,
+Program,704,Crystal Reports for Visual Basics versjon 4.6.1.0,Utviklingsverktøy for BOEI,Bjarte Høysæter,Bjarte Høysæter,0,0,0,0,,,
+Program,789,Cubase Elements,"Media (Musikkavspillere, videoavspillere, bilderedigering etc.) Krever lisensnøkkel for å starte. Brukere må selv skaffe lisens fra forhandler.",Øystein Berentsen,Øystein Berentsen,1,0,1,0,,,
+Program,11,CutePdf Writer,Program for å lage pdf-filer,Kjetil Århus,Kjetil Århus,1,0,0,0,,,
+Program,528,Cyberlink PowerDirector ,Videoredigering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,12,Dagligspråk for Windows,Tegn til tale program,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,13,DameWare Mini Remote Control 32-bit,Fjernstyringsprogram,Jan Tenold,Jan Tenold,1,1,1,0,,,
+Program,14,Datango producer 9,eLæringsprogram,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,782,DAt-Kon analyse,Kartlegging og analyse av atferds- og konsentrasjonsvansker hos barn i førskole- og grunnskolealder,Bente Lauvås,Bente Lauvås,1,0,0,0,,,
+Program,734,DECAdry Soft Pro,"Lage/redigere label f.eks. visittkort, parkeringskort osv.",Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,17,DeepBurner,"CD- og DVD-brenneprogram, ikke nødvendig. Bruk funksjoner i Windows7",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,795,Deltaker.no,Brukerstøtte Deltaker.no,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,634,Det sentrale folkeregister - DSF,Oppslag mot sentralt folkeregister hos ekstern leverandør ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,19,DigiCall+,Lekkasjeutstyrsprogram,Ole Dan Lundekvam,Ole Dan Lundekvam,1,0,0,0,,,
+Program,20,DNRGPS,Program for overføring av data fra Garmin GPS til GIS (tidligere DNRGarmin),Sissel Lerum,Sissel Lerum,1,0,0,0,,,
+Program,21,Dolphin Lunar,Forstørrelsesprogram for PC,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,22,Doodle.com,Brukes til å avtale ulike møtedatoer med eksterne konsulenter,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,679,dRofus TIDA,Planleggingsprogram for byggeprosjekter - klientprogram med sentral base ASP,Erik Holm-Larsen,Erik Holm-Larsen,1,0,0,0,,,
+Program,24,Dropbox,"Fildelingsprogram. Klient blir ikke pakket. Web-side er tilgjengelig for op/nedlasting av enkeltfiler.
+",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,23,"Dräger Gas Vision, 5.8.9","Leser av data fra en gassmåler, i hovedsak H2S-gass.",Viviann Sandvik,Viviann Sandvik,1,0,0,0,,,
+Program,616,DWG Trueview,Viewer for DWG filer,Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,26,Dymo LabelWriter 330 Turbo,Programvare til etikettskriver,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,546,Dymo LabelWriter 450 Turbo,Programvare til etikettskriver,Lasse Hunsrød,Lasse Hunsrød,1,0,0,0,,,
+Program,730,EA Driftssentral,Overvåking av stasjoner i Os kommune,Sandra McCarley,Sandra McCarley,1,0,0,0,,,
+Program,708,EaSentral,Overvåking av stasjoner i Os kommune,Sandra McCarley,Sandra McCarley,1,0,0,0,,,
+Program,784,Easy Correct,Retter digital tekst,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,28,EasyLog USB,Tar imot temperaturer som er logget på en USB-enhet,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,29,eBC - Business case,"Verktøy for registrering og oppfølging av IKT-prosjekt. Løsningen er utviklet av IKT-Konsern. Om Helpdesk får forespørsler om eBC, porteføljestyring, IKT-handlinsgplan, kan disse sendes til IKT.konsern@bergen.kommune.no Sekundært med kopi til maj-britt.brobakke@bergen.kommune.no og harald.kjensli@bergen.kommune.no",Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,30,eBeam Education Suite,Programvare for 3M digital tavle,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,758,eBeam for digital tavle,Program tilhørende smartboard,Bjørn Eivind Berge,Bjørn Eivind Berge,1,0,0,0,,,
+Program,31,Eclipse,Programutviklingsrammeverk,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,32,EclipseCrossword,Produserer kryssord,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,34,eDoc Designer,Skjema designverktøy ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,36,eFactory eDialog administrator,Ikke oppgitt,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,37,eFactory eDialog operator,"Ikke oppgitt, lisenser må bestilles hos Vidar Aspunvik",Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,38,e-lector,Lese- og skrivestøtte,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,39,Elektra Kofax,Venter på oppgradering. Samlebenevnelse på Kofax-programvare og database: ELEKTonisk RørleggerArkiv,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,40,Elektra Rett og slett,Venter på oppgradering. Elektronisk rørleggerarkiv (georefererte skannede dokumenter),Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,41,Elprolog,Programmere og lese av loggere,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,796,EndNote X9,Lagrer og finner litteraturreferanser og lager bibliografier automatisk i Word.,Bjørn Eivind Berge,Bjørn Eivind Berge,1,0,0,0,,,
+Program,43,Enigma,Korroleringsprogram (lekkasjesøkingsprogram følger med utstyr),Ole Dan Lundekvam,Ole Dan Lundekvam,1,0,0,0,,,
+Program,44,EPANET,Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Spesialprogram på modellerings-PC-er ved BBKM. Modellering og simulering for avløpsnettet.,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,45,Epanet2,Nettmodellprogram,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,598,Epiphan Frame Video Grabber,Programmet er for at den synshemmede skal «fange» det som skjer på SmartBoard. Dette får hun presentert på sin egen skjerm og kan ta bilder/video slik at vedkommende ikke trenger å notere.,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,707,E-post på mobil (Activesync),Tilgang til e-post via mobiltelefon (Activesync).,Jan Tenold,Jan Tenold,0,0,0,0,,,
+Program,573,E-post via internett (OWA),Tilgang til e-post via internettet.,Jan Tenold,Jan Tenold,0,0,0,0,,,
+Program,46,Epson GT-15000 skanner-software,Ikke oppgitt,Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,48,Equitrac Report manager,Rapporteringsmodul for styrt utskrift,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,565,eRoom klient,"eRoom is an on-line project collaboration, or collaborative software product from Opentext Corporation.",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,430,Escort Console Pro,Overfører data fra en logger til pc.,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,535,Euro2A,POS-software,Petter Wiberg,Petter Wiberg,1,0,0,0,,,
+Program,432,Evernote,Program for å overføre notater og dokumenter mellom enheter,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,763,Evolis - print driver,Driver til printer for kort,Einar Hopsdal,Einar Hopsdal,1,0,1,0,,,
+Program,780,Evolis Premium suite 6.25.0.942,Driver og utility for skriver,Trine Sivertsen Sommerlade,Trine Sivertsen Sommerlade,1,0,0,0,,,
+Program,434,Expert GPS,Ingen brukere. Vil bli fjernet fra listen. Leser og konverterer direkte til shape-filer,Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,435,Extens,Skoleadministrativt system,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,834,f.lux,Et dataprogram som justerer skjermens fargetemperatur i henhold til sted og tidspunkt på dagen. Programmet ble designet for å redusere belastningen på øynene og for å redusere forstyrrelser på sovemønsteret. ,Leikny Indergaard,Leikny Indergaard,0,0,0,0,,,
+Program,437,Familia,Saksbehandler- og administrativt system for barnevernstjenesten,Finn Strand,Finn Strand,0,1,0,0,,,
+Program,694,Farlig gods permen,Håndtering av brann- og eksplosjonsfarlige varer,Cato Larsen,Cato Larsen,1,0,0,0,,,
+Program,438,FastSend,"Internettbasert program, årsabonnement. Sikker overføring av filer/kataloger som er for store som vedlegg til e-post. Ubegrenset filstørrelse.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,439,FastStone Capture,Utklippsverktøy med utvidete muligheter for redigering av skjermbilde med tekst og figurer.,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,440,FastStone image viewer,Browser billedkataloger,Steinar Carlsen,Steinar Carlsen,1,0,1,0,,,
+Program,441,FebDok,Kortslutningsberegning av elektriske anlegg samt dokumentasjon,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,442,FellesWeb - enhetsregister/eiendomsregister (WEBmatrikkel),Gir adgang til enhetsdata (data om firma/foretak/organisasjoner) i Bergen fra Enhetsregistret i Brønnøysund. Det er mulig fra systemet å slå direkte opp i det sentrale Enhetsregistreret. Eiendomsregisteret gir oversikt over gårds og bruksnummer i Bergen kommune. ,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,443,FellesWeb - Lokalt folkeregister ,Gir tilgang til folkeregisterdata for Bergen. Bruker må godta spesiell taushetserklæring som gjelder for folkeregisterdata.,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,642,FFMPEG - Encoding tool,for å få skjermopptakene som lages via Screencastomatic til å kunne lagres som videofiler på admnett og elevnett,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,445,FileZilla,FTP-klient,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,446,Finale 2012,Musikknotasjonsprogram - for skanning og utskrift av noter. Krever lisens.,Mardon Åvitsland,Mardon Åvitsland,1,0,0,0,,,
+Program,526,Finale 2012 Notepad,"Finale NotePad can create, play, and print music notation. NotePad can also open and save MIDI and MusicXML files. Free version.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,693,Fire Training,"Fire Training versjon 1 er utviklet av den svenske Myndigheten for samhällsskydd och beredskap (MSB) i samarbeid med de nordiske landene, Slovenia og Spania, og er ment å gi brann- og redningsetatene basiskunnskaper om brann som fenomen, om brannutvikling og om brannslokking. Treningsprogrammet sendes ut gratis til alle kommunale brannvesen og til DSBs skoler.",Leif Linde,Leif Linde,1,0,0,0,,,
+Program,783,Fleet Manager II,"Kalibrere gassmålere
+Versjon: 4.3.31",Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,770,Flowlink,Programvare for å monitorere instrumenter vi har kjøpt av Teledyne.,Anne Beth Ravndal,Anne Beth Ravndal,1,0,0,0,,,
+Program,737,Fluke Connect,Programmet henter logg fra måleinstrument som igjen skal brukes som dokumentasjon på en ny eller gammel elektro  installasjon,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,761,Focus Arealplan,Verktøy for utvikling av arealplaner.,Knud Hillers,Knud Hillers,1,0,0,0,,,
+Program,452,Format Factory,Multifunctional media converter,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,381,Fotosizer 1.37,Bulk-konvertering av bilder (størrelse og format),Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,383,"FotoStation for Bergen Vann og Vann og Avløp, fast lisens","Prossessering, gjennfinning og deling av multimediafiler. Fast lisens",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,384,"FotoStation for Bergen Vann og Vann og Avløp, flytende lisens","Prossessering, gjennfinning og deling av multimediafiler. Flytende lisens",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,382,FotoStation for Byarkivet,"Fagsystem for arkivering av bilde , film og lydfiler. FotoStation kan ogsåbenyttes for søking av alle typer filer samt inneholder verktøy for bilderedigering.",Arne Skivenes,Arne Skivenes,1,0,0,0,,,
+Program,385,FotoWeb,"Systemet er et fellessystem som tilbys alle brukere i Bergen kommune, på intranett med Fotoweb, på spredenett med Fotostation",Arne Skivenes,Arne Skivenes,1,0,0,0,,,
+Program,386,FotoWeb Desktop,Gjør multimediafiler tilgjengelig over intranettet/internettet,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,387,Foxit Reader,Program som leser PDF-filer,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,391,Free PDF to Word Doc Converter,Uønsket.Det er en årsak til at forfatter har distribuert tekst som PDF og ikke redigerbart format. Støtter dessuten bare engelsk.,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,392,Free PDF unlocker v 1.0.4,Uønsket programvare. Fjerner sikkerhet fra Adobe-dokumenter,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,743,FreeBASIC,"FreeBASIC is a high-level programming language supporting procedural, object-orientated and meta-programming paradigms, with a syntax compatible to Microsoft QuickBASIC.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,393,FreeMind,"Tankekart, java-basert",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,745,FreePascal,Programmeringsspråk,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,596,Fürst Forum,"Fürst Forum er et nettbasert verktøy som sikrer samspillet mellom legekontor og laboratoriet, ved elektronisk rekvirering og svarrapportering.",Nina Mevold,Nina Mevold,0,1,0,0,,,
+Program,714,Garmin Express,Muliggjør overføring av data mellom PC og håndholdt GPS,Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,394,Garmin MapSource,Ikke oppgitt,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,805,Gas vision,Brukes for å hente ut logg fra instrumentet,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,753,Gatturnus,"Styrer og logger turnus, fravær, variabel lønn og drift innen kompetanse og gjøremål samt har enkelte HR funksjoner f.eks ved fravær",Frode Bødtker,Frode Bødtker,1,0,0,0,,,
+Program,395,GBD,Tverrfaglig journalsystem for sykehjem,Nina Mevold,Nina Mevold,0,1,0,0,,,
+Program,701,GeezIME,Språkpakke for Elevnett,_* Ikke tildelt,_* Ikke tildelt,1,0,1,0,,,
+Program,396,Gemini,"Pakke med kommunaltekniske løsninger fra Powel. Inneholder mange moduler.
+I dag består Gemini-porteføljen (desktop) av Gemini VA, Gemini Melding, Gemini Fastmerke, Gemini IndSys, Gemini Oppfølging, Gemini Oppmåling, Gemini Sanitær, Gemini Slam og Gemini Vannmåler.",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,721,Geneious,"Bioinformatiske analyser, spesielt av DNA-sekvenser",Bård Kittang,Bård Kittang,1,0,0,0,,,
+Program,397,GeoAreal,"Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Applikasjon for fremstilling og forvaltning av arealplaner, samt forvaltning av norske kartdata",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,398,GeoExpress,"Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Tilgang, vedlikehold  og distribusjon av store mengder rektifiserte bilder. Lager MR.Sid-filer",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,399,Geogebra,"Gratis, dynamisk matematikkprogram, beregnet brukt bl.a. på eksamen uten nettilkobling",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,400,Geonext 1.51,Programvare for dynamisk matematikk,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,401,GeoSKTrans,Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Transformasjon mellom koordinatsystemer,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,403,GeoView Web,"Spesial-PC. Vær, vind, strømningsdata på sjø",Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,404,Gimp 2,Bilderedigeringsprogram,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,333,GISLine,"Bestående av 12 moduler, 1 lisens pr. modul. 
+GisLine Innsyn kan presentere store mengder vektor og rasterdata sømløst fra GISLINE systemets kartserver, eller lese enkeltstående kartbaser/ rasterfiler.Utsnitt for",Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,334,Git,Adm-syst for kildekode,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,592,GoGlobal,Tilgjengeliggjør styrings- og overvåkingsdata fra Cactus-nettet i ADM-nettet.,Ali Mekki,Ali Mekki,0,0,0,0,,,
+Program,335,Google Chrome,Nettleser - for adm og elev,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,336,Google Earth,Digitalt verdenskart,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,686,GoPro Studio,Videoredigering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,735,GoToMeeting,"Go to meeting. Fil som er nødvendig for å få kjørt webinar. 
+Programmet startes ved å gå til https://www.gotomeeting.com\meeting\join-meeting. Skriv inn møte ID og trykk Join. Tillat programmet å laste ned og kjøre.",Rune Hagen,Rune Hagen,1,0,0,0,,,
+Program,338,GP Untis,Timeplanleggingsprogram,Jarle Kandal,Jarle Kandal,1,0,0,0,,,
+Program,670,GPG4Win,"Tilbyr pgp-tjenester gjennom åpen kildekode varianten, gpg implemementert for MS Windows.",Tron Ingebrigtsen,Tron Ingebrigtsen,1,0,0,0,,,
+Program,342,G-Prog Beskrivelse,"Anbudssystem,NorConsult Informasjonssystemer G-Prog beskrivelse 9 for BKB - installsjon",Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,343,G-prog Linker,Bearbeiding og utveksling av byggebeskrivelser med mengder og priser,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,551,GraphiSoft BimX Desktop Viewer ver BimX15 - 3267,Viser 3D-modeller produsert av BimX for Graphisoft ArchiCAD,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,819,GraphoGame,Lesetreningsprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,339,Graphtec CS500-11eN skanner,Skannerprogramvare,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,544,Graphtec CS610,Scannersoftware,Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,725,GRID3,Kommunikasjonsprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,178,Grubletegninger,Grubletegninger er tegninger som tar opp synspunkter på naturfaglige problemstillinger fra dagliglivet.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,341,Gurosoft,Ekstern web løsning;Overtatt etter VKIS (VannKvalitetsInformasjonsSystem). Ikondistribusjon.,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,604,Handyman ePocket,"Arbeidsregistrering, synking mot Agresso",Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,692,HazMat Training,Opplæringsprogram i farlig gods,Leif Linde,Leif Linde,1,0,0,0,,,
+Program,793,Helvar Designer 4.2.50,Overvåknings verktøy for alle belysning som er installert i klostergarasjen,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,344,Hjort- og fallvillt,Tildeling av jaktområder  løyve  registrering av fallvilt etc.,Anne Mydland,Anne Mydland,1,0,0,0,,,
+Program,537,HP Color Laserjet 2600N,Driver og software til skriver,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,346,Hp Designjet 4000 HPGL2 plotter,Driver mm,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,524,HP Designjet T2300 eMFP series plotter,Driver til plotter,Jarle Kvalvik,Jarle Kvalvik,1,0,0,0,,,
+Program,538,HP Officejet Pro 8000,Driver og software til skriver,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,347,HSPro,Ikke oppgitt,Nina Nygaard,Nina Nygaard,0,1,0,0,,,
+Program,549,Huawei E3131 Mobile Broadband USB Stick,Programvare for USB internettstick (mobilt bredbånd),Svein Dyrrdal,Svein Dyrrdal,1,0,0,0,,,
+Program,813,Huawei E8278 LTE Mobile WiFi Smart ,Programvare for USB internettstick (mobilt bredbånd),Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,349,Huawei Internet Stick E173,Programvare for USB internettstick (mobilt bredbånd),Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,717,Huawei Mobile Partner E3372,Programvare for USB internettstick (mobilt bredbånd),Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,543,IBM SPSS Statistics,Program for å utarbeide statistikker,Frank van Betten2,Frank van Betten2,1,0,0,0,,,
+Program,350,ICF,"Kodeverk for helsevesenet -  International Classification of Functioning, Disability and Health ",Benedicte Løseth,Benedicte Løseth,0,1,0,0,,,
+Program,351,IE Developer Toolbar 1.00.2189.0,Utviklerverktøy for nettleser,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,352,iFinger,Engelsk - norsk / Norsk - engelsk. Ikke Windows 7. Bruk alternativ.,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,353,ImgBurn,Lightweight CD / DVD / HD DVD / Blu-ray burning application,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,817,In Print 3,"Pedagogisk program.
+NB! Når denne skal aktiveres via aktiveringsveiviseren må proxy settes manuelt til proxy.bergen.kommune..no (85.19.187.20) med port 8080. Innstillingen gjøres inne i aktiveringsveiviseren, ikke i nettverksinnstillingene.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,608,Infovox3,"Talesyntese, skjermleser",Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,854,Inputlog,Inputlog er et tastetrykksprogram. ,_* Ikke tildelt,_* Ikke tildelt,0,0,1,0,,,
+Program,713,Internet Explorer 11,Nettleser,Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,799,IP Desktop Softphone klient,Fasttelefon på PC,Per-Arne Hoff,Per-Arne Hoff,1,0,0,0,,,
+Program,286,IrFanView,"Bilde-viser, konverter bildefiler i batch",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,762,IRIScan Mouse,Driverprogram som gjør det mulig å benytte IRIScan mouse skannemus til elevpcer,Dag Hugaas,Dag Hugaas,0,0,1,0,,,
+Program,752,ISY Calcus,LCC-beregninger på bygg,Jonette Vindenes,Jonette Vindenes,1,0,0,0,,,
+Program,287,ISY Eiendom Park,Ikke Windows 7-kompatibelt. Ekstern web løsning; ASP løsning men med en liten lokal installasjon i tillegg,Sissel Lerum,Sissel Lerum,1,0,0,0,,,
+Program,288,iTunes,"Managementverktøy for iOS. Mediabutikk, applikasjonsbutikk, etc. ",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,289,Jabra Direct,"Oppdateringsverktøy for Jabra headset (til telefonkonsultasjoner), både kablede og trådløse",Lasse Hunsrød,Lasse Hunsrød,1,0,0,0,,,
+Program,290,Java,Nye versjoner av Java blir normalt distribuert etter hvert som de blir tilgjengelig.,Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,291,Java jdk,Utviklingsverktøy,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,292,JDirPrinter,"Utskrift av katalogstrukturer, virker ikke i W7/user, letes etter alternativ",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,293,Jing,Bruk innebygget Utklippsverktøy (i Start\Alle programmer\Tilbehør),Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,749,Jing,"Skjermopptak, bilder og video.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,842,JMP 14.0 ESD Software,Dataanalysverktøyet,Bjørn Eivind Berge,Bjørn Eivind Berge,1,0,0,0,,,
+Program,654,Joboffice,Byggvedlikehold,Bjørn Østrem,Bjørn Østrem,1,0,0,0,,,
+Program,298,JRuler,Linjal til målinger på skjermen,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,539,Junos Pulse Win32 / Win64,VPN klient for Juniper brannvegg. ,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,776,KeePass,Et sikkert passordhvelv der brukere kan lagre og få tilgang til egne passord.,Tor Skiple,Tor Skiple,1,0,0,0,,,
+Program,548,Keyman desktop professional 7.1,For å skrive Amharisk i Windows 7,Gudeta Bayissa,Gudeta Bayissa,1,0,0,0,,,
+Program,666,Klagesaker Legevakt,Klagesaker legevakt er et forskningsprogram som BLV deltar i. Det er et program som er installert på VDI-klienten og som skal samhandler med Profdoc. Programmet lager en fil som skal sendes til en fast adresse i Norsk Helsenett. Overføringen til NHN styres av programmet. ,Frank van Betten2,Frank van Betten2,0,1,0,0,,,
+Program,299,K-Lite Codec pack Standard ,"Kodeker til film og video, inngår i VLC, bruk VLC.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,600,KODU Game Lab,Kodu lets kids create games on the PC and XBox via a simple visual programming language.,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,769,KomTek Forvaltning for Brannvesenet,Kobler opp en VPN tunnel,Trond Knoop,Trond Knoop,1,0,0,0,,,
+Program,301,KomTek Forvaltning for Kemneren,KomTek utnytter data fra Matrikkelen til å vedlikeholde basisinformasjon i de kommunale registre og knytter ulike fagdata sammen med digitale kart/geografiske informasjonssystem.,Lasse Hunsrød,Lasse Hunsrød,1,0,0,0,,,
+Program,827,Komtek Forvaltning for Miljørettet Helsevern,Komtek Forvaltning for Miljørettet Helsevern,Arild Jensen,Arild Jensen,1,0,0,0,,,
+Program,833,Komtek Gebyrimport,"Gir oversikt over inntekt, henter data fra Komtek Forvaltning-databasen til brannvesenet.",Trond Knoop,Trond Knoop,1,0,0,0,,,
+Program,305,Kursbørsen,Kursadministrasjonssystem,Bjørg Lædre,Bjørg Lædre,1,0,0,0,,,
+Program,306,Labbe Langøre - Lek og Lær 2: 3-5 år,Programmet kan ikke kjøres i W7 med standard brukerrettigheter. Forberedende begrepstrening for barnehagebarn,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,307,Labbe Langøre - Lek og Lær 2: 4-6 år,Programmet kan ikke kjøres i W7 med standard brukerrettigheter. Forberedende begrepstrening for barnehagebarn,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,773,LeakFinderST,"Programmer tilknyttet utstyr (Drivere, data-avlesing og -presentasjon etc)",Astrid Birkeland,Astrid Birkeland,1,0,0,0,,,
+Program,272,Lego Educations WeDo,Programmering med  lego-elementer,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,646,Lego Mindstorms Education EV3,Programmerer robot,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,237,Lego Mindstorms NXT 2.1.6 (NORM pakken),Programmering av lego-roboter,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,792,Leiter-3 Scoring ,Scorings program til en evne testing,Ingunn Sebjørnsen,Ingunn Sebjørnsen,0,1,0,0,,,
+Program,837,Lenel 7-0 Alarm - Onguard,Kameraoveråkning,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,590,Lexia 4,Språktreningsprogram for mennesker med lese- og skrivevansker,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,243,LibreOffice,Open Source office applikasjonspakke,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,591,LifeCam Studio,Skal benyttes til filming av tolking for døve,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,244,LingDys,Lese- og skriveverktøy,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,245,LingRight,Lese- og skriveverktøy,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,248,Logitech Webcam 1.1,"Webkamera-software - blir ikke pakket, bruk heller Camstudio",Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,697,Logos,Diagnostisk lesetest av elever. ,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,755,Lovdata Pro,"Lovdata Pro gir tilgang til rettskilder, registre og rettsområder på internett via nettleser. Alle ansatte i Bergen kommune kan bli registrert  som personlig bruker av tjenesten.<br/><br/> IKT Drift har ikke brukerstøtte på systemet. IKT Drift håndterer tilganger og årlig fakturering. <br/><br/>Hjelp og informasjon om systemet finner du her:  <a href=""https://lovdata.no/pro/#article&url=/info/hjelpeside_for_lovdata_pro""</a>(krever innlogging).</a>
+<br/><br/>Tilgang til Lovdata Pro forutsetter e-postadresse i Bergen kommune.<br/><br/>Utregistrering av tjenesten skjer ved at du i kommentarfeltet skriver: Utregistrering  Lovdatal Pro: e-postadresse til bruker som skal utregistreres",May Lindtner,May Lindtner,1,0,0,0,,,
+Program,671,Lync 2013,"Microsoft Lync 2013 er et verktøy for samhandling. De viktigste funksjonalitetene er: sending av direktemelding, Lync-samtale, videosamtale, videokonferanse og deling av dokumenter. Microsoft Lync 2013 er integrert med skype.",Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,603,MagiCAD 2013.4 for Autodesk BDS ,Arkitekt tegnings verktøy,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,581,MagiCAD for Revit og AutoCAD,Arkitekttegningsverktøy,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,259,Magnimaster Gold 3.5,Ikke Windows 7-kompatibelt,Øystein Berentsen,Øystein Berentsen,1,0,1,0,,,
+Program,260,Mamut Office Standard,"Regnskapsprogram, lokalt installert på én PC",Bodil Stavang,Bodil Stavang,1,0,0,0,,,
+Program,146,Matematikk i Måneby,Matematikkprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,722,Math-o-mir,Mattematikkskriveprogram,_* Ikke tildelt,_* Ikke tildelt,1,0,1,0,,,
+Program,149,Matrikkel.no,Tilgang til grunnboken. Javabasert.,Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,150,Maven,Java prosjektverktøy,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,791,MedCalc,Statistikkpakke,Kjell Krüger,Kjell Krüger,1,0,0,0,,,
+Program,669,Medisinautomat Bergen fengsel,Nettverksmessig tilkopling fra tynnklientene (VDI-klientene) i fengselet slik at de kan kommunisere med medisinautomaten,Bjørn Eivind Berge,Bjørn Eivind Berge,0,1,0,0,,,
+Program,778,Metafon Bildetema,Inneholder bilder/ikoner,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,823,Metasys Launcher,Logge på og fjernstyre SD-anlegg på kommunale bygg,Thomas Lassen,Thomas Lassen,1,0,0,0,,,
+Program,571,Micro Rolltalk,Program for kommunikasjon mellom PC og tilkoplet Micro Rolltalk. Tillegg til Rolltalk Designer.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,151,Microsoft Access,"Del av Microsoft Office 2010, preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,152,Microsoft Application Virtualization Desktop Client x86,App-V er klienten for kjøring av app-v pakker. (MS application virtualization and application streaming solution),Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,615,Microsoft Diagnostics and Recovery Toolset 7.0 x86 (DART),"Feilsøkingsverktøy for Windows 7 mm. 
+Driftsverktøy kun tilgjengelig for IKT Drift.",Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,153,Microsoft Excel,"Del av Microsoft Office 2010, preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,156,Microsoft Mathematics - tillegg for Word og OneNote,Tillegg for å kunne utføre grafiske kalkulatorer og gjøre matematiske beregninger i Word og OneNote,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,613,Microsoft Network Monitor,"Verktøy for nettverkssniffing, feilsøking mm.. Tilsvarende som Wireshark, men har protokoll-parser som i en del tilfeller er bedre på å tolke Windows-basert nettverkstrafikk.
+Driftsverktøy som kun skal være tilgjengelig på IKT Drift.",Svein Dyrrdal,Svein Dyrrdal,1,0,0,0,,,
+Program,157,Microsoft Office 2010,"Kontorstøtteprogrammer. Word, Excel, Powerpoint, Outlook og OneNote er preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,1,0,0,,,
+Program,158,Microsoft Office 2010 Language pack fransk/spansk,Ikke oppgitt,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,159,Microsoft Office 2010 Language pack kinesisk,Ikke oppgitt,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,160,Microsoft OneNote,"Del av Microsoft Office 2010, preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,161,Microsoft Outlook,"Del av Microsoft Office 2010, preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,162,Microsoft PowerPoint,"Del av Microsoft Office 2010, preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,163,Microsoft Project 2007,Ikke oppgitt,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,729,Microsoft Project Pro 2013/6 (H30-05641),"MS Project Pro 2013 er et kraftig visuelt verktøy til administrasjon av alle typer prosjekter og programmer. Project Pro 2013 inneholder verktøy for planlegging, administrasjon og samarbeid, både med enkeltpersoner og team. Ved bestilling av MS Project Pro 2013 vil du også få tilgang til 2010-versjonene av samme program. NB! Det er 2010-versjonen som skal installeres dersom du skal bruke programmet i tilknytning til Prosjektallmenningen.",Liv Bruland,Liv Bruland,1,0,0,0,,,
+Program,166,Microsoft Project Viewer,"Microsoft har ikke et viewerprogram. Det finnes tredjepartsprogrammer, men ingen er bestilt pakket.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,167,Microsoft Publisher 2010,"Publiseringsverktøy - et program for publisering av bl.a.  hefter , postkort, bulletiner, nettsteder og epost.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,168,Microsoft Silverlight,Nettleser-tillegg for å avspille silverlight-innhold på nettsider.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,73,Microsoft SQL Server Management Studio Express,For oppkobling mot MSSQL-Databaser,Arne Skivenes,Arne Skivenes,1,0,0,0,,,
+Program,698,Microsoft Threat Modelling Tool 2014,Microsoft Threat Modelling Tool 2014 - verktøy for å analysere sikkerhet i systemer,Gøran Breivik,Gøran Breivik,1,0,0,0,,,
+Program,808,Microsoft Visio Pro for Office 365,Opprett alle slags profesjonelle diagrammer enkelt med ferdiglagde maler og 250 000 figurer i Visios innholdsdatabase.,Liv Bruland,Liv Bruland,1,0,0,0,,,
+Program,831,Microsoft Whiteboard (Preview),Tegneprogram for nettbrett med Windows 10 og Surface Hub,Per-Arne Hoff,Per-Arne Hoff,1,0,1,0,,,
+Program,74,Microsoft Windows Mobile Device Center,"Automatinstalleres ved tilkopling av enhet, trenger ikke pakkes. Synkroniseringsprogram mellom mobiltelefon/PDA og bærbar PC (tidligere ActiveSync)",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,75,Microsoft Word,"Del av Microsoft Office 2010, preinstallert.",Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,76,Mike Flood,"Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Spesialprogram på modellerings-PC-er ved BBKM. Modellering og simulering av oversvømmelse av elver, marker og dreneringssystemer",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,77,Mike Urban,Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Spesialprogram på modellerings-PC-er ved BBKM. Modellering og simulering av vanndistrubusjon. ,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,78,Mikogo,"Online møter etc, ikke gratis. Bruk andre løsninger.",_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,847,MindManager,Program for å produsere tankekart,Svein Malkenes,Svein Malkenes,1,0,0,0,,,
+Program,750,Minecraftedu,"Programmerer. Programmet fungerer og klarer å koble til server i elevnettet. Det fungerer også i adm-nettet, men klarer der ikke å koble seg til server og programmet distribueres derfor ikke dit p.t.",Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,605,Minneslek Flex,Minnetreningsprogram,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,179,Motic Eco Tool,Program til digitalt mikroskop,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,80,Motic Educator,"Program til digitalt mikroskop og lupe, versjon for ungdomsskole",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,594,Motic Images Plus for MoticamX,Kamera til luper som skolene allerede har,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,81,Motic Play,"Program for digitalt mikroskop og lupe, versjon for barneskole",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,82,Motorvognregisteret,Ekstern DB over registrerte motorkjøretøy,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,83,Mouse,Bare tilgjengelig for spesial-pcer. Skal ikke pakkes. Spesialprogram på modellerings-PC-er ved BBKM.,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,801,Movavi Video Suite,"Videoredigering, fotoredigering, opptak av skjerm, videokonvertering",Bjørg Lædre,Bjørg Lædre,1,0,0,0,,,
+Program,85,Mozilla Firefox,Nettleser,Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,86,MP Navigator EX,Driver og applikasjon for skanning (Canon 5600F),Petter Wiberg,Petter Wiberg,1,0,0,0,,,
+Program,724,MS Project 2013/6 Standard (076-05702),Verktøy for strukturert prosjektstyring på egen PC.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,510,MuseScore 1.2,Programvare for komposisjon og noteskriving,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,614,MySQL Workbench 5.2 CE,"Administrasjonsverktøy for MySQL.
+Driftsverktøy som er tilgjengelig for IKT Drift.",Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,88,NBR pro,Web-applikasjon. Tilgang til dokumentmaler ifm byggesaker,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,89,NCR1 Nordea kortleserdriver,"Driver til Nordea kortleser, virker ikke, bruker har funnet altenativ løsning.",Grethe Sophie Losnegaard,Grethe Sophie Losnegaard,1,0,0,0,,,
+Program,90,Netobjects Server Administrator,Ikke oppgitt,Eva Hille,Eva Hille,1,0,0,0,,,
+Program,91,Netobjects Team Fusion,Publiseringsverktøy for Intranett og Internett,Eva Hille,Eva Hille,1,0,0,0,,,
+Program,586,NetOP - 32bits,Fjernpålogging til Parkeringssystem,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,593,NetOp - 64 bits,Fjernpålogging til parkeringssystem,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,566,NettSoft nøkkelbank,Drift / vedlikehold nøkkelsystem ,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,841,Neutraface,"Programmet er en font som biblioteket bruker all promotering, som plakater, program og nettside",Leikny Indergaard,Leikny Indergaard,1,0,0,0,,,
+Program,92,NHN Adresseregister,Støttesystem for Profil,Benedicte Løseth,Benedicte Løseth,0,1,0,0,,,
+Program,94,NilBild,Bildedatabase,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,95,Niton Data Transfer suite 6.5.5,"Leser av data fra en grunnstoffjordmåler innholdet av grunnstoff i ulike medier, jordforurensning, trykkimpregnert treverk, metaller etc",Viviann Sandvik,Viviann Sandvik,1,0,0,0,,,
+Program,97,Nober,Web-applikasjon. Hovedsystemet under beredskapsøvelser eller i reelle situasjoner.,Morten Meibom,Morten Meibom,1,0,0,0,,,
+Program,774,Noisetools,Laster inn data fra ny støymåler,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,98,Nokia Internet Modem,Ikke oppgitt,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,99,Nokia Internet Modem 1.2,Ikke oppgitt,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,100,Nokia OVI Suite,Synkroniseringsverktøy,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,503,Nordic Eye Solo,Program til forstørrelseskamera,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,664,Nortronic NB09,Programmeringsverktøy for billettautomater av merket Nortronic,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,101,Notepad++,Tekst-editor,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,541,NovaPoint 18.40,"Overbygning på Autocad-versjoner. Består av Novapoint Basis, Arealplan, Road Sign, Vann og avløp,",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,803,Novapoint v21,"Overbygning på Autocad-versjoner. Består av Novapoint Basis, Arealplan, Road Sign, Vann og avløp, Veg standard, Veg Utvidet, Vegoppmerking, Landskap, Terreng.",Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,855,Novapoint Viewer,Viewer fot Novapoint filer,Ilan Amsalem,Ilan Amsalem,1,0,0,0,,,
+Program,104,NSD Stat,Statistikk program (Data Utforsker og Data Manager),Nina Mevold,Nina Mevold,1,0,0,0,,,
+Program,105,NTK,Ikke oppgitt,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,536,NVDB,Norsk veidatabase,Øyvind Haga,Øyvind Haga,1,0,0,0,,,
+Program,106,NygSys 9.36,Refusjon/elevsystem Nygård skole (minoritetsspråklige),Anne Sofie Vik,Anne Sofie Vik,1,0,0,0,,,
+Program,110,ODIN arkiv,Skannede byggesaks-dokumenter.,Petter Wiberg,Petter Wiberg,1,0,0,0,,,
+Program,760,Office MIX,Tillegg til MS Office Powerpoint 2013.  Create and share interactive online videos,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,112,OfficeCustomUIEditor,Office custom UI editor is a tool to edit the Office custom UI XML part in the Open XML file format.,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,113,Omnibus,Bildedatabase,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,826,Omnijoin,Online Videokonferanseverktøy,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,114,Onenote creator,Program for møteforberederne Papirløs forvaltning,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,563,OnGuard,Programvare til å lage kort som hjemmetjenesten skal bruke til identifikasjon,Finn Strand,Finn Strand,1,0,0,0,,,
+Program,115,OnGuard Foto-ID,Blir stående på XP og flyttes til byggteknisk nett. Design av id-kort mm,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,116,OpenOffice,Kontorstøtteprogrammer.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,820,OpenShot Video Editor,Videoproduksjon,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,117,OpenVPN,VPN-software,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,118,Opera,Nettleser,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,119,Oracle Client 11.x,Program som må være installert for at databaseapplikasjonen kan få kontakt med oracle - databasen,Lisbeth Skodvin,Lisbeth Skodvin,1,1,0,0,,,
+Program,120,Oracle sql Developer 2.1.0.63.73,"Gammel versjon, pakkes ikke. Bruk ny versjon.",Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,477,Oracle SQL Developer 3.0,SQL modelleringsverktøy,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,547,Ordnett Pluss,Ordnett Pluss er et program som installeres på din datamaskin. Da har du tilgang til alle ordbøkene direkte fra datamaskinen – uten behov for Internett-tilkobling.,Roar Kristiansen,Roar Kristiansen,1,0,0,0,,,
+Program,668,Oscilla Audiometer for virtuelle klienter,"Programvare for Audiometri-utstyr som brukes av Bedriftshelsetjenesten. Koblet til tynn-klient, for gjennomføring av hørselstester.",Bjørn Eivind Berge,Bjørn Eivind Berge,0,1,0,0,,,
+Program,479,Paint.Net,Tegne program / bildeprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,481,Panasonic skannerdriver KV-S5055C,Driver mm,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,482,Pasco Dataloggere,Datalogging ,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,483,Pasco SPARKvue,Programvare til dataloggere,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,633,PC Meter Connect,"Programvare og driver for frankeringsmaskin. (til bruk på 32-bits maskiner). Driveren fungerer ikke sammen med windows 10.
+",Sissel Haugland,Sissel Haugland,1,0,0,0,,,
+Program,484,Pc Tools fra www.sonimtech.com,Mobiltelefon/GPS-software fra www.sonimtech.com,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,800,Pdanalyze Fidas,Henter inn og tolker datafiler fra svevstøvmåler,Sonja Skotheim,Sonja Skotheim,1,0,0,0,,,
+Program,656,Pegasus for Rolltalk Designer,Ferdiglaget opplegg for Rolltalk Designer 8. For å få tilgang må man ha meldt seg inn i NLB og ha mottatt lisenskode fra Abilia. Tilgang gis til logopeder som har lisens til Pegasus.,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,486,Pervasive Data Integrator 9.2.5.28,"For migrering av databaser, flatfiler, m.m.",Arne Skivenes,Arne Skivenes,1,0,0,0,,,
+Program,487,Photostory 3,Bildefortellinger med animasjon og lyd,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,488,PhysioTools,Ikke oppgitt,Benedicte Løseth,Benedicte Løseth,0,1,0,0,,,
+Program,556,Pictogram,"Tegn, symboler og bilder for kommunikasjon",Sissel Fuglestad,Sissel Fuglestad,1,0,1,0,,,
+Program,720,Picus Expert,"The PiCUS® Sonic Tomograph is an instrument to detect decay and cavities in standing trees non-invasively. The velocity of sound waves in wood depends on the modulus of elasticity and the density of the wood itself. The PiCUS unit tracks the speed of these waves. Most damage and disease causes fractures, cavities, or rot and reduces the wood’s elasticity and density.",Kjetil Møklebust,Kjetil Møklebust,1,0,0,0,,,
+Program,492,Pinnacle Studio 15 HD Nordisk,Videoredigeringsprogram.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,580,Pinnacle Studio 16 HD,Videoredigeringsprogram.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,493,Pivot Animator,Animasjonsprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,494,PixEdit,Pix-Edit:Skannerverktøy for BKSak og Byggesaksarkivet,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,635,PL-2303 USB-to-Serial,Driver for USB-til-Seriell adapter,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,495,Plania,System for eiendomsforvaltning og drift/vedlikehold,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,496,POLYDOC  v3.01,Databasesystem for lagring og søking i fritekst,Ellen Sundt,Ellen Sundt,1,0,0,0,,,
+Program,497,PortWin,Havnedatasystem,Kjell-Rune Linga,Kjell-Rune Linga,1,0,0,0,,,
+Program,180,PostgreSQL 9.3,Ikke oppgitt,Kjell Aga,Kjell Aga,1,0,0,0,,,
+Program,687,PostgreSQL 9.3 - 64-bit,ODBC oppkopling til posgresql databaser,Bjarte Høysæter,Bjarte Høysæter,1,0,0,0,,,
+Program,822,Power BI Desktop,"Power BI Desktop er en gratisversjon av Power BI, et analyseverktøy for data. Det er ikke mulig å dele rapporter med gratisversjonen, den kan kun brukes til å analysere data på egen PC. Skal data deles må Power BI Pro kjøpes, som krever lisens i Office365",Helge Underhaug,Helge Underhaug,1,0,0,0,,,
+Program,809,Power BI Desktop Pro,"Power BI Desktop PRO lets you build advanced queries, models, and reports that visualize data. Dette er versjonen som krever lisens og gjør at du kan dele rapporter med andre. Det er samme programpakken som Desktop, men lisens avgjør om du kan dele rapporter du lager. 
+",Liv Bruland,Liv Bruland,1,0,0,0,,,
+Program,849,Power BI Pro (NK4-00002),"Power BI er et avansert analyseverktøy med en unik mulighet for å visualisere data fra ulike kilder på en god måte i samme rapport. Power BI Pro er den lisensierte versjonen som gir muligheten til å dele innhold og samarbeide med andre Pro-brukere. Bare Pro-brukere kan publisere og bruke innhold fra apparbeidsområder, dele instrumentbord, og abonnere på instrumentbord og rapporter. ",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,845,Power PDF Advanced,Redigere og systematisere PDF dokumenter,Helge Strand,Helge Strand,1,0,0,0,,,
+Program,499,PPI,Administrativt system for syns- og audiopedagogisk senter,Christine Grevstad,Christine Grevstad,0,1,0,0,,,
+Program,500,PPTHK,Fagsystem PP-tjenesten,Odd Harald Hundvin,Odd Harald Hundvin,0,1,0,0,,,
+Program,453,PrimeWorks,Lekkasjeutstyrsprogram. Følger med utstyr,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,848,Princh,Selvbetjent utskriftsløsning for publikumsPCer i bibliotekene,Leikny Indergaard,Leikny Indergaard,0,0,0,0,,,
+Program,744,Processing,Programmering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,455,Profil,Ikke oppgitt,Benedicte Løseth,Benedicte Løseth,0,1,0,0,,,
+Program,164,Project 2010 (076-04709) ,Microsoft Project er et verktøy for prosjektstyring. Det må kjøpes lisens for hver PC det skal installeres på.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,851,Project Online Professional (7LS-00002),Prosjektstyring i skyen via skrivebordsklient og nettleser.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,165,Project Professional 2010 (H30-00255-1Y-D),"Klientprogram for planlegging, vedlikehold, ressursstyring og oppfølging av prosjekter og tilgang til Prosjektallmenningen. Prosjektledere har også mye funksjonalitet i Prosjektallmenningen (SharePoint) som er billigere. NB! Det er 2010-versjonen som skal installeres dersom du skal bruke programmet i tilknytning til Prosjektallmenningen.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,458,Promethean ActivInspire,Interaktiv tavleprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,459,Prosjektallmenningen (brukertilgang til Project Server) (H21-03424) ,"Prosjektallmenningen er samlebegrep for kommunens prosjektstyringsløsning på web. 
+Dette inkluderer en ""enkel"" versjon av MS Project. Prosjektledere som har behov for utvidet funksjonalitet ifm prosjektplanlegging og ressursoppfølging må bestille MS Project Professional i stedet. ",Liv Bruland,Liv Bruland,1,0,0,0,,,
+Program,653,PRPDF - skriverdriver (pdfFactory),Program som brukes av BBKM og Bergen vann for å lage PDF-filer og behandle dem. BBKM har lisenser og programmet kan benyttes av alle. Lisensliste reguleres av Trond Kvam eller Reidar Waage på melding fra Pål Fagerheim. ,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,461,Putty SSH,SSH- og Telnetklient for windows,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,746,Python,Programmering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,463,QBEVision 5.0,Databasespørreverktøy,Kjetil Århus,Kjetil Århus,1,0,0,0,,,
+Program,732,QGIS,"Lage, editere, visualisere, analysere og publisere geospatial (geo-rommelig) informasjon ",Pål Bjørseth,Pål Bjørseth,1,0,0,0,,,
+Program,464,QlikView,Rapporterings-- og statistikkprogram,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,465,Quadri Map Server (QMS),Forvaltningssystem for kartdata,Eivind Lund,Eivind Lund,1,0,0,0,,,
+Program,468,RADAR,Trafikktelling (Erstattes av raffic 6 (sp605)? Ikke fått svar fra Samferdsel ennå),Atle Kleppe,Atle Kleppe,1,0,0,0,,,
+Program,637,RadonPro,Radon gas measurement,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,470,RDP mot egen PC,Remote desktop,Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,471,Read-a-Card,Program for å lese/identifisere personer med adgangskort ,Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,715,Readsoft,"Skanning og tolking av papirfaktura, faktura levert som pdf vedlegg til epost.",Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,472,Readsoft 5.6,"Fakturaskanning, del av Agressoløsningen",Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,474,Relemo,Repetert lesetreningsprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,531,ReleMo 1.5.1,"Økt lesehastighet, nøyaktighet og forståelse",Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,844,ReluxDesktop,"Lysberegning/Lysplanlegging, kobler opp mot ekstern database for å hente data på lysarmaturer.",Morten Strøm,Morten Strøm,1,0,0,0,,,
+Program,475,Remedy,System for melding/håndtering av feil og bestillinger.,Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,476,Rename Master,Ikke oppgitt,Pål Fagerheim,Pål Fagerheim,1,0,0,0,,,
+Program,405,Ressursstyring (RS),Arbeidsplanleggingsprogram,Bjørg Lædre,Bjørg Lædre,1,0,0,0,,,
+Program,756,Rettsdata Total ,"Rettsdata Total gir samlet tilgang til oppdaterte rettskilder, lovkommentarer fra Norsk Lovkommentar, praktiske dokumenter, fagbøker og tidsskrifter.  internett via nettleser. Alle ansatte i Bergen kommune kan bli registrert  som personlig bruker av tjenesten.<br/><br/> IKT Drift har ikke brukerstøtte på systemet. IKT Drift håndterer tilganger og årlig fakturering. <br/><br/>Hjelp og informasjon om systemet finner du her:  <a href=""https://www.rettsdata.no/Kontakt-oss""</a>Brukerstøtte.</a><br/><br/>Tilgang til Rettsdata Total forutsetter e-postadresse i Bergen kommune.<br/><br/> Utregistrering av tjenesten skjer ved at du i kommentarfeltet skriver: Utregistrering  Rettsdata Total: e-postadresse til bruker som skal utregistreres",May Lindtner,May Lindtner,1,0,0,0,,,
+Program,408,Rfid Manager Gold 1.4,RFID-programmering av kaffebetalingskort,Astrid Nysæter,Astrid Nysæter,1,0,0,0,,,
+Program,410,RightFax for Outlook 2010,Faks-tillegg for Outlook 2010,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,648,Rolltalk Designer,Rolltak Designer (tidligere Programsnekkeren) gir mulighet for å lage eget brukerprogram til personer som trenger tekst og/eller symbolbasert kommunikasjon.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,798,Rolltalk Designer PODD,"PODD er et kommunikasjonshjelpemiddel og en metode, utviklet for barn. PODD-metoden går ut på å finne den beste måten for barn å kommunisere",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,415,ROSY Road Map,Forvaltning  Drift og Vedlikehold av kommunele veier,Øyvind Haga,Øyvind Haga,1,0,0,0,,,
+Program,413,RoSyDIG,"RoSy Base er forvaltning, drift og vedlikeholdssystem av det kommunale veinettet. RoSyDIG holder oversikten over gravemeldinger og graving langs eller på kommunale veier.",Ove Foldnes,Ove Foldnes,1,0,0,0,,,
+Program,416,Roxio,Brenneprogram med videoredigering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,611,RoyalTS,"Fjerndriftsverktøy. Primært beregnet på serveradministrasjon. Lagring og administrasjon av oppkoblinger med RDP, SSH, Web, VNC etc.
+Driftsverktøy som er tilgjengelig kun for IKT Drift.
+Kjøpt Global License for versjon 3 i mars 2015 inkl. 3 år med gratis oppgraderinger.",Svein Dyrrdal,Svein Dyrrdal,1,0,0,0,,,
+Program,825,RStudio,Statistikk og analyse-program,Andreas Roaldsnes,Andreas Roaldsnes,1,0,0,0,,,
+Program,418,Safir OK,Registreringssystem for lærlinger/lærekontrakter,Marie Størdal,Marie Størdal,1,0,0,0,,,
+Program,684,Salto RW Pro,Programmet brukes for å programmere dørene for individiduelle tilganger for de ansatte med nøkkelkort.,_* Ikke tildelt,_* Ikke tildelt,0,0,0,0,,,
+Program,550,Samsung KIES,Administrasjonsprogram for mobiler og nettbrett fra Samsung.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,607,Sarepta,Ordbehandlings- og kommunikasjonsprogram tilrettelagt for brukere med spesielle krav.,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,419,Satsync,GPS-software,Øystein Berentsen,Øystein Berentsen,1,0,0,0,,,
+Program,184,Scangear CS,Applikasjon for skanning (Canon 3200F),Petter Wiberg,Petter Wiberg,1,0,0,0,,,
+Program,185,Scratch,Animasjon - programmering,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,814,SDParking RDP,Remote Desktop for styring av Skidata psystem,Trond Birkeland,Trond Birkeland,1,0,0,0,,,
+Program,552,Sequel 2,Music creation and performance,Mardon Åvitsland,Mardon Åvitsland,1,0,0,0,,,
+Program,422,Skiltbase,Basert på AutoCad / Novacad,Atle Kleppe,Atle Kleppe,1,0,0,0,,,
+Program,423,Skype,"Skype-til-Skype-samtaler; Videosamtaler på tomannshånd, direktemeldinger, skjermdeling",Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,716,Smart Notebook,Programvare til digital tavle,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,427,SnagIt,Screen capture utility. Lisensnøkkel må legges inn i begynnelsen av installasjonen.,Øyvind Haga,Øyvind Haga,1,0,0,0,,,
+Program,428,SoapUI,Verktøy for å teste websider,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,357,Socio for sosialtjenestene,"Fagsystem for sosialtjenesten,/NAV kommune",Magne Ervik,Magne Ervik,0,1,0,0,,,
+Program,358,Socio MOKS,Fagsystem for MOKS,Magne Ervik,Magne Ervik,0,1,0,0,,,
+Program,359,Socio Utekontakten,Informasjonssystem for Utekontakten,Magne Ervik,Magne Ervik,0,1,0,0,,,
+Program,360,Sofie - skatteetaten,"Sofie er kemneren i Bergen sitt system for skattregnskap og kjører via internett. Systemet krever spesiell versjon av Java og spesielle porter tilgjengelig for tilganger. Systemet driftes av  
+",Lasse Hunsrød,Lasse Hunsrød,1,0,0,0,,,
+Program,362,Solibri Model Checker,3D-visning (BIM) av bl.a. IFC-filer,Marit Hisdal,Marit Hisdal,1,0,0,0,,,
+Program,853,Solibri Model Viewer,BIM viewer,Bjørn Østrem,Bjørn Østrem,1,0,0,0,,,
+Program,364,SOSI Kontroll,"Kvalitetskontroll SOSI-filer, inneholder også SOSI Vis",Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,365,SOSI Shape,Konverteringsprogram mellom SOSI- og Shape-filer,Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,542,Spilletid,"Dette er et spill der man manøvrerer seg inn i et galleri, der det henger tegninger laget av barn.  ",Ragnar Buset,Ragnar Buset,1,0,0,0,,,
+Program,661,Spirare,"Spirare er et PC-program med tilhørende pusteapparat for å måle pust (ekspirasjon) installert på virtuelle klienter for Bedriftshelsetjenesten.  De har wyse-terminaler hvor pusteapparatet er tilknyttet.  Beskrivelse i SLA-vedlegg ""Profdoc for Bedriftshelsetjenesten"" ",Bjørg Lædre,Bjørg Lædre,0,1,0,0,,,
+Program,555,Språkpakker til Microsoft Office,"Det er tilgjengelig språkpakker til en rekke språk - se i ""Run Advertised Programs"" under Program Name som starter med ""Microsoft Office Language""",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,369,Stellarium,"Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,772,Superoffice webtools 8.0,"Tillegg til programmet superoffice som blant annet omhandler kontakter.
+
+http://cs.superoffice.no/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=no&noCookies=true&action=viewKbEntry&id=112122 ",Stein Hauge,Stein Hauge,1,0,0,0,,,
+Program,821,Surface Hub,"SurfaceHub er en stor skjerm med innebygd pc fra Microsoft. SDI har kjøpt og fått satt opp 1 stk i november 2017, som er integrert med Exchange/Skype. Per Arne Hoff har vært kontaktperson. ",Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,757,Sweet Home 3D,Interiør hustegning i 3D.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,584,Symwriter,Verktøy for lese- og skrivetrening med tale- og bildestøtte. ,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,829,Synchro Open Viewer,Viser 4D-tegninger,Marit Hisdal,Marit Hisdal,1,0,0,0,,,
+Program,372,TabQuick 5.03,Program for utskrift av etiketter,Lasse Hunsrød,Lasse Hunsrød,1,0,0,0,,,
+Program,373,TABQUIK 7,Program for utskrift av etiketter,Marit Tufteland,Marit Tufteland,1,0,0,0,,,
+Program,836,Tagvision,Rfid-leser som registerer innlån og utlån av materiale,Leikny Indergaard,Leikny Indergaard,1,0,0,0,,,
+Program,606,TangoTouch 6.0N,Tastaturtrening - Forstørrer skjermbilde,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,787,Teamviewer,Fjernstyringsprogram,Glenn Andersen,Glenn Andersen,1,0,0,0,,,
+Program,678,Tegnstart 1-2-3,Lær tegnspråk,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,638,Tekla Viewer,3D Viewer,Gry Stenersen,Gry Stenersen,1,0,0,0,,,
+Program,794,Telchart/ C - Map,Navigasjon for Sjøbrand (Brann-båt),Kjell Solheim,Kjell Solheim,1,0,0,0,,,
+Program,812,Textpilot 3 pluss,Lese- og skrivestøtte,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,790,Textpilot pluss,Lese- og skriveverktøy,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,380,The English 2 Dyslexia Test,Dysleksitest,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,838,Tiamo 2.5,Robotstyring,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,564,Tilskuddsordning (Insights),Utlysning og saksbehandling av tilskudd. Er flyttet til en webportal.,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,636,Tjenestekatalogen (NTK),Løsning for definering av kommunale tjenester ut mot innbyggerne i Bergen kommmune,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,310,Tobii Communicator,"Programvare for alternative og supplerende kommunikasjonssystem. Konverterer tekst og symbol til tale, inneholder et rikholdig utvalg av funksjoner for lek,læring,omgivelskontroll og elektronisk fjernkommunikasjon",Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,832,Tobii Gaze Interaction,"For those with limited or without ability to use hands or fingers to control a computer, the classic Tobii Gaze Interaction software in combination with a Tobii Dynavox eye tracker allows you to operate your computer using your eyes.",_* Ikke tildelt,_* Ikke tildelt,1,0,1,0,,,
+Program,311,Tobii SymbolMate,Tool for educators to create effective paper-based symbol communication,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,775,Tor Asle Skiple,Et sikkert passordhvelv der brukere kan lagre og få tilgang til egne passord.,_* Ikke tildelt,_* Ikke tildelt,0,0,0,0,,,
+Program,313,TQM Enterprise,Kvalitet -og miljøstyringssystem,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,314,Traffic 6,Trafikkmålinger,Øyvind Haga,Øyvind Haga,1,0,0,0,,,
+Program,315,TrakPro 4.4.0.5,Program til partikkelmåler,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,578,Trakpro 4.6.1,Leser av data fra inneklimalogger av typen Qtrak,Ingvar Tveit,Ingvar Tveit,1,0,0,0,,,
+Program,316,Trend Micro OfficeScan Client 10.0.x,Standard Antivirus løsning,Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,317,Trimble GPS- og korreksjons-software,Ikke oppgitt,Kjetil Århus,Kjetil Århus,1,0,0,0,,,
+Program,508,Trimble SketchUp Pro,3D tegnekonstruksjonsprogram. Installasjonen installerer SketchupMake. Dersom man legger inn lisens vil programmet være Sketchup Pro.,Mette Svanes,Mette Svanes,1,0,1,0,,,
+Program,731,Trio Callcenter,Program for sentralbordløsning i Bergen kommune. Trio-programvaren installeres på brukerens arbeidsstasjon.,Gina Gunnestad,Gina Gunnestad,1,0,0,0,,,
+Program,660,True Type abc-skrift,Former bokstaver som er lik skriften i læreverk på 1. trinn,Øystein Berentsen,Øystein Berentsen,1,0,1,0,,,
+Program,319,TruView Plugin for IE,Plugin for Internet Explorer som gir 3D-visning,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,507,Tuctyping,Tøtsjprogramm,Odd Harald Hundvin,Odd Harald Hundvin,0,0,1,0,,,
+Program,321,Tuxpaint,Bildeprogram,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,323,Tweetdeck,"TweetDeck is a personal real-time browser, connecting you with your contacts across Twitter, Facebook, MySpace, LinkedIn, Foursquare, Google Buzz and more.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,
+Program,629,UBW HR,Programpakke for UBW HR fagsystem,Bjørg Lædre,Bjørg Lædre,1,0,0,0,,,
+Program,215,UBW Økonomi,Økonomisystem. Office benyttes i utgangspunktet av sentrale enheter. ,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,324,UltraEdit-32 v 13.00a+2,Professional Text/Hex Editor,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,747,Unity Web Player,Nettlesertillegg. Trengs bl.a. hvis man skal kjøre DragonBox,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,326,USB Modem U90,"Mobilt bredbånd, ICE",Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,328,VAKO 4.8,Samme støtteverktøy som for Boinfo: Microsoft SOAP Toolkit 3.0,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,329,Vaktdata,Ikke oppgitt,Magne Ervik,Magne Ervik,0,1,0,0,,,
+Program,509,VanBasco's Karaoke Player 2.53,MIDI Karaoke Player for Windows,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,331,Varsling 24,WEB-tjeneste. System som varsler alle innbyggere i et geografisk område eller personer som befinner seg i et område.,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,839,VISGI-odbc,"Programpakke til Plan og geodata, slik at de kan hente data fra fagsystemet Visgi inn i Access og analyse dataene. Pakken gir lesetilgang til Gisdata i EGDBPROD ",Knud Hillers,Knud Hillers,1,0,0,0,,,
+Program,332,Visio 2010 Prof (D87-05004),"Visio er et tegneverktøy med sjablonger. Det finnes i professional versjon (denne), og standard. Det må kjøpes lisens for hver PC det skal installeres på.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,261,Visio 2010 Std (D86-04531),"Visio er et tegneverktøy med sjablonger. Det finnes i standard versjon (denne), og professional. Det må kjøpes lisens for hver PC det skal installeres på.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,569,Visio 2013/6 Professional (D87-07312) ,"Visio er et tegneverktøy med sjablonger. Det finnes i professional versjon (denne), og standard. Det må kjøpes lisens for hver PC det skal installeres på.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,568,Visio 2013/6 Standard (D86-05738),"Visio er et tegneverktøy med sjablonger. Det finnes i standard versjon (denne), og professional. Det må kjøpes lisens for hver PC det skal installeres på.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,850,Visio Pro for Office 365 (N9U-00002),"Microsoft Visio Pro for Office 365 har de samme mulighetene som Visio Professional 2016. I tillegg er eksklusive skyfunksjoner som Data Visualizer, Database Reverse Engineering og forbedret støtte for AutoCAD-tegninger nylig introdusert. Abonnement gir også hver bruker anledning til å installere Visio på opptil fem PC-er",Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,785,Visio Viewer 2016,"Med Office 2010-installasjonen følger det med en Visio Viever. Denne gir mulighet til å åpne .vsd-filer, men ikke .vsdx-filer. Denne vieweren gir mulighet til også å se disse filene av typen vsdx. 
+Dersom man allerede har Office 2013 eller Office 2016 installert trenger man ikke installere dette programmet. Da er VisioViewer inkludert i programsuiten. ",Helge Underhaug,Helge Underhaug,1,0,0,0,,,
+Program,263,Visma Performit Guide Designer,Verktøy for produksjon av brukerveiledninger,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,264,Visma Performit Player,Brukerveiledninger og støtteverktøy,Lisbeth Skodvin,Lisbeth Skodvin,1,1,0,0,,,
+Program,706,Visual Basic 6.0,Utviklingsverktøy for BOEI,Bjarte Høysæter,Bjarte Høysæter,1,0,0,0,,,
+Program,265,VLC media player,Media player,Lisbeth Skodvin,Lisbeth Skodvin,1,1,1,0,,,
+Program,267,Vocabulary Worksheet Factory 4.08,"Lærerne genererer oppgaver, skriver ut, og så får elevene oppgavene. ",Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,268,Voxit Budgie Pro 2.4,Digital tekst til tale,_* Ikke tildelt,_* Ikke tildelt,1,0,0,0,,,
+Program,269,VPSKeys 4.3,Vietnamesisk tastatur for å skrive vietnamesiske tegn med aksent.,Lam Hong-Khanh,Lam Hong-Khanh,1,0,0,0,,,
+Program,270,Værbutikken,WEB-tjeneste fra DMNI. (Meget kritisk. Spesielt for vinterberedskapen),Frode Rasvik,Frode Rasvik,1,0,0,0,,,
+Program,530,Wacom Intous 4M,Tegnebrett,Sissel Lerum,Sissel Lerum,1,0,0,0,,,
+Program,186,WAPS,Flygt sitt pumpevalgsprogram,Ole Dan Lundekvam,Ole Dan Lundekvam,1,0,0,0,,,
+Program,271,WEB Matrikkel,Insynsverktøy mot matrikkeldata,Mette Svanes,Mette Svanes,1,0,0,0,,,
+Program,815,WebForum plugin,Programtillegg for å benytte Webforum,Thomas Leathem,Thomas Leathem,1,0,0,0,,,
+Program,587,WebPro Powerpointplugin,"Powerpointplugin som gjør det mulig å direktepublisere til infoskjermer, del av tjenesten Infoskjerm",Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,274,Wilab/Lims,Laboratoriesystem,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,189,WinCAPS,Grundfos sitt pumpevalgsprogram,Ole Dan Lundekvam,Ole Dan Lundekvam,1,0,0,0,,,
+Program,574,Windows Help,Hjelp for Windows. Brukes når program ikke kan lese gammel type hjelpefiler i windows 7.,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,278,WinMerge 2.12.14,Verktøy for å finne forskjell i filer og mapper,Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,281,WinSitu 4,Måleutstyr-SW til vannkvalitetapparatur,Sissel Lerum,Sissel Lerum,1,0,0,0,,,
+Program,570,WinTid Dashboard,For superbrukere og ledere som skal ha tilgang til Wintid Dashboard.,Bjørg Lædre,Bjørg Lædre,1,0,0,0,,,
+Program,282,Wintid skjermstempling (Mintid),For brukere som vil stemple via pc med skjermstempling (Mintid). Bildet for inn-stempling startes når pc'en startes. Bildet for ut-stempling må startes manuelt. Bruker administrerer sin egen tidskonto via Mintid - bildet.,Bjørg Lædre,Bjørg Lædre,1,0,0,0,,,
+Program,190,Wintouch Office,e-læringsprogram for touchmetoden,Odd Harald Hundvin,Odd Harald Hundvin,1,0,1,0,,,
+Program,699,WinVed,Program for vedlikehold av biler og utstyr. Bergen Brannvesen,Leif Linde,Leif Linde,1,0,0,0,,,
+Program,612,Wireshark,"Verktøy for nettverks-sniffing, feilsøking mm.
+Driftsverktøy som kun skal være tilgjengelig på IKT Drift.",Svein Dyrrdal,Svein Dyrrdal,1,0,0,0,,,
+Program,191,Wisc-IV Pearson,Skåringsprogram for test og vurdering av kognitive evner hos barn og ungdom. Leverandør er Pearson. Brukes av alle PPT-kontorer. Hver lisens av dette programmet er gyldig for installasjon og bruk på én PC.,Odd Harald Hundvin,Odd Harald Hundvin,1,0,0,0,,,
+Program,690,WPS-dongle 2,Trådløst mellom projektor og pc/mobil/nettbrett,Lisbeth Skodvin,Lisbeth Skodvin,1,0,0,0,,,
+Program,561,XAMPP 1.8.1,Webserver,Trond Sandal,Trond Sandal,1,0,0,0,,,
+Program,843,xBim xplorer,Viser 3D-tegninger,Marit Hisdal,Marit Hisdal,1,0,0,0,,,
+Program,193,XDM,"Xerox Device Manager er applikasjonen som bl a sørger for å bestille toner etc
+",Steinar Carlsen,Steinar Carlsen,1,0,0,0,,,
+Program,806,x-Dock Manager,dette er en USB stick med en softwarekode,Jarl Svanberg,Jarl Svanberg,1,0,0,0,,,
+Program,194,XenCenter,Driftsverktøy IKT Drift,Jan Tenold,Jan Tenold,1,0,0,0,,,
+Program,685,Xming X Server for Windows 7-5-0-79,Muliggjør pålogging med grafisk grensesnitt til ekstern (Linux) maskin.,Bjarte Høysæter,Bjarte Høysæter,1,0,0,0,,,
+Program,196,XML-generator,Endrer format fra Agresso 5.4 til Agresso 5.5.3 i forbindelse med fakturering,Jan Norgren,Jan Norgren,1,0,0,0,,,
+Program,197,XML-notepad,XML editor,Kjetil Århus,Kjetil Århus,1,0,0,0,,,
+Program,198,YouSendIT,Brukes til å sende store filer via epost,Ali Mekki,Ali Mekki,1,0,0,0,,,
+Program,199,Zebra LP 2844,Skriver ut etiketter til postpakker,Ole Dan Lundekvam,Ole Dan Lundekvam,1,0,0,0,,,
+Program,200,Zebra P100i,Driver til ID-kort skriver,Bjørn Lid,Bjørn Lid,1,0,0,0,,,
+Program,816,Zebra Stripe S4M,Etikettskriverdriver for produksjonskjøkken,Elin Ellertsen,Elin Ellertsen,1,0,0,0,,,
+Program,201,ZoomText,"Forstørrer tekst på skjermen for svaksynte, samt talesyntese på norsk.",Lisbeth Skodvin,Lisbeth Skodvin,1,0,1,0,,,

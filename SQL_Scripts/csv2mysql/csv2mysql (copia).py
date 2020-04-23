@@ -10,7 +10,6 @@ import argparse
 import collections
 import MySQLdb
 import warnings
-
 # suppress annoying mysql warnings
 warnings.filterwarnings(action='ignore', category=MySQLdb.Warning)
 
@@ -92,23 +91,18 @@ def get_col_types(input_file, max_rows=10):
     return [most_common(csv_types[col]) for col in header]
 
 
-def get_schema(table, header, col_types, pkey):
+def get_schema(table, header, col_types):
     """Generate the schema for this table from given types and columns
     """
-    schema_sql = """CREATE TABLE IF NOT EXISTS %s ( """ % table
-
-    if pkey is 'autoId': 
-        schema_sql +="""\nid int NOT NULL AUTO_INCREMENT,""" 
+    schema_sql = """CREATE TABLE IF NOT EXISTS %s (  
+        id int NOT NULL AUTO_INCREMENT,""" % table
 
     for col_name, col_type in zip(header, col_types):
         if col_name != 'id':
             schema_sql += '\n%s %s,' % (col_name, col_type)
-	
-    if pkey is 'autoId':
-        schema_sql +="""\nPRIMARY KEY (id)) DEFAULT CHARSET=utf8;"""
-    else:
-        schema_sql +="""\nPRIMARY KEY (%s)) DEFAULT CHARSET=utf8;""" % pkey
 
+    schema_sql += """\nPRIMARY KEY (id)
+        ) DEFAULT CHARSET=utf8;"""
     return schema_sql
 
 
@@ -136,7 +130,7 @@ def format_header(row):
     return header
 
 
-def main(input_file, user, password, host, table, database, pkey, max_inserts=10000):
+def main(input_file, user, password, host, table, database, max_inserts=10000):
     print("Importing `%s' into MySQL database `%s.%s'" %
           (input_file, database, table))
     db = MySQLdb.connect(host=host, user=user, passwd=password, charset='utf8')
@@ -156,35 +150,32 @@ def main(input_file, user, password, host, table, database, pkey, max_inserts=10
             while len(row) < len(header):
                 # this row is missing columns so pad blank values
                 row.append('')
-            cursor.execute(insert_sql, row)
+            #cursor.execute(insert_sql, row)
             if i % max_inserts == 0:
                 db.commit()
                 print('commit')
         else:
             header = format_header(row)
-            schema_sql = get_schema(table, header, col_types, pkey)
+            schema_sql = get_schema(table, header, col_types)
             print(schema_sql)
             # create table
             cursor.execute('DROP TABLE IF EXISTS %s;' % table)
             cursor.execute(schema_sql)
             # create index for more efficient access
             try:
-                if pkey is 'autoId':
-                    cursor.execute('CREATE INDEX ids ON %s (id);' % table)
-                else:
-                    cursor.execute('CREATE INDEX ids ON %s (%s);' %(table, pkey))
-
+                cursor.execute('CREATE INDEX ids ON %s (id);' % table)
             except MySQLdb.OperationalError:
                 pass  # index already exists
 
             print('Inserting rows ...')
             # SQL string for inserting data
-            insert_sql = get_insert(table, header)
+            #insert_sql = get_insert(table, header)
 
     # commit rows to database
     print('Committing rows to database ...')
     db.commit()
     print('Done!')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -200,15 +191,10 @@ if __name__ == '__main__':
     parser.add_argument('--host', dest='host',
                         default='localhost', help='The MySQL host')
     parser.add_argument('input_file', help='The input CSV file')
-    parser.add_argument('--pkey', dest='pkey', default='autoId', help='The table primary key. If not set the an auto_increment id will be used. If several just add , between args and substitue spaces for _ .')
-
     args = parser.parse_args(sys.argv[1:])
     if not args.table:
         # use input file name for table
         args.table = os.path.splitext(os.path.basename(args.input_file))[0]
 
     main(args.input_file, args.user, args.password,
-         args.host, args.table, args.database, args.pkey)
-
-
-
+         args.host, args.table, args.database)
