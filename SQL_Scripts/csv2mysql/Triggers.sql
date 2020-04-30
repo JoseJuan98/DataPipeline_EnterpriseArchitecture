@@ -199,6 +199,14 @@ FROM Element as e JOIN RawData as RD
 ON (RD.id = e.idEl)
 WHERE RD.internettviktighet IS NOT null);
 
+-- ================= We have to add the correct format
+select concat('"',ID,'"'),concat('"',TYPE,'"'),concat('"',NAME,'"'),concat('"',DOCUMENTATION,'"') from Element into outfile '/tmp/Element.csv';
+select * from Relation into outfile '/tmp/Relation.csv';
+select * from Property into outfile '/tmp/Property.csv';
+
+sudo mv /tmp/Property.csv /home/goldenfox/Escritorio/
+sudo mv /tmp/Element.csv /home/goldenfox/Escritorio/
+sudo mv /tmp/Relation.csv /home/goldenfox/Escritorio/
 
 
 
