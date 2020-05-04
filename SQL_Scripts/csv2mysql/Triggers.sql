@@ -1,10 +1,7 @@
---SET @path_load = "/home/goldenfox/Escritorio/test1.csv";
 
---LINES TERMINATED BY '\n'
--- (id, name, type, owner_id, @datevar, rental_price)
--- set date_made = STR_TO_DATE(@datevar,'%m/%d/%Y');
 
---Use test;
+
+Use test;
 delete from RawData;
 
 CREATE TABLE Element (
@@ -15,11 +12,7 @@ CREATE TABLE Element (
 	DOCUMENTATION TEXT
 );
 
---PRIMARY KEY (ID),
---UNIQUE KEY uniqueID (ID)
 
---ALTER TABLE Andre_Elements
---ADD UNIQUE KEY uniSID (sid);
 
 DELIMITER //
 CREATE TRIGGER trig_elem AFTER INSERT
@@ -39,13 +32,7 @@ VALUES(NEW.id, @newID, @vtype, NEW.navn, NEW.beskrivelse);
  	END;//
 DELIMITER ;
 
---delete from RawData;
 
---select count(*) from RawData;
---select count(*) from Element;
-
---drop trigger trig_andre_elem;
--- =========================================================================================
 CREATE TABLE Relation (
 	ID VARCHAR(255) PRIMARY KEY, 
 	TYPE VARCHAR(255), 
@@ -151,20 +138,7 @@ BEGIN
  END;//
 DELIMITER ;
 
---select LOWER(REPLACE(name, ' ','_')) from Andre_Elements;
 
---select COLUMN_NAME from information_schema.columns  
---where table_schema = 'test'     
---and table_name = 'RawData';
--- =========================================================================================
-
---CREATE TABLE Property (
---	idProp INT(11) PRIMARY KEY AUTO_INCREMENT,
---	KEY_P VARCHAR(255)
---);
-
---INSERT INTO Property (KEY_P)
---VALUES ('systemeier'),('systemkoordinator'),('internettviktighet');
 
 CREATE TABLE Property (
 	ID INT(11),
@@ -175,7 +149,7 @@ CREATE TABLE Property (
 	ON UPDATE CASCADE ON DELETE CASCADE
 );
 
-LOAD DATA LOCAL INFILE "/home/goldenfox/Escritorio/RawData.csv" REPLACE INTO TABLE RawData
+LOAD DATA LOCAL INFILE '/home/dani/Desktop/RawData.csv' REPLACE INTO TABLE RawData
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'
@@ -199,10 +173,7 @@ FROM Element as e JOIN RawData as RD
 ON (RD.id = e.idEl)
 WHERE RD.internettviktighet IS NOT null);
 
--- ================= We have to add the correct format
-select concat('"',ID,'"'),concat('"',TYPE,'"'),concat('"',NAME,'"'),concat('"',DOCUMENTATION,'"') from Element into outfile '/tmp/Element.csv';
-select * from Relation into outfile '/tmp/Relation.csv';
-select * from Property into outfile '/tmp/Property.csv';
+
 
 
 

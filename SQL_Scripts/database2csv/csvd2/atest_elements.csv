@@ -1,0 +1,9 @@
+ID,Type,Name,Documentation
+<<<<<<< HEAD
+ComNet0001,CommunicationNetwork,Adm sone,
+=======
+ComNet0001,CommunicationNetwork,Adm sone,asd
+>>>>>>> 11316ee3a2424be608768f71677060408b37f03c
+ComNet0002,CommunicationNetwork,Elevnett,
+Constr0001,Constraint,Persondata,
+Constr0002,Constraint,Sensitive persondata,
