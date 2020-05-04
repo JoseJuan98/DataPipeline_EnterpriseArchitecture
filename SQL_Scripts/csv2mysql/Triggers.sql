@@ -204,10 +204,6 @@ select concat('"',ID,'"'),concat('"',TYPE,'"'),concat('"',NAME,'"'),concat('"',D
 select * from Relation into outfile '/tmp/Relation.csv';
 select * from Property into outfile '/tmp/Property.csv';
 
-sudo mv /tmp/Property.csv /home/goldenfox/Escritorio/
-sudo mv /tmp/Element.csv /home/goldenfox/Escritorio/
-sudo mv /tmp/Relation.csv /home/goldenfox/Escritorio/
-
 
 
 
