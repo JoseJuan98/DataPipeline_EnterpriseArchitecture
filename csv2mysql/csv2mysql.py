@@ -70,7 +70,7 @@ def most_common(l, default='varchar(255)'):
     return default
 
 
-def get_col_types(input_file, max_rows=10):
+def get_col_types(input_file, max_rows=1000):
     """Find the type for each CSV column
     """
     csv_types = collections.defaultdict(list)
@@ -82,6 +82,8 @@ def get_col_types(input_file, max_rows=10):
         else:
             for col_i, s in enumerate(row):
                 if s is not None:
+#                    if( col_i is 11 or  col_i is 12 or col_i is 10):
+#                         print("Value %s of %s " %(s,col_i) )
                     data_type = get_type(s)
                     csv_types[header[col_i]].append(data_type)
 
@@ -146,9 +148,11 @@ def main(input_file, user, password, host, table, database, pkey, max_inserts=10
     db.select_db(database)
 
     # define table
-    print('Analyzing column types ...')
+    print('-> Analyzing column types ...')
+    print( ' ' )
     col_types = get_col_types(input_file)
     print(col_types)
+    print( ' ' )
 
     header = None
     for i, row in enumerate(csv.reader(open(input_file))):
@@ -156,7 +160,7 @@ def main(input_file, user, password, host, table, database, pkey, max_inserts=10
             while len(row) < len(header):
                 # this row is missing columns so pad blank values
                 row.append('')
-            cursor.execute(insert_sql, row)
+#            cursor.execute(insert_sql, row)
             if i % max_inserts == 0:
                 db.commit()
                 print('commit')
@@ -177,14 +181,17 @@ def main(input_file, user, password, host, table, database, pkey, max_inserts=10
             except MySQLdb.OperationalError:
                 pass  # index already exists
 
-            print('Inserting rows ...')
+            print( ' ' )
+#            print('->Inserting rows ...')
             # SQL string for inserting data
-            insert_sql = get_insert(table, header)
+#            insert_sql = get_insert(table, header)
 
     # commit rows to database
-    print('Committing rows to database ...')
+#    print('->Committing rows to database ...')
     db.commit()
-    print('Done!')
+    print('DONE!')
+    print( ' ' )
+    print( ' ' )
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
