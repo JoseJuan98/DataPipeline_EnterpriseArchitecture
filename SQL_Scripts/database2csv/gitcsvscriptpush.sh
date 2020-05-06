@@ -8,13 +8,15 @@ REPO="https://github.com/$USER/$LREPO.git"
 
 echo $REPO
 git ls-remote $REPO -q
-if (( $? == 0 )); then
-  git add atest_elements.csv
-  git add atest_properties.csv
-  git add atest_relations.csv
-  git commit -m "committed"
-  git push -u $LREPO
-  echo "Commit complete"
+if [ $? -eq 0 ]
+  then
+    git add atest_elements.csv
+    git add atest_properties.csv
+    git add atest_relations.csv
+    git pull $LREPO master --allow-unrelated-histories
+    git commit -m "committed"
+    git push -u $LREPO
+    echo "Commit complete"
 else
   echo "Local repository does not exist, creating one"
   git init
