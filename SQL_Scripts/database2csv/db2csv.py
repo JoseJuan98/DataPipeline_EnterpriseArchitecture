@@ -8,38 +8,39 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import mapper, sessionmaker, relationship
 import csv
 
-DB_URL = 'mysql+mysqldb://aaa@testing1238:Abc12345@testing1238.mysql.database.azure.com:3306/mydatabase'
+#DB_URL = 'mysql+mysqldb://aaa@testing1238:Abc12345@testing1238.mysql.database.azure.com:3306/mydatabase'
+DB_URL = 'mysql+mysqldb://dani:Dani1234!@localhost/test'
 ENGINE = create_engine(DB_URL)
 
 Base = declarative_base()
 
 
 class Elements(Base):
-    __tablename__ = "elements"
+    __tablename__ = "Element"
 
     id = Column('ID', String, primary_key=True)
-    type = Column('Type', String)
-    name = Column('Name', String)
-    documentation = Column('Documentation', String)
+    type = Column('TYPE', String)
+    name = Column('NAME', String)
+    documentation = Column('DOCUMENTATION', String)
 
 
 class Properties(Base):
-    __tablename__ = "properties"
+    __tablename__ = "Property"
 
     id = Column('ID', String, primary_key=True)
-    key = Column('Key', String)
-    value = Column('Value', String)
+    key = Column('KEY_P', String)
+    value = Column('VALUE_P', String)
 
 
 class Relations(Base):
-    __tablename__ = "relations"
+    __tablename__ = "Relation"
 
     id = Column('ID', String, primary_key=True)
-    type = Column('Type', String)
-    name = Column('Name', String)
-    documentation = Column('Documentation', String)
-    source = Column('Source', String)
-    target = Column('Target', String)
+    type = Column('TYPE', String)
+    name = Column('NAME', String)
+    documentation = Column('DOCUMENTATION', String)
+    source = Column('SOURCE', String)
+    target = Column('TARGET', String)
 
 
 Session = sessionmaker(bind=ENGINE)
@@ -51,7 +52,7 @@ session = Session()
 
 elements = session.query(Elements).all()
 
-with open('atest_elements.csv', 'w', newline='') as file:
+with open('atest_elements.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(["ID", "Type", "Name", "Documentation"])
     for e in elements:
@@ -60,7 +61,7 @@ with open('atest_elements.csv', 'w', newline='') as file:
 
 properties = session.query(Properties).all()
 
-with open('atest_properties.csv', 'w', newline='') as file:
+with open('atest_properties.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(["ID", "Key", "Value"])
     for p in properties:
@@ -69,7 +70,7 @@ with open('atest_properties.csv', 'w', newline='') as file:
 
 relations = session.query(Relations).all()
 
-with open('atest_relations.csv', 'w', newline='') as file:
+with open('atest_relations.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(["ID", "Type", "Name", "Documentation", "Source", "Target"])
     for e in relations:
