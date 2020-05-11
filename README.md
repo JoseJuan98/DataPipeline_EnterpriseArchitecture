@@ -13,3 +13,5 @@ The current issue is to create a solution for Bergen Municipality’s Modelling 
 - Update Archi when the data is changed
 - Synchronized a GitHub repository with the Archi model
 - Automatization and scheduling of the process
+
+a
