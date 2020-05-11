@@ -31,10 +31,19 @@ createRawDataTable(){
 	cd ..        
 	pause
 }
-
+update() {
+	cd SQL_scripts/systemoversikten/
+	sudo mysql -u root -prideordie12 test < Update.sql
+	cd ..
+	cd ..
+	pause
+}
 generateNormalisedModel() {
-	cd SQL_scripts/
-	sudo mysql -u root -prideordie12 test < systemoversikten.sql
+	cd SQL_scripts/systemoversikten/
+	sudo mysql -u root -prideordie12 < createDB_Tables.sql
+	sudo mysql -u root -prideordie12 test < insertManuelt.sql
+	sudo mysql -u root -prideordie12 test < createTriggers.sql
+	cd ..
 	cd ..
 	pause
 }
@@ -92,6 +101,7 @@ show_menus() {
 	echo " 4. LOAD data "
 	echo " 5. Clean tables "
 	echo " 6. Drop database "
+	echo " 7. Update systemoversikten (Load)"
 	echo " q. Exit"
 }
 # read input from the keyboard and take a action
@@ -103,11 +113,12 @@ read_options(){
 	read -p "Enter choice [ 1 - 7] -> " choice
 	case $choice in
 		1) installSw ;;
-		2) createRawDataTable;;
+#		2) createRawDataTable;;
 		3) generateNormalisedModel;;
 		4) loadData;;
 		5) cleanDataFromTables;;
 		6) dropDB;;
+		7) update;;
 		q) exit 0;;
 		*) echo -e "${RED}Error...${STD}" && sleep 1
 	esac

@@ -1,3 +1,1 @@
 delete from RawData;
-
-

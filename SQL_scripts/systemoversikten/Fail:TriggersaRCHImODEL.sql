@@ -204,11 +204,8 @@ select concat('"',ID,'"'),concat('"',TYPE,'"'),concat('"',NAME,'"'),concat('"',D
 select * from Relation into outfile '/tmp/Relation.csv';
 select * from Property into outfile '/tmp/Property.csv';
 
-
-
-
-
-
+select concat('"',systemtype,'","',system_id,'","',navn,'","',beskrivelse,'","',systemeier,'","',systemkoordinator,'","',admsone,'","',sikker_sone,'","',elevnett,'","',tu_nett,'","',internettviktighet,'","',personopplysninger,'","',sensitive_personopplysninger,'"')
+from RawData into outfile '/tmp/test1.csv';
 
 
 
