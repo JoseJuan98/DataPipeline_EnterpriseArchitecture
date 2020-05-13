@@ -1,7 +1,7 @@
 --SET @vPathFiles='/home/goldenfox/Documentos/Project_BK/updateDB';
 -- ================================== TRIGGERS FOR INSERTING NEW ROWS =============================
 -- This triggers will be display when a new row in the table RawData will be insert
-use test;
+--use test;
 
 
 -- Trigger for tables system and sytemType

@@ -1,5 +1,5 @@
 -- ========================= MANUAL TABLES ===========================================
-Use test;
+Use test_Systems;
 
 CREATE TABLE source (
 	srcId INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,

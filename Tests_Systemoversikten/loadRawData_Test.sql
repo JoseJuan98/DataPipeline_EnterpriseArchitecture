@@ -1,4 +1,4 @@
-LOAD DATA LOCAL INFILE "/home/goldenfox/Escritorio/test_RawData.csv" INTO TABLE RawData
+LOAD DATA LOCAL INFILE "/home/goldenfox/Documentos/Project_BK/Project_D24_Bergen-Kommune/Tests_Systemoversikten/test_RawData.csv" INTO TABLE RawData
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'

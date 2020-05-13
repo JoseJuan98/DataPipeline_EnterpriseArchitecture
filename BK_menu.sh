@@ -6,12 +6,13 @@
 EDITOR=vim
 PASSWD=/etc/passwd
 RED='\033[0;41;30m'
+GREEN='\e[32m'
 STD='\033[0;0;39m'
 pwd=$(pwd)
 
 USER=''
 PASSW=''
-DB=''
+DB='test'
 CONTINUE=true
 # ----------------------------------
 # Step #2: User defined function
@@ -24,7 +25,7 @@ pause(){
 installSw(){
 	echo "installSw called"
 	cd csv2mysql/
-	sudo ./instScript.sh
+	./instScript.sh
 	cd ..
         pause
 }
@@ -32,22 +33,30 @@ installSw(){
 createRawDataTable(){
 	echo "runScript called"
 	cd csv2mysql/
-	sudo ./runScript.sh
+	./runScript.sh
 	cd ..        
 	pause
 }
 update() {
 	cd SQL_scripts/systemoversikten/
-	sudo mysql -u root -prideordie12 test < Update.sql
+	mysql -u $USER -p$PASSW $DB < Update.sql
 	cd ..
 	cd ..
 	pause
 }
 generateNormalisedModel() {
 	cd SQL_scripts/systemoversikten/
-	sudo mysql -u root -prideordie12 < createDB_Tables.sql
-	sudo mysql -u root -prideordie12 test < insertManuelt.sql
-	sudo mysql -u root -prideordie12 test < createTriggers.sql
+	echo -e " 				$GREEN Model Systemoversikten $STD"
+	echo " Creating tables, inserting manual data and creating triggers for maintain the model"
+
+	mysql -u $USER -p$PASSW -e "CREATE DATABASE $DB;"
+
+	mysql -u $USER -p$PASSW < createDB_Tables.sql
+	mysql -u $USER -p$PASSW $DB < insertManuelt.sql
+	mysql -u $USER -p$PASSW $DB < createTriggers.sql
+
+	echo " This are the tables that have been created: "
+	mysql -u $USER -p$PASSW $DB -e "Use $DB; Show tables;"
 	cd ..
 	cd ..
 	pause
@@ -55,30 +64,27 @@ generateNormalisedModel() {
 
 loadData() {
 	cd SQL_scripts/
-	sudo mysql -u root -prideordie12 test < loadRawData.sql
+	mysql -u $USER -p$PASSW $DB < loadRawData.sql
+	echo -e " Loading data into $GREEN RawData $STD, which will display all the triggers to insert in the rest of tables"
 	cd ..
 	pause
 }
 
 cleanDataFromTables() {
 	cd SQL_scripts/
-	sudo mysql -u root -prideordie12 test < cleanDB.sql
+	mysql -u $USER -p$PASSW $DB < cleanDB.sql
 	cd ..
 	pause
 }
 dropDB() {
 	cd SQL_scripts/
-	sudo mysql -u root -prideordie12 test < deleteDB.sql
+	mysql -u $USER -p$PASSW $DB < deleteDB.sql
 	cd ..
 	pause
 }
 test1() {
-	echo $(pwd)
-	echo $pwd/Tests_Systemoversikten/testMenu.sh
-	pause
 	. Tests_Systemoversikten/testMenu.sh
 	testMenu
-	pause
 }
 
 printBanner() {
@@ -98,12 +104,12 @@ printBanner() {
 	echo "	|                 |___/                                                               |"
 	echo "	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo " "		
-	echo " TESTING PHASE v0.1 - Working on DB test " 
+	echo " TESTING PHASE v0.1 - Working on DB $DB " 
 	echo " "
 }
 logUsr() {
 	printBanner;
-	echo " Enter credentials for login into the DB "
+	echo " Enter credentials for login into the $DB "
 	local usr
 	read -p "	Enter user -> " usr
 	USER=$usr
@@ -180,6 +186,8 @@ read_options(){
 		8) test1;;
 		q) exit 0;;
 		d) exitM;;
+		pwd) echo $(pwd); pause;;
+		exit) exit 0;;
 		*) echo -e "${RED}Error...${STD}" && sleep 1
 	esac
 }
