@@ -22,7 +22,20 @@ INSERT IGNORE INTO RawData (system_id, systemtype, navn, beskrivelse,systemeier,
 SELECT system_id, systemtype, navn, beskrivelse,systemeier,  systemkoordinator, admsone, sikker_sone, elevnett, tu_nett , internettviktighet, personopplysninger,  sensitive_personopplysninger
 FROM RawData_Update;
 
-truncate RawData_Update;
+-- =============== Person =============================
+-- Delete (isDeleted=1) the systemeier and koordinators that are not managing any system
+--              UNCOMMENT IF WANT THIS FUNCTIONALITY
+--UPDATE person as p
+--INNER JOIN (SELECT name FROM person as p1 WHERE (p1.name NOT IN (SELECT systemkoordinator FROM RawData_Update) AND p1.name NOT IN (SELECT systemeier FROM RawData_Update))) as r 
+--ON ( r.name = p.name )
+--SET isDeleted=1, lastModified=LOCALTIME;
+
+--UPDATE System_Person_Role
+--SET lastModified = LOCALTIME, isDeleted = 1
+--WHERE 
+
+
+--truncate RawData_Update;
 --select system_id, navn, lastModified from RawData where system_id=1;
 --select system_id, navn, lastModified from RawData where lastModified='';
 
