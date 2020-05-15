@@ -1,0 +1,43 @@
+-- ================================= TABLES FOR ACHI MODEL ==================================
+
+CREATE TABLE Element (
+	idEl int AUTO_INCREMENT PRIMARY KEY,
+	ID VARCHAR(255),
+	TYPE VARCHAR(255),
+	NAME VARCHAR(255),
+	DOCUMENTATION TEXT,
+	createdDate DATETIME DEFAULT LOCALTIME,
+	lastModified DATETIME DEFAULT LOCALTIME,
+	isDeleted INT(1) DEFAULT 0,
+	source INT(11) DEFAULT 1,
+	FOREIGN KEY ( source ) REFERENCES source ( srcId )
+);
+
+CREATE TABLE Relation (
+	ID VARCHAR(255) PRIMARY KEY, 
+	TYPE VARCHAR(255), 
+	NAME VARCHAR(255),
+	DOCUMENTATION TEXT,
+	SOURCE INT,
+	TARGET INT,
+	,
+	createdDate DATETIME DEFAULT LOCALTIME,
+	lastModified DATETIME DEFAULT LOCALTIME,
+	isDeleted INT(1) DEFAULT 0,
+	source INT(11) DEFAULT 1,
+	FOREIGN KEY ( source ) REFERENCES source ( srcId ),
+	Foreign Key ( TARGET ) References Element(idEl)
+)Engine="InnoDB";
+
+
+CREATE TABLE Property (
+	ID INT(11),
+	KEY_P VARCHAR(255),
+	VALUE_P VARCHAR(255),
+	createdDate DATETIME DEFAULT LOCALTIME,
+	lastModified DATETIME DEFAULT LOCALTIME,
+	isDeleted INT(1) DEFAULT 0,
+	source INT(11) DEFAULT 1,
+    PRIMARY KEY (ID, KEY_P),
+	FOREIGN KEY ( source ) REFERENCES source ( srcId )
+);

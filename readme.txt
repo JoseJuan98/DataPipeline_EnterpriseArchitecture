@@ -1,5 +1,5 @@
 Contrainsts of the system:
-
+	- USERS MUST NOT BE ABLE TO MAKE DELETES OF THE DATA. If not the model will lose the track of the data.
 	- Beskrivelse or description with especial character ',' should be enclosed by the character '"'.
 	- Updates of the model must be carried with only on the auxiliar table for updates and with the scripts for updating. The triggers will display the rest of updates.
 	- The identifiers of the data or rows (primary keys) can not be change or the model is not going to be updated properly.

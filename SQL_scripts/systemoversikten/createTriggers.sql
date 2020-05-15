@@ -129,7 +129,7 @@ DELIMITER ;
 
 -- Triger to update table System_Person_Role for roles systemkoordinator and systemeier
 DELIMITER //
-CREATE TRIGGER trig_person_sysPersRole_Update AFTER UPDATE
+CREATE TRIGGER trig_sysPersRole_Update AFTER UPDATE
 ON RawData FOR EACH ROW
 FOLLOWS trig_sys_Update
 BEGIN
@@ -175,6 +175,78 @@ IF(NEW.isDeleted = 1) THEN
 	UPDATE System_Person_Role as SR
 	SET lastModified = LOCALTIME, isDeleted=1
 	WHERE SR.persId = @koorPersIdOLD1 AND SR.sysId = @sysId AND SR.roleId = @koorRolId;
+END IF;
+ END;//
+DELIMITER ;
+
+
+-- Triggers for updating the System_Networks
+DELIMITER //
+CREATE TRIGGER trig_SysNetworks_Update AFTER UPDATE
+ON RawData FOR EACH ROW
+FOLLOWS trig_sys_Update
+BEGIN
+SET @vSource = (SELECT srcId FROM source WHERE name = 'Systemoversikten');
+SET @sysType = (SELECT sysTypeId FROM systemType WHERE name = NEW.systemtype);
+SET @sysId = (SELECT id FROM system WHERE sysType = @sysType AND sysId = OLD.system_id);
+IF(OLD.admsone <> NEW.admsone) THEN
+SET @admSoneId = (SELECT id FROM network  WHERE name = 'Adm sone' );
+UPDATE System_Network as s
+SET lastModified=LOCALTIME, valueN=NEW.admsone, source=@vSource, isDeleted=NEW.isDeleted
+WHERE (idNet=@admSoneId AND sysId=@sysId);
+END IF;
+IF(OLD.sikker_sone <> NEW.sikker_sone) THEN
+SET @sikkerSoneId = (SELECT id FROM network  WHERE name = 'Sikker sone' );
+UPDATE System_Network as s
+SET lastModified=LOCALTIME, valueN=NEW.sikker_sone, source=@vSource, isDeleted=NEW.isDeleted
+WHERE (idNet=@sikkerSoneId AND sysId=@sysId);
+END IF;
+IF(OLD.elevnett <> NEW.elevnett) THEN
+SET @elevnettId = (SELECT id FROM network  WHERE name = 'Elevnett' );
+UPDATE System_Network as s
+SET lastModified=LOCALTIME, valueN=NEW.elevnett, source=@vSource, isDeleted=NEW.isDeleted
+WHERE (idNet=@elevnettId AND sysId=@sysId);
+END IF;
+IF(OLD.tu_nett <> NEW.tu_nett) THEN
+SET @TUnettId = (SELECT id FROM network  WHERE name = 'TU nett' );
+UPDATE System_Network as s
+SET lastModified=LOCALTIME, valueN=NEW.tu_nett, source=@vSource, isDeleted=NEW.isDeleted
+WHERE (idNet=@TUnettId AND sysId=@sysId);
+END IF;
+IF(NEW.isDeleted = 1) THEN
+UPDATE System_Network as s
+SET lastModified=LOCALTIME, isDeleted=NEW.isDeleted
+WHERE sysId=@sysId;
+END IF;
+ END;//
+DELIMITER ;
+
+
+-- Triggers for updating the System_Personoppplysinger
+DELIMITER //
+CREATE TRIGGER trig_SysPersonopplysninger_Update AFTER UPDATE
+ON RawData FOR EACH ROW
+FOLLOWS trig_sys_Update
+BEGIN
+SET @vSource = (SELECT srcId FROM source WHERE name = 'Systemoversikten');
+SET @sysType = (SELECT sysTypeId FROM systemType WHERE name = NEW.systemtype);
+SET @sysId = (SELECT id FROM system WHERE sysType = @sysType AND sysId = OLD.system_id);
+IF(OLD.personopplysninger <> NEW.personopplysninger ) THEN
+SET @persdataId = (SELECT id FROM person_opplysninger WHERE name = 'persondata' );
+UPDATE System_Personopplysninger
+SET lastModified=LOCALTIME, valueN=NEW.personopplysninger, source=@vSource, isDeleted=NEW.isDeleted
+WHERE (persOppId=@persdataId AND sysId=@sysId);
+END IF;
+IF(OLD.sensitive_personopplysninger <> NEW.sensitive_personopplysninger ) THEN
+SET @sensDataId = (SELECT id FROM person_opplysninger WHERE name = 'Sensitive persondata' );
+UPDATE System_Personopplysninger
+SET lastModified=LOCALTIME, valueN=NEW.sensitive_personopplysninger, source=@vSource, isDeleted=NEW.isDeleted
+WHERE (persOppId=@sensDataId AND sysId=@sysId);
+END IF;
+IF(NEW.isDeleted = 1) THEN
+UPDATE System_Personopplysninger as s
+SET lastModified=LOCALTIME, isDeleted=NEW.isDeleted
+WHERE sysId=@sysId;
 END IF;
  END;//
 DELIMITER ;

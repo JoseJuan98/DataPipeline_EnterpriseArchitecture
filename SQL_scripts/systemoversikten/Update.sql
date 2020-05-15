@@ -9,8 +9,8 @@ LINES TERMINATED BY '\n'
 UPDATE RawData as R
 INNER JOIN( SELECT * from RawData_Update r WHERE (r.systemtype,r.system_id) IN (SELECT U.systemtype,U.system_id FROM RawData as U) ) as t
 ON ((t.systemtype,t.system_id) = (R.systemtype,R.system_id))
-SET R.navn = t.navn ,  R.beskrivelse = t.beskrivelse , R.systemeier = t.systemeier , R.systemkoordinator = t.systemkoordinator , R.admsone = t.admsone , R.sikker_sone = t.sikker_sone , R.tu_nett = t.tu_nett , R.personopplysninger = t.personopplysninger , R.sensitive_personopplysninger = t.sensitive_personopplysninger, R.lastModified = LOCALTIME, R.isDeleted = t.isDeleted, R.source = t.source
-WHERE (R.systemtype = t.systemtype AND R.system_id = t.system_id) AND ( R.navn <> t.navn OR  R.beskrivelse <> t.beskrivelse OR R.systemeier <> t.systemeier OR R.systemkoordinator <> t.systemkoordinator OR R.admsone <> t.admsone OR R.sikker_sone <> t.sikker_sone OR R.tu_nett <> t.tu_nett OR R.personopplysninger <> t.personopplysninger OR R.sensitive_personopplysninger <> t.sensitive_personopplysninger OR R.isDeleted <> t.isDeleted OR R.source <> t.source);
+SET R.navn = t.navn ,  R.beskrivelse = t.beskrivelse , R.systemeier = t.systemeier , R.systemkoordinator = t.systemkoordinator , R.admsone = t.admsone , R.sikker_sone = t.sikker_sone ,R.elevnett = t.elevnett, R.tu_nett = t.tu_nett , R.personopplysninger = t.personopplysninger , R.sensitive_personopplysninger = t.sensitive_personopplysninger, R.lastModified = LOCALTIME, R.isDeleted = t.isDeleted, R.source = t.source
+WHERE (R.systemtype = t.systemtype AND R.system_id = t.system_id) AND ( R.navn <> t.navn OR  R.beskrivelse <> t.beskrivelse OR R.systemeier <> t.systemeier OR R.systemkoordinator <> t.systemkoordinator OR R.admsone <> t.admsone OR R.sikker_sone <> t.sikker_sone OR R.elevnett <> t.elevnett OR R.tu_nett <> t.tu_nett OR R.personopplysninger <> t.personopplysninger OR R.sensitive_personopplysninger <> t.sensitive_personopplysninger OR R.isDeleted <> t.isDeleted OR R.source <> t.source);
 
 -- Deleted ( just changing the attribute isDeleted to 1 ) the rows that doesn't appear anymore
 UPDATE RawData as R
