@@ -1,7 +1,7 @@
 -- ================================= TABLES FOR ACHI MODEL ==================================
 
 CREATE TABLE Element (
-	idEl int AUTO_INCREMENT PRIMARY KEY,
+	sysId INT UNIQUE,
 	ID VARCHAR(255),
 	TYPE VARCHAR(255),
 	NAME VARCHAR(255),
@@ -10,7 +10,9 @@ CREATE TABLE Element (
 	lastModified DATETIME DEFAULT LOCALTIME,
 	isDeleted INT(1) DEFAULT 0,
 	source INT(11) DEFAULT 1,
-	FOREIGN KEY ( source ) REFERENCES source ( srcId )
+	FOREIGN KEY ( source ) REFERENCES source ( srcId ),
+	FOREIGN KEY ( sysId ) REFERENCES system ( id ),
+	PRIMARY KEY (ID)
 );
 
 CREATE TABLE Relation (
@@ -20,7 +22,6 @@ CREATE TABLE Relation (
 	DOCUMENTATION TEXT,
 	SOURCE INT,
 	TARGET INT,
-	,
 	createdDate DATETIME DEFAULT LOCALTIME,
 	lastModified DATETIME DEFAULT LOCALTIME,
 	isDeleted INT(1) DEFAULT 0,

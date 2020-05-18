@@ -61,7 +61,20 @@ generateNormalisedModel() {
 	cd ..
 	pause
 }
+generateArchiModel() {
+	cd SQL_scripts/systemoversikten/
+	echo -e " 				$GREEN Archi Model Systemoversikten $STD"
+	echo " Creating tables and creating triggers for maintain the model"
 
+	mysql -u $USER -p$PASSW < createDB_Archi_Tables.sql
+	mysql -u $USER -p$PASSW $DB < createTriggers_ArchiModel.sql
+
+	echo " Added Element, Property and Relation tables to DB $DB "
+	mysql -u $USER -p$PASSW $DB -e "Use $DB; Show tables;"
+	cd ..
+	cd ..
+	pause
+}
 loadData() {
 	cd SQL_scripts/
 	mysql -u $USER -p$PASSW $DB < loadRawData.sql
@@ -159,12 +172,12 @@ show_menus() {
 	echo " X. Generate RawData, Normalised and ArchiModel DB and LOAD data "
 	echo " X. Generate RawData DB from csv file"
 	echo " 3. Generate Normalised DB Model "
-	echo " X. Generate Archi DB Model "
-	echo " 4. LOAD data "
-	echo " 5. Clean tables "
-	echo " 6. Drop database "
-	echo " 7. Update systemoversikten (Load)"
-	echo " 8. TESTs of this DB "
+	echo " 4. Generate Archi DB Model "
+	echo " 5. LOAD data "
+	echo " 6. Clean tables "
+	echo " 7. Drop database "
+	echo " 8. Update systemoversikten (Load)"
+	echo " 9. TESTs of this DB "
 	echo " q. Exit"
 }
 # read input from the keyboard and take a action
@@ -179,11 +192,12 @@ read_options(){
 		2) installSw ;;
 #		X) createRawDataTable;;
 		3) generateNormalisedModel;;
-		4) loadData;;
-		5) cleanDataFromTables;;
-		6) dropDB;;
-		7) update;;
-		8) test1;;
+		4) generateArchiModel;;
+		5) loadData;;
+		6) cleanDataFromTables;;
+		7) dropDB;;
+		8) update;;
+		9) test1;;
 		q) exit 0;;
 		d) exitM;;
 		pwd) echo $(pwd); pause;;
