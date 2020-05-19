@@ -16,29 +16,30 @@ CREATE TABLE Element (
 );
 
 CREATE TABLE Relation (
-	ID VARCHAR(255) PRIMARY KEY, 
+	ID_R VARCHAR(255) PRIMARY KEY, 
 	TYPE VARCHAR(255), 
 	NAME VARCHAR(255),
 	DOCUMENTATION TEXT,
-	SOURCE INT,
-	TARGET INT,
+	SOURCE VARCHAR(255),
+	TARGET VARCHAR(255),
 	createdDate DATETIME DEFAULT LOCALTIME,
 	lastModified DATETIME DEFAULT LOCALTIME,
 	isDeleted INT(1) DEFAULT 0,
-	source INT(11) DEFAULT 1,
-	FOREIGN KEY ( source ) REFERENCES source ( srcId ),
-	Foreign Key ( TARGET ) References Element(idEl)
+	sourceModel INT(11) DEFAULT 1,
+	FOREIGN KEY ( sourceModel ) REFERENCES source ( srcId ),
+	Foreign Key ( TARGET ) References Element( ID )
 )Engine="InnoDB";
 
 
 CREATE TABLE Property (
-	ID INT(11),
+	ID_P VARCHAR(255),
 	KEY_P VARCHAR(255),
 	VALUE_P VARCHAR(255),
 	createdDate DATETIME DEFAULT LOCALTIME,
 	lastModified DATETIME DEFAULT LOCALTIME,
 	isDeleted INT(1) DEFAULT 0,
 	source INT(11) DEFAULT 1,
-    PRIMARY KEY (ID, KEY_P),
-	FOREIGN KEY ( source ) REFERENCES source ( srcId )
+    PRIMARY KEY (ID_P, KEY_P),
+	FOREIGN KEY ( source ) REFERENCES source ( srcId ),
+	FOREIGN KEY ( ID_P ) REFERENCES Element ( ID )
 );

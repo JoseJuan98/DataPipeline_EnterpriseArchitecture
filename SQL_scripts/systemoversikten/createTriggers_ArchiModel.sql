@@ -1,32 +1,42 @@
+-- ========================================= ARCHI MODEL TRIGGERS ===================================
+-- Trigger to create the Archi Elements depending on Systems
 DELIMITER //
-CREATE TRIGGER trig_elem_Ins AFTER INSERT
+CREATE TRIGGER trig_Elem_SysProp_Ins AFTER INSERT
 ON system FOR EACH ROW
 BEGIN
 SET @fagId = (SELECT sysTypeId FROM systemType WHERE name = 'Fagsystem');
 IF(NEW.sysType = @fagId) THEN
 SET @sysType = (SELECT name FROM systemType WHERE sysTypeId=NEW.sysType);
-SET @vSource = (SELECT srcId FROM source WHERE name = 'Systemoversikten');
-SET @newID = CONCAT( 'SYS_', SUBSTR(@sysType,1, 3),'_',  CONVERT(LPAD(NEW.id,5,0), CHAR) );
+SET @newID = CONCAT( 'SYS_', SUBSTR(@sysType,1, 3),'_',  CONVERT(LPAD(NEW.sysId,5,0), CHAR) );
 INSERT INTO Element (sysId, ID, TYPE, NAME, DOCUMENTATION, createdDate, source)
-VALUES(NEW.id, @newID, 'ApplicationComponent', NEW.navn, NEW.beskrivelse, LOCALTIME, @vSource);
+VALUES(NEW.id, @newID, 'ApplicationComponent', NEW.navn, NEW.beskrivelse, LOCALTIME, NEW.source);
+INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+VALUES (@newID, 'Kilde', 'Systemoversikten', LOCALTIME, NEW.isDeleted, NEW.source);
+INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+VALUES (@newID, 'Systemtype', @sysType, LOCALTIME, NEW.isDeleted, NEW.source);
+INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+VALUES (@newID, 'Opprettet', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
+INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+VALUES (@newID, 'Sistoppdatert', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
 END IF;
  	END;//
 DELIMITER ;
 
+-- Trigger to create the Properties Systemeier and Systemkoordinator from a System
 DELIMITER //
-CREATE TRIGGER trig_properties_Ins AFTER INSERT
-FOLLOWS trig_elem_Ins
-ON system FOR EACH ROW
+CREATE TRIGGER trig_prop_SysMeier_SysKoord_Ins AFTER INSERT
+ON System_Person_Role FOR EACH ROW
 BEGIN
 SET @fagId = (SELECT sysTypeId FROM systemType WHERE name = 'Fagsystem');
-IF(NEW.sysType = @fagId) THEN
-SET @sysType = (SELECT name FROM systemType WHERE sysTypeId=NEW.sysType);
-SET @vSource = (SELECT srcId FROM source WHERE name = 'Systemoversikten');
-SET @newID = CONCAT( 'SYS_', SUBSTR(@sysType,1, 3),'_',  CONVERT(LPAD(NEW.id,5,0), CHAR) );
-INSERT INTO Element (sysId, ID, TYPE, NAME, DOCUMENTATION, createdDate, source)
-VALUES(NEW.id, @newID, 'ApplicationComponent', NEW.navn, NEW.beskrivelse, LOCALTIME, @vSource);
+SET @sysTypeId = (SELECT sysType FROM system WHERE id = NEW.sysId);
+IF(SELECT @sysTypeId  = @fagId) THEN
+SET @sysTypeName = (SELECT name FROM systemType WHERE sysTypeId = @sysTypeId);
+SET @sysID = (SELECT sysId FROM system WHERE id = NEW.sysId);
+SET @newID = CONCAT( 'SYS_', SUBSTR(@sysTypeName,1, 3),'_',  CONVERT(LPAD(@sysID,5,0), CHAR) );
+SET @key = (SELECT name FROM role WHERE rolId = NEW.roleId);
+SET @persName = (SELECT name FROM person WHERE persId = NEW.persId);
+INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+VALUES (@newID, @key, @persName, LOCALTIME, NEW.isDeleted, NEW.source);
 END IF;
  	END;//
 DELIMITER ;
-
-

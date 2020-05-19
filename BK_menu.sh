@@ -7,6 +7,7 @@ EDITOR=vim
 PASSWD=/etc/passwd
 RED='\033[0;41;30m'
 GREEN='\e[32m'
+RD='\033[1;31m'
 STD='\033[0;0;39m'
 pwd=$(pwd)
 
@@ -49,11 +50,13 @@ generateNormalisedModel() {
 	echo -e " 				$GREEN Model Systemoversikten $STD"
 	echo " Creating tables, inserting manual data and creating triggers for maintain the model"
 
+	echo -e " ${RD}"
 	mysql -u $USER -p$PASSW -e "CREATE DATABASE $DB;"
 
-	mysql -u $USER -p$PASSW < createDB_Tables.sql
+	mysql -u $USER -p$PASSW $DB < createDB_Tables.sql
 	mysql -u $USER -p$PASSW $DB < insertManuelt.sql
 	mysql -u $USER -p$PASSW $DB < createTriggers.sql
+	echo -e " ${STD}"
 
 	echo " This are the tables that have been created: "
 	mysql -u $USER -p$PASSW $DB -e "Use $DB; Show tables;"
@@ -66,9 +69,10 @@ generateArchiModel() {
 	echo -e " 				$GREEN Archi Model Systemoversikten $STD"
 	echo " Creating tables and creating triggers for maintain the model"
 
-	mysql -u $USER -p$PASSW < createDB_Archi_Tables.sql
+	echo -e " ${RD}"
+	mysql -u $USER -p$PASSW $DB < createDB_Archi_Tables.sql
 	mysql -u $USER -p$PASSW $DB < createTriggers_ArchiModel.sql
-
+	echo -e " ${STD}"
 	echo " Added Element, Property and Relation tables to DB $DB "
 	mysql -u $USER -p$PASSW $DB -e "Use $DB; Show tables;"
 	cd ..
@@ -77,7 +81,9 @@ generateArchiModel() {
 }
 loadData() {
 	cd SQL_scripts/
+	echo -e " ${RD}"
 	mysql -u $USER -p$PASSW $DB < loadRawData.sql
+	echo -e " ${STD}"
 	echo -e " Loading data into $GREEN RawData $STD, which will display all the triggers to insert in the rest of tables"
 	cd ..
 	pause
@@ -134,25 +140,29 @@ logUsr() {
 
 	echo "The user and pass selected are:" $USER "," $PASSW
 	echo " "
-
-	mysql -u $USER -p$PASSW -e "SELECT 'This are the databases that this user have access to' as Message; show databases;"
-#	mysql -h HOST -P PORT_NUMBER -u USERNAME -p	
+	echo -e " ${RD}"
+	mysql -u $USER -p$PASSW -e " "
+#	mysql -h HOST -P PORT_NUMBER -u USERNAME -p		
 	EXITSTATUS=$?
+	echo -e " ${STD}"
 	if [ "$EXITSTATUS" -ne "0" ]
    		then 
        		ERRORS=$EXITSTATUS\
 			echo "" 
-			echo -e " ${RED} Provide the correct credentials for this DB${STD}"
+			echo -e " Provide the correct credentials for this DB"
+			echo ""
 			echo "	1. Try again"
 			echo "	q. Exit"
+			echo ""
 			local choice
-			read -p " " choice
+			read -p "      Enter choice [ 1/q] -> " choice
 			case $choice in
 				1) ;;
 				q) exit 0;;		
 				*) echo -e "${RED}Error...${STD}" && sleep 1
 			esac
 	else			
+			mysql -u $USER -p$PASSW -e "SELECT 'This are the databases that this user have access to' as Message; show databases;"
 			local choice1
 			echo " "
 			read -p "Continue or exit. (Y/q) -> " choice1

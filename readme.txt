@@ -10,6 +10,7 @@ Maintainance
 	- If you want to add new data to the model insert ONLY new rows into RawData
 	- If you want to update the model insert into the table RawData_Update using the script Update.sql . But be careful because the rows that in RawData but not in RawData_Update are going to be deleted (isDeleted=1) from RawData and its respective rows in the rest of tables.
 	Model behaviour
+	- To update properly all the file when they are going to be updated need to have a first line with all the atributes name
 
 
 
@@ -17,3 +18,6 @@ Maintainance
 			- If a person is not a systemkoordinator or systemeier and you want to deleted from the table person uncomment the respective code in Update.sql script
 				At the moment the person are not deleted because they can be working in another system
 				
+Be careful with:
+	- The attribute sysId in the table system references to the system_id from the RawData,
+	meanwhile the sysId attribute from other tables references the id (primary key) of the table system.
