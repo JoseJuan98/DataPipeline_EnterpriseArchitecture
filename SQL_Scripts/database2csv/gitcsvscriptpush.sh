@@ -1,10 +1,10 @@
 #!/bin/sh
-#This library is needed for the script
+
+cd /home/dani/WebstormProjects/Project_D24_Bergen-Kommune/SQL_Scripts/database2csv
 
 USER=$1
 LREPO=$2
-REPO="https://github.com/$USER/$LREPO.git"
-
+REPO="https://@github.com/$USER/$LREPO.git"
 
 echo $REPO
 git ls-remote $REPO -q
@@ -25,6 +25,7 @@ else
   git add atest_relations.csv
   git commit -m "committed"
   #git remote rm $LREPO
-  git remote add $LREPO $REPO
+  #git remote add $LREPO $REPO
+  git remote add "https://$USER:password@github.com/$USER/$LREPO.git"
   git push -u $LREPO master
 fi
