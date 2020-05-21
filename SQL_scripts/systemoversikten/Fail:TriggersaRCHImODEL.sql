@@ -3,7 +3,43 @@
 --LINES TERMINATED BY '\n'
 -- (id, name, type, owner_id, @datevar, rental_price)
 -- set date_made = STR_TO_DATE(@datevar,'%m/%d/%Y');
-
+DELIMITER //
+CREATE TRIGGER trig_prop_SysMeier_SysKoord_Ins AFTER INSERT
+ON System_Person_Role FOR EACH ROW
+BEGIN
+SET @fagId = (SELECT sysTypeId FROM systemType WHERE name = 'Fagsystem');
+SET @sysTypeId = (SELECT sysType FROM system WHERE id = NEW.sysId);
+IF(@sysTypeId  = @fagId) THEN
+SET @sysTypeName = (SELECT name FROM systemType WHERE sysTypeId = @sysTypeId);
+SET @sysID = (SELECT sysId FROM system WHERE id = NEW.sysId);
+SET @newID = CONCAT( 'SYS_', SUBSTR(@sysTypeName,1, 3),'_',  CONVERT(LPAD(@sysID,5,0), CHAR));
+SET @key = (SELECT name FROM role WHERE rolId = NEW.roleId);
+SET @persName = (SELECT name FROM person WHERE persId = NEW.persId);
+INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+VALUES (@newID, @key, @persName, LOCALTIME, NEW.isDeleted, NEW.source);
+END IF;
+ 	END;//
+DELIMITER ;
+--===
+DELIMITER //
+CREATE TRIGGER trig_rel_SysNet_Ins AFTER INSERT
+ON System_Network FOR EACH ROW
+BEGIN
+SET @fagId = (SELECT sysTypeId FROM systemType WHERE name = 'Fagsystem');
+SET @sysTypeId = (SELECT sysType FROM system WHERE id = NEW.sysId);
+IF(@sysTypeId  = @fagId) THEN
+SET @sysTypeName = (SELECT name FROM systemType WHERE sysTypeId = @sysTypeId);
+SET @systemId = (SELECT sysId FROM system WHERE id=NEW.sysId);
+SET @netID = CONCAT("ComNet",CONVERT(LPAD(NEW.idNet,4,0), CHAR));
+SET @elID = CONCAT( 'SYS_', SUBSTR(@sysTypeName,1, 3),'_',  CONVERT(LPAD(@systemId,5,0), CHAR));
+SET @relID = CONCAT(@netID,'_',@systemId);
+SET @key = (SELECT name FROM role WHERE rolId = NEW.roleId);
+SET @persName = (SELECT name FROM person WHERE persId = NEW.persId);
+INSERT INTO Relation (ID_R, TYPE, NAME, DOCUMENTATION, SOURCE, TARGET, createdDate, isDeleted, source)
+VALUES (@relID, 'AssociationRelationship', NULL, NULL,@netID ,@elID, LOCALTIME, NEW.isDeleted, NEW.source);
+END IF;
+ 	END;//
+DELIMITER ;
 --Use test;
 delete from RawData;
 
