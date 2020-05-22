@@ -56,6 +56,12 @@ IF(@sysTypeId  = @fagId) THEN
 	SET @relID = CONCAT(@netID,'_',@elID);
 	INSERT INTO Relation (ID_R, TYPE, NAME, DOCUMENTATION, SOURCE, TARGET, createdDate, isDeleted, sourceModel)
 	VALUES (@relID, 'AssociationRelationship', NULL, NULL,@netID ,@elID, LOCALTIME, NEW.isDeleted, NEW.source);
+	INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+	VALUES (@relID, 'Kilde', 'Systemoversikten', LOCALTIME, NEW.isDeleted, NEW.source);
+	INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+	VALUES (@relID, 'Opprettet', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
+	INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+	VALUES (@relID, 'Sistoppdatert', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
 	END IF;
 END IF;
  	END;//
@@ -77,6 +83,12 @@ IF(@sysTypeId  = @fagId) THEN
 	SET @relID = CONCAT(@persoppID,'_',@elID);
 	INSERT INTO Relation (ID_R, TYPE, NAME, DOCUMENTATION, SOURCE, TARGET, createdDate, isDeleted, sourceModel)
 	VALUES (@relID, 'AssociationRelationship', NULL, NULL,@persoppID ,@elID, LOCALTIME, NEW.isDeleted, NEW.source);
+	INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+	VALUES (@relID, 'Kilde', 'Systemoversikten', LOCALTIME, NEW.isDeleted, NEW.source);
+	INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+	VALUES (@relID, 'Opprettet', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
+	INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+	VALUES (@relID, 'Sistoppdatert', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
 	END IF;
 END IF;
  	END;//

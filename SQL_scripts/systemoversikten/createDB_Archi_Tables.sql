@@ -40,6 +40,5 @@ CREATE TABLE Property (
 	isDeleted INT(1) DEFAULT 0,
 	source INT(11) DEFAULT 1,
     PRIMARY KEY (ID_P, KEY_P),
-	FOREIGN KEY ( source ) REFERENCES source ( srcId ),
-	FOREIGN KEY ( ID_P ) REFERENCES Element ( ID )
+	FOREIGN KEY ( source ) REFERENCES source ( srcId )
 );
