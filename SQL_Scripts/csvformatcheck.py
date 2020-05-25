@@ -14,13 +14,23 @@ f = open("rel_test.csv", "r", encoding="utf-8")
 fileRelation = f.read()
 f.close()
 
-patternElement = "ID,Type,Name,Documentation\n((.*,){3}(.*\n))*((.*,){3}(.*))?"
-patternProperty = "ID,Key,Value\n((.*,){2}(.*\n))*((.*,){2}(.*))?"
-patternRelation = "ID,Type,Name,Documentation,Source,Target\n((.*,){5}(.*\n))*((.*,){5}(.*))?"
+def makeRegex(header):
+    num = header.count(',')
+    patternSimple = "([^\n\",]|(\"([^\"]|(\"\"))*\"))*,"
+    patternEnd = "([^\n\",]|(\"([^\"]|(\"\"))*\"))*"
+    patternLine = "(" + patternSimple + "){" + str(num) + "}(" + patternEnd + ")?"
+    patternFull = header + "(\n(" + patternLine + "\n)*(" + patternLine + ")?)?"
+    return patternFull
+
+
+patternElement = makeRegex("ID,Type,Name,Documentation")
+patternProperty = makeRegex("ID,Key,Value")
+patternRelation = makeRegex("ID,Type,Name,Documentation,Source,Target")
 
 if(re.fullmatch(patternElement, fileElement)):
-    print("Ok1")
+    print("Elements are formatted correctly")
 if(re.fullmatch(patternProperty, fileProperty)):
-    print("Ok2")
+    print("Properties are formatted correctly")
 if(re.fullmatch(patternRelation, fileRelation)):
-    print("Ok3")
+    print("Relations are formatted correctly")
+    
