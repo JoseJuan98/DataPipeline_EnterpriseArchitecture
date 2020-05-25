@@ -1,7 +1,7 @@
 -- ================================= TABLES FOR ACHI MODEL ==================================
 
 CREATE TABLE Element (
-	sysId INT UNIQUE,
+	sysId INT UNIQUE DEFAULT NULL,
 	ID VARCHAR(255),
 	TYPE VARCHAR(255),
 	NAME VARCHAR(255),

@@ -54,7 +54,6 @@ generateNormalisedModel() {
 	mysql -u $USER -p$PASSW -e "CREATE DATABASE $DB;"
 
 	mysql -u $USER -p$PASSW $DB < createDB_Tables.sql
-	mysql -u $USER -p$PASSW $DB < insertManuelt.sql
 	mysql -u $USER -p$PASSW $DB < createTriggers.sql
 	echo -e " ${STD}"
 
@@ -68,7 +67,6 @@ generateArchiModel() {
 	cd SQL_scripts/systemoversikten/
 	echo -e " 				$GREEN Archi Model Systemoversikten $STD"
 	echo " Creating tables and creating triggers for maintain the model"
-
 	echo -e " ${RD}"
 	mysql -u $USER -p$PASSW $DB < createDB_Archi_Tables.sql
 	mysql -u $USER -p$PASSW $DB < createTriggers_ArchiModel.sql
@@ -80,8 +78,12 @@ generateArchiModel() {
 	pause
 }
 loadData() {
-	cd SQL_scripts/
+	cd SQL_scripts/systemoversikten/
 	echo -e " ${RD}"
+	mysql -u $USER -p$PASSW $DB < insertManuelt.sql
+	cd ..
+	cd ..
+	cd SQL_scripts/
 	mysql -u $USER -p$PASSW $DB < loadRawData.sql
 	echo -e " ${STD}"
 	echo -e " Loading data into $GREEN RawData $STD, which will display all the triggers to insert in the rest of tables"
