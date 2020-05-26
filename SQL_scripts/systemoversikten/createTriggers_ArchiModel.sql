@@ -68,12 +68,17 @@ SET @systemId = (SELECT sysId FROM system WHERE id=NEW.sysId);
 SET @newID = CONCAT( 'SYS_', SUBSTR(@sysTypeName,1, 3),'_',  CONVERT(LPAD(@systemId,5,0), CHAR));
 SET @key = (SELECT name FROM role WHERE rolId = NEW.roleId);
 SET @persName = (SELECT name FROM person WHERE persId = NEW.persId);
-INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
-VALUES (@newID, @key, @persName, LOCALTIME, NEW.isDeleted, NEW.source);
+	IF((SELECT 1 FROM Property as x WHERE (x.ID_P,x.KEY_P)=(@newID,@key))=1) THEN
+		UPDATE Property as p
+		SET p.source=NEW.source ,p.VALUE_P=@persName, p.lastModified=LOCALTIME, p.isDeleted=NEW.isDeleted, p.source=NEW.source
+		WHERE p.ID_P=@newID AND p.KEY_P=@key;
+	ELSE
+		INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
+		VALUES (@newID, @key, @persName, LOCALTIME, NEW.isDeleted, NEW.source);
+	END IF;
 END IF;
  	END;//
 DELIMITER ;
-
 -- Trigger to create the Relations from System_Network
 DELIMITER //
 CREATE TRIGGER trig_rel_SysNet_Ins AFTER INSERT
@@ -165,23 +170,23 @@ END IF;
 DELIMITER ;
 -- Trigger to update the Archi Elements depending on Systems
 DELIMITER //
-CREATE TRIGGER trig_Elem_SysProp_Ins AFTER INSERT
+CREATE TRIGGER trig_Elem_SysProp_Update AFTER UPDATE
 ON system FOR EACH ROW
 BEGIN
 SET @fagId = (SELECT sysTypeId FROM systemType WHERE name = 'Fagsystem');
 IF(NEW.sysType = @fagId) THEN
 SET @sysType = (SELECT name FROM systemType WHERE sysTypeId=NEW.sysType);
 SET @newID = CONCAT( 'SYS_', SUBSTR(@sysType,1, 3),'_',  CONVERT(LPAD(NEW.sysId,5,0), CHAR) );
-INSERT INTO Element (sysId, ID, TYPE, NAME, DOCUMENTATION, createdDate, source)
-VALUES(NEW.id, @newID, 'ApplicationComponent', NEW.navn, NEW.beskrivelse, LOCALTIME, NEW.source);
-INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
-VALUES (@newID, 'Kilde', 'Systemoversikten', LOCALTIME, NEW.isDeleted, NEW.source);
-INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
-VALUES (@newID, 'Systemtype', @sysType, LOCALTIME, NEW.isDeleted, NEW.source);
-INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
-VALUES (@newID, 'Opprettet', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
-INSERT INTO Property (ID_P, KEY_P, VALUE_P, createdDate, isDeleted, source)
-VALUES (@newID, 'Sistoppdatert', LOCALTIME, LOCALTIME, NEW.isDeleted, NEW.source);
+UPDATE Element as e
+SET e.TYPE='ApplicationComponent', e.NAME=NEW.navn, e.DOCUMENTATION=NEW.beskrivelse, e.lastModified=LOCALTIME, e.source=NEW.source, e.isDeleted=NEW.isDeleted
+WHERE e.ID = @newID;
+SET @vSrc = (SELECT name FROM source where srcId=NEW.source);
+UPDATE Property as p
+SET p.source=NEW.source ,p.VALUE_P=@vSrc, p.lastModified=LOCALTIME, p.isDeleted=NEW.isDeleted, p.source=NEW.source
+WHERE p.ID_P=@newID AND p.KEY_P='Kilde';
+UPDATE Property as p
+SET p.VALUE_P=LOCALTIME, p.lastModified=LOCALTIME, p.isDeleted=NEW.isDeleted, p.source=NEW.source
+WHERE p.ID_P = @newID and p.KEY_P='Sistoppdatert';
 END IF;
  	END;//
 DELIMITER ;

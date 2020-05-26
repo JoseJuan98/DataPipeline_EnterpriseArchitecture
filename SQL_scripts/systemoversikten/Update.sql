@@ -3,7 +3,8 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(systemtype, system_id, navn, beskrivelse,systemeier,  systemkoordinator, admsone, sikker_sone, elevnett, tu_nett , internettviktighet, personopplysninger,  sensitive_personopplysninger);
+(systemtype, system_id, navn, beskrivelse,systemeier,  systemkoordinator, admsone, sikker_sone, elevnett, tu_nett , internettviktighet, personopplysninger,  sensitive_personopplysninger)
+SET source=2;
 --SET sysType_Id = CONCAT( 'SYS_', SUBSTR(systemtype,1, 3),'_',  CONVERT(LPAD(system_id,5,0), CHAR) );
 
 -- Update the rows that changed its content
@@ -25,21 +26,10 @@ FROM RawData_Update;
 
 -- =============== Person =============================
 -- Delete (isDeleted=1) the systemeier and koordinators that are not managing any system
---              UNCOMMENT IF WANT THIS FUNCTIONALITY
+--              UNCOMMENT IF WANT THIS FUNCTIONALITY TO BE WORKING
 --UPDATE person as p
 --INNER JOIN (SELECT name FROM person as p1 WHERE (p1.name NOT IN (SELECT systemkoordinator FROM RawData_Update) AND p1.name NOT IN (SELECT systemeier FROM RawData_Update))) as r 
 --ON ( r.name = p.name )
 --SET isDeleted=1, lastModified=LOCALTIME;
 
---UPDATE System_Person_Role
---SET lastModified = LOCALTIME, isDeleted = 1
---WHERE 
-
-
 --truncate RawData_Update;
---select system_id, navn, lastModified from RawData where system_id=1;
---select system_id, navn, lastModified from RawData where lastModified='';
-
---SELECT R.system_id, R.navn, R.lastModified FROM RawData as R
---INNER JOIN( SELECT * from RawData_Update r WHERE (r.systemtype,r.system_id) IN (SELECT U.systemtype,U.system_id FROM RawData as U) ) as t
---ON ((t.systemtype,t.system_id) = (R.systemtype,R.system_id));
