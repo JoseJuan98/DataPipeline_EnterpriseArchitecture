@@ -66,7 +66,8 @@ CREATE TRIGGER trig_Rel_adm AFTER INSERT
 ON Element FOR EACH ROW
 BEGIN
 
-	IF ((SELECT 1 FROM RawData as RD WHERE CONCAT( 'SYS_', SUBSTR(RD.systemtype,1, 3),'_',CONVERT(LPAD(RD.system_id,5,0), CHAR)) = NEW.ID AND RD.admsone=1 LIMIT 1) = 1)  THEN
+	IF ((SELECT 1 FROM RawData as RD WHERE CONCAT( 'SYS_', SUBSTR(RD.systemtype,1, 3),'_',CONVERT(LPAD(RD.system_id,5,0), CHAR)) 
+	= NEW.ID AND RD.admsone=1 LIMIT 1) = 1)  THEN
 	SET @vid = (SELECT id FROM Andre_Elements WHERE name = 'Adm sone');
 	SET @vsid = (SELECT sid FROM Andre_Elements WHERE name = 'Adm sone');      
 
