@@ -1,0 +1,44 @@
+-- ================================= TABLES FOR ACHI MODEL ==================================
+
+CREATE TABLE Element (
+	sysId INT UNIQUE DEFAULT NULL,
+	ID VARCHAR(255),
+	TYPE VARCHAR(255),
+	NAME VARCHAR(255),
+	DOCUMENTATION TEXT,
+	createdDate DATETIME DEFAULT LOCALTIME,
+	lastModified DATETIME DEFAULT LOCALTIME,
+	isDeleted INT(1) DEFAULT 0,
+	source INT(11) DEFAULT 1,
+	FOREIGN KEY ( source ) REFERENCES source ( srcId ),
+	FOREIGN KEY ( sysId ) REFERENCES system ( id ),
+	PRIMARY KEY (ID)
+);
+
+CREATE TABLE Relation (
+	ID_R VARCHAR(255) PRIMARY KEY, 
+	TYPE VARCHAR(255), 
+	NAME VARCHAR(255),
+	DOCUMENTATION TEXT,
+	SOURCE VARCHAR(255),
+	TARGET VARCHAR(255),
+	createdDate DATETIME DEFAULT LOCALTIME,
+	lastModified DATETIME DEFAULT LOCALTIME,
+	isDeleted INT(1) DEFAULT 0,
+	sourceModel INT(11) DEFAULT 1,
+	FOREIGN KEY ( sourceModel ) REFERENCES source ( srcId ),
+	Foreign Key ( TARGET ) References Element( ID )
+)Engine="InnoDB";
+
+
+CREATE TABLE Property (
+	ID_P VARCHAR(255),
+	KEY_P VARCHAR(255),
+	VALUE_P VARCHAR(255),
+	createdDate DATETIME DEFAULT LOCALTIME,
+	lastModified DATETIME DEFAULT LOCALTIME,
+	isDeleted INT(1) DEFAULT 0,
+	source INT(11) DEFAULT 1,
+    PRIMARY KEY (ID_P, KEY_P),
+	FOREIGN KEY ( source ) REFERENCES source ( srcId )
+);
