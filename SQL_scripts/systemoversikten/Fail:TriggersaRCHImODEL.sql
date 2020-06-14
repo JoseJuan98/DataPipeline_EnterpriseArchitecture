@@ -1,4 +1,5 @@
 --SET @path_load = "/home/goldenfox/Escritorio/test1.csv";
+-- Trigger to create the Relations from System_Personopplysninger
 
 --LINES TERMINATED BY '\n'
 -- (id, name, type, owner_id, @datevar, rental_price)

@@ -28,6 +28,7 @@ CREATE TABLE Relation (
 	sourceModel INT(11) DEFAULT 1,
 	FOREIGN KEY ( sourceModel ) REFERENCES source ( srcId ),
 	Foreign Key ( TARGET ) References Element( ID )
+	ON DELETE CASCADE ON UPDATE CASCADE
 )Engine="InnoDB";
 
 
