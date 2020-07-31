@@ -1,8 +1,8 @@
-# Project D24 - Bergen Kommune
+# Pipeline, Data Models Project - Enterprise Architecture of Bergen Kommune
 
-Project developed with the purpose of monitoring the enterprise environment of Bergen Kommune along the time.Because of confidentiality reasons it can be showed the code which I developed but not the data which Bergen Kommune owns.
+Project developed with the purpose of monitoring the enterprise environment of Bergen Kommune along the time.Because of confidentiality reasons it can be showed the code which I developed but not the data which Bergen Kommune owns. However, the data used for testing (because of being randomly created) is available.
 
-The goal of the project is to solve the needs of a organization to model the Enterprise Architecture. The goal is to have a fully automated process to be able to phase out the existing method of solving the issue which is done manually.
+The goal of the project is to solve the needs of the organization to be able to create a pipeline to model the Enterprise Architecture. The goal is to have a fully automated process to be able to phase out the existing method of solving the issue which is done manually.
 
 
 The current issue is to create a solution for Bergen Municipality’s Modelling Architecture based on the tool Archi. From the  This includes:
