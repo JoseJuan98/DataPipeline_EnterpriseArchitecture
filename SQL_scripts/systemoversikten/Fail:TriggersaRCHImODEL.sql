@@ -1,5 +1,5 @@
 -- ___________________ IMPORTANT TO READ ______________________
--- THIS FILE IS JUST AN ATTEMP OF MAKING A DATA MODEL WITHOUT A NORMALISED MODEL, IT'S NOT USED IN THE FINAL VERSION
+-- THIS FILE IS JUST AN ATTEMP OF MAKING A DATA MODEL WITHOUT A NORMALISED MODEL, IT'S NOT USED IN THE FINAL VERSION.
 
 --SET @path_load = "/home/goldenfox/Escritorio/test1.csv";
 -- Trigger to create the Relations from System_Personopplysninger
