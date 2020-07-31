@@ -30,7 +30,6 @@ CREATE TABLE Relation (
 	Foreign Key ( TARGET ) References Element( ID )
 )Engine="InnoDB";
 
-
 CREATE TABLE Property (
 	ID_P VARCHAR(255),
 	KEY_P VARCHAR(255),
