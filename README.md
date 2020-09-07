@@ -19,3 +19,11 @@ The current issue is to create a solution for Bergen Municipality’s Modelling 
 - Synchronized a GitHub repository with the Archi model
 - Automatization and scheduling of the process
 
+### Enterprise Architecture Diagram
+
+![Image of EA Diagram](/img/EA_Dia.png)
+
+### Example of final model in Archi tool
+This is an example of how the data model dedicated to Archi could looks like after exporting the data through the pipeline into the Archi tool.
+
+![Image of Example of Archimate](/img/Archi_Ex.png)
