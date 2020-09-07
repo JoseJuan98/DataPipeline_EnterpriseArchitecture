@@ -1,6 +1,6 @@
 # Pipeline, Data Models Project - Enterprise Architecture
 ## Introduction
-Project developed with the purpose of monitoring the enterprise environment of Bergen Kommune among the time. Because of confidentiality reasons it can be showed the code which I developed but not the data which Bergen Kommune owns. However, the data used for testing (because of being randomly created) is available.
+Project developed with the purpose of monitoring the enterprise environment of Bergen Kommune among the time. Because of confidentiality reasons can be showed the code which I developed but not the data which Bergen Kommune owns. However, the data used for testing (because of being randomly created) is available.
 
 The goal of the project is to solve the needs of the organization to be able to create a pipeline to model the Enterprise Architecture. The goal is to have a fully automated process creating a pipeline to be able to manage the data of the services and systems of the organization, being able to update this data periodically from their internal sources and by other side their own changes that the Enterprise Architectures do in a GitHub repository, which is syncronized with the data model for the Archi tool.
 
