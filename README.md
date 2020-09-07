@@ -3,13 +3,20 @@
 ## Introduction
 Project developed with the purpose of monitoring the enterprise environment of Bergen Kommune among the time. Because of confidentiality reasons it can be showed the code which I developed but not the data which Bergen Kommune owns. However, the data used for testing (because of being randomly created) is available.
 
-The goal of the project is to solve the needs of the organization to be able to create a pipeline to model the Enterprise Architecture. The goal is to have a fully automated process creating a pipeline to be able to phase out the existing method of solving the issue, which is done manually.
+The goal of the project is to solve the needs of the organization to be able to create a pipeline to model the Enterprise Architecture. The goal is to have a fully automated process creating a pipeline to be able to manage the data of the services and systems of the organization, being able to update this data periodically from their internal sources and by other side their own changes that the Enterprise Architectures do in a GitHub repository, which is syncronized with the data model for the Archi tool.
 
 ## Design
 The solution has been designed by data models within a MySQL database that are automanaged by triggers carrying out the data transformations and updates everytime that a main table is updated. In this way the MySQL database works as a data warehouse where the data only needs to be ingested in one table.It implements the start database design. The extraction and the load of the data are done in Python ,with SQLAlchemy library, and the schedules are carried out by Apache Airflow's scripts, but because of confidentiality reasons they can not be shown.
 
+There are three data models:
 
-The current issue is to create a solution for Bergen Municipality’s Modelling Architecture based on the tool Archi. This includes:
+- RawData. Main/center table of the database design in star, which stores the data without changes of the organization.
+- Normalised model. Used by other services of the organization. The transformations of the data to create this model have dependencies with the RawData model.
+- Archi model. Model that represents the data in a ArchiMate language to be able to export this data to build a Enterprise Architecture Model into the tool Archi, used by the organization.The transformations of the data to create this model have dependencies with the Normalised model.
+
+
+
+The current issue is to create a solution for Bergen Municipality’s Modelling Architecture based on the tool Archi which includes:
 
 - Establish an data storage for the data
 - Pull data from multiple source systems to be stored in the data structure
@@ -18,6 +25,11 @@ The current issue is to create a solution for Bergen Municipality’s Modelling 
 - Update Archi when the data is changed
 - Synchronized a GitHub repository with the Archi model
 - Automatization and scheduling of the process
+
+#### Conceptual Dataflow Diagram
+The dataflow looks similar to a ETL process at the beginning, with the difference that the data models can be updated also by the changes done in the models in GitHub.
+
+![Image of Dataflow](/img/ETL_Process.png)
 
 ### Enterprise Architecture Diagram
 
