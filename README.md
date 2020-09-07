@@ -1,5 +1,4 @@
-# Pipeline, Data Models Project - Enterprise Architecture of Bergen Kommune
-
+# Pipeline, Data Models Project - Enterprise Architecture
 ## Introduction
 Project developed with the purpose of monitoring the enterprise environment of Bergen Kommune among the time. Because of confidentiality reasons it can be showed the code which I developed but not the data which Bergen Kommune owns. However, the data used for testing (because of being randomly created) is available.
 
