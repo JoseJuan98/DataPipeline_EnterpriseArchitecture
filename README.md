@@ -14,7 +14,8 @@ The goal of the project is to solve the needs of the organization to be able to 
 - Archi - Modelling tool for the Enterprise Architecture language ArchiMate widely used within the Enterprise Architecture environment. 
 - Microsoft Azure - A cloud computing platform developed by Microsoft, in which the final data models are working in a MS SQL database. Because of the compabilities and similiarities with MySQL, it has been easy to make it work.
 - Shell Script (Bash) - Since the primary focus of the task has been on the logic and the transformation of the data, there has not been a large focus on the user interface. In order to execute the scripts, for creating and updating the models, it has implemented a command line utility for the Azure data lake team in Bergen Municipality.
-![Image of Command Line Utility Login](/img/CommandUtil_Login.png =250x250) ![Image of CommanLineUtility](/img/CommandUtil_2s.png =250x250)
+![Image of Command Line Utility Login](/img/CommandUtil_Login.png | width=250) | ![Image of CommanLineUtility](/img/CommandUtil_2s.png | width=250)
+---------------------------------------------------------------------------------- | ----------------------------------------------------------------
 
 ## Design
 The solution has been designed by data models within a MySQL database that are automanaged by triggers carrying out the data transformations and updates everytime that a main table is updated. In this way the MySQL database works as a data warehouse where the data only needs to be ingested in one table.It implements the start database design. The extraction and the load of the data are done in Python ,with SQLAlchemy library, and the schedules are carried out by Apache Airflow's scripts, but because of confidentiality reasons they can not be shown.
