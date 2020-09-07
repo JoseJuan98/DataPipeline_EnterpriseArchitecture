@@ -5,6 +5,17 @@ Project developed with the purpose of monitoring the enterprise environment of B
 
 The goal of the project is to solve the needs of the organization to be able to create a pipeline to model the Enterprise Architecture. The goal is to have a fully automated process creating a pipeline to be able to manage the data of the services and systems of the organization, being able to update this data periodically from their internal sources and by other side their own changes that the Enterprise Architectures do in a GitHub repository, which is syncronized with the data model for the Archi tool.
 
+## Technologies 
+
+- Python - Used for extracting the raw data from the internal sources of the company and to perform some data cleaning, also used to synchronize the data model with the GitHub repository. 
+- MySQL - As the project is limited to Microsoft Azure Services, the decision had to be a DBMS that is compatible with Azure and also widely used elsewhere. 
+- GitHub - Code repository website for synchronicing the data model for Archi in the tool and in the database. Has integration to Archi, utility used by the Enterprise Architects.
+- Archi - Modelling tool for the Enterprise Architecture language ArchiMate widely used within the Enterprise Architecture environment. 
+- Microsoft Azure - A cloud computing platform developed by Microsoft, in which the final data models are working in a MS SQL database. Because of the compabilities and similiarities with MySQL, it has been easy to make it work.
+- Shell Script (Bash) - Since the primary focus of the task has been on the logic and the transformation of the data, there has not been a large focus on the user interface. In order to execute the scripts, for creating and updating the models, it has implemented a command line utility for the Azure data lake team in Bergen Municipality.
+- SQL - Used to create the data models and transform and store the data.
+
+
 ## Design
 The solution has been designed by data models within a MySQL database that are automanaged by triggers carrying out the data transformations and updates everytime that a main table is updated. In this way the MySQL database works as a data warehouse where the data only needs to be ingested in one table.It implements the start database design. The extraction and the load of the data are done in Python ,with SQLAlchemy library, and the schedules are carried out by Apache Airflow's scripts, but because of confidentiality reasons they can not be shown.
 
