@@ -10,9 +10,9 @@ The solution has been designed by data models within a MySQL database that are a
 
 There are three data models:
 
-- RawData/Rådata. Main/center table of the database design in star, which stores the data without changes of the organization.
-- Normalised model/Normeserte. Used by other services of the organization. The transformations of the data to create this model have dependencies with the RawData model.
-- Archi model. Model that represents the data in a ArchiMate language to be able to export this data to build a Enterprise Architecture Model into the tool Archi, used by the organization.The transformations of the data to create this model have dependencies with the Normalised model.
+- RawData **(Rådata)**. Main/center table of the database design in star, which stores the data without changes of the organization.
+- Normalised model **(Normerte)**. Used by other services of the organization. The transformations of the data to create this model have dependencies with the RawData model.
+- Archi model **(Preparerte)**. Model that represents the data in a ArchiMate language to be able to export this data to build a Enterprise Architecture Model into the tool Archi, used by the organization.The transformations of the data to create this model have dependencies with the Normalised model.
 
 
 
